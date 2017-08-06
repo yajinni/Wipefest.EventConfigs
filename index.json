@@ -62,7 +62,9 @@
     "zone": "Tomb of Sargeras",
     "id": 2054,
     "name": "The Desolate Host",
-    "includes": []
+    "includes": [
+      "tomb-of-sargeras/the-desolate-host/abilities"
+    ]
   },
   {
     "zone": "Tomb of Sargeras",

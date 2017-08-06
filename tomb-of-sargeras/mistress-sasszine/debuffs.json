@@ -24,5 +24,18 @@
         "id": 230139
       }
     }
+  },
+  {
+    "name": "Delicious Bufferfish",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "ids": [ 239375, 239362 ]
+      }
+    }
   }
 ]
