@@ -63,7 +63,10 @@
     "id": 2054,
     "name": "The Desolate Host",
     "includes": [
-      "tomb-of-sargeras/the-desolate-host/abilities"
+      "tomb-of-sargeras/the-desolate-host/abilities",
+      "tomb-of-sargeras/the-desolate-host/debuffs",
+      "tomb-of-sargeras/the-desolate-host/phases",
+      "tomb-of-sargeras/the-desolate-host/spawns"
     ]
   },
   {

@@ -1,0 +1,74 @@
+﻿[
+  {
+    "name": "Tormented Cries",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 238570
+      }
+    }
+  },
+  {
+    "name": "Soulbind",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 236449
+      }
+    }
+  },
+  {
+    "name": "Wailing Souls",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 236072
+      }
+    }
+  },
+  {
+    "name": "Bonecage Armor",
+    "tags": [ "boss", "ability" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 236513
+      }
+    }
+  },
+  {
+    "name": "Sundering Doom",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 236542
+      }
+    }
+  },
+  {
+    "name": "Doomed Sundering",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 236544
+      }
+    }
+  }
+]

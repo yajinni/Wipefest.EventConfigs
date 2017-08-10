@@ -1,0 +1,15 @@
+﻿[
+  {
+    "name": "Reanimated Templar",
+    "tags": [ "spawn" ],
+    "show": false,
+    "eventType": "spawn",
+    "filter": {
+      "type": "cast",
+      "firstPerInstance": true,
+      "ability": {
+        "id": 235927
+      }
+    }
+  }
+]

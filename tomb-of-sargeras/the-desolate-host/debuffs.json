@@ -1,0 +1,54 @@
+﻿[
+  {
+    "name": "Spirit Chains",
+    "tags": [ "boss", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 236361
+      }
+    }
+  },
+  {
+    "name": "Wither",
+    "tags": [ "boss", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "ids": [ 236131, 236138 ]
+      }
+    }
+  },
+  {
+    "name": "Soulbind",
+    "tags": [ "boss", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 236459
+      }
+    }
+  },
+  {
+    "name": "Spear of Anguish",
+    "tags": [ "boss", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 235924
+      }
+    }
+  }
+]
