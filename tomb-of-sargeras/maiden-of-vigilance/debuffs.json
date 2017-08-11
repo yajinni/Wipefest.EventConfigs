@@ -1,0 +1,42 @@
+﻿[
+  {
+    "name": "Light Infusion",
+    "tags": [ "boss", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 235213
+      }
+    }
+  },
+  {
+    "name": "Fel Infusion",
+    "tags": [ "boss", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 235240
+      }
+    }
+  },
+  {
+    "name": "Creator's Grace",
+    "tags": [ "boss", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuffstack",
+      "stack": 10,
+      "ability": {
+        "id": 235534
+      }
+    }
+  }
+]

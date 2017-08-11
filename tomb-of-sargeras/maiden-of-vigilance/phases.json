@@ -1,0 +1,9 @@
+﻿[
+  {
+    "name": "Phase 1",
+    "tags": [ "phase" ],
+    "show": true,
+    "eventType": "phase",
+    "timestamp": 0
+  }
+]

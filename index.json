@@ -73,7 +73,11 @@
     "zone": "Tomb of Sargeras",
     "id": 2052,
     "name": "Maiden of Vigilance",
-    "includes": []
+    "includes": [
+      "tomb-of-sargeras/maiden-of-vigilance/abilities",
+      "tomb-of-sargeras/maiden-of-vigilance/debuffs",
+      "tomb-of-sargeras/maiden-of-vigilance/phases"
+    ]
   },
   {
     "zone": "Tomb of Sargeras",

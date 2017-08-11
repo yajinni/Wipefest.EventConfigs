@@ -1,0 +1,26 @@
+﻿[
+  {
+    "name": "Hammer of Creation",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 241635
+      }
+    }
+  },
+  {
+    "name": "Hammer of Obliteration",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 241636
+      }
+    }
+  }
+]
