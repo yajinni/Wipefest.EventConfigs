@@ -22,5 +22,29 @@
         "id": 241636
       }
     }
+  },
+  {
+    "name": "Infusion",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 235271
+      }
+    }
+  },
+  {
+    "name": "Mass Instability",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 235267
+      }
+    }
   }
 ]
