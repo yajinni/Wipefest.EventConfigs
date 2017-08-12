@@ -1,0 +1,15 @@
+﻿[
+  {
+    "name": "Cleansing Protocol",
+    "tags": [ "boss", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": false,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 241008
+      }
+    }
+  }
+]

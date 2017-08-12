@@ -1,0 +1,52 @@
+﻿[
+  {
+    "name": "Touch of Sargeras",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 239207
+      }
+    }
+  },
+  {
+    "name": "Rupture Realities",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "ids": [ 239132, 235572 ]
+      }
+    }
+  },
+  {
+    "name": "Corrupted Matrix",
+    "tags": [ "environment" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 233556
+      }
+    }
+  },
+  {
+    "name": "Shadowy Blades",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "damage",
+      "range": 3000,
+      "ability": {
+        "id": 236604
+      }
+    }
+  }
+]

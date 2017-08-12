@@ -1,0 +1,42 @@
+﻿[
+  {
+    "name": "Dark Mark",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 239739
+      }
+    }
+  },
+  {
+    "name": "Black Winds",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 242017
+      }
+    }
+  },
+  {
+    "name": "Unbound Chaos",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": false,
+    "filter": {
+      "type": "applydebuff",
+      "range": 3000,
+      "ability": {
+        "id": 234059
+      }
+    }
+  }
+]

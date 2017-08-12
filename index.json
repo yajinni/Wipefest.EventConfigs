@@ -83,7 +83,12 @@
     "zone": "Tomb of Sargeras",
     "id": 2038,
     "name": "Fallen Avatar",
-    "includes": []
+    "includes": [
+      "tomb-of-sargeras/fallen-avatar/abilities",
+      "tomb-of-sargeras/fallen-avatar/buffs",
+      "tomb-of-sargeras/fallen-avatar/debuffs",
+      "tomb-of-sargeras/fallen-avatar/phases"
+    ]
   },
   {
     "zone": "Tomb of Sargeras",
