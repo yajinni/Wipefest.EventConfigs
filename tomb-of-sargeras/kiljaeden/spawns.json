@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Shadow Reflection: Erupting",
+    "tags": [ "spawn" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 236710
+      }
+    }
+  },
+  {
+    "name": "Shadow Reflection: Wailing",
+    "tags": [ "spawn" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 236378
+      }
+    }
+  },
+  {
+    "name": "Erupting Dreadflame",
+    "tags": [ "spawn", "ability" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "range": 2000,
+      "ability": {
+        "id": 235120
+      }
+    }
+  },
+  {
+    "name": "Sorrowful Wail",
+    "tags": [ "spawn", "ability" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 241564
+      }
+    }
+  },
+  {
+    "name": "Flaming Orb",
+    "tags": [ "spawn" ],
+    "eventType": "spawn",
+    "show": true,
+    "friendly": false,
+    "filter": {
+      "type": "firstseen",
+      "actor": {
+        "name": "Flaming Orb"
+      }
+    }
+  },
+  {
+    "name": "Flaming Detonation",
+    "tags": [ "spawn", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "types": ["damage", "miss"],
+      "ability": {
+        "id": 239267
+      }
+    }
+  },
+  {
+    "name": "Demonic Obelisk",
+    "tags": [ "spawn" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "range": 3000,
+      "ability": {
+        "id": 239785
+      }
+    }
+  },
+  {
+    "name": "Destabilized Shadowsoul",
+    "tags": [ "spawn", "ability" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "range": 1000,
+      "ability": {
+        "id": 241702
+      }
+    }
+  }
+]

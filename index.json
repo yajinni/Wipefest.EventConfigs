@@ -1,15 +1,4 @@
-﻿[
-  {
-    "zone": "The Nighthold",
-    "id": 1866,
-    "name": "Gul'dan",
-    "includes": [
-      "the-nighthold/guldan/abilities",
-      "the-nighthold/guldan/debuffs",
-      "the-nighthold/guldan/phases",
-      "the-nighthold/guldan/spawns"
-    ]
-  },
+[
   {
     "zone": "Tomb of Sargeras",
     "id": 2032,
@@ -94,6 +83,12 @@
     "zone": "Tomb of Sargeras",
     "id": 2051,
     "name": "Kil'jaeden",
-    "includes": []
+    "includes": [
+      "tomb-of-sargeras/kiljaeden/abilities",
+      "tomb-of-sargeras/kiljaeden/buffs",
+      "tomb-of-sargeras/kiljaeden/debuffs",
+      "tomb-of-sargeras/kiljaeden/phases",
+      "tomb-of-sargeras/kiljaeden/spawns"
+    ]
   }
 ]

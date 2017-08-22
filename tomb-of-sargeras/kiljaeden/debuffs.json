@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Armageddon Rain",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 234310
+      }
+    }
+  },
+  {
+    "name": "Armageddon Rain (2)",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuffstack",
+      "stack": 2,
+      "ability": {
+        "id": 234310
+      }
+    }
+  },
+  {
+    "name": "Armageddon Rain (3)",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuffstack",
+      "stack": 3,
+      "ability": {
+        "id": 234310
+      }
+    }
+  },
+  {
+    "name": "Armageddon Hail",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 240916
+      }
+    }
+  },
+  {
+    "name": "Bursting Dreadflame",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 238430
+      }
+    }
+  },
+  {
+    "name": "Focused Dreadflame",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 238502
+      }
+    }
+  },
+  {
+    "name": "Gravity Squeeze",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "target": "Raid",
+    "filter": {
+      "type": "applydebuff",
+      "range": 5000,
+      "minimum": 5,
+      "ability": {
+        "id": 239155
+      }
+    }
+  },
+  {
+    "name": "Burning",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 240262
+      }
+    }
+  }
+]

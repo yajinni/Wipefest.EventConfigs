@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Armageddon",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 240910
+      }
+    }
+  },
+  {
+    "name": "Armageddon Blast",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "range": 3000,
+      "ability": {
+        "id": 240908
+      }
+    }
+  },
+  {
+    "name": "Bursting Dreadflame",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 238429
+      }
+    }
+  },
+  {
+    "name": "Nether Gale",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244834
+      }
+    }
+  },
+  {
+    "name": "Deceiver's Veil",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 241983
+      }
+    }
+  },
+  {
+    "name": "Darkness of a Thousand Souls",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 238999
+      }
+    }
+  },
+  {
+    "name": "Tear Rift",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 239214
+      }
+    }
+  }
+]

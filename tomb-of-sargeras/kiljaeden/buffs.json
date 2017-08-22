@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Illidan's Sightless Gaze",
+    "tags": [ "player", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "target": "Raid",
+    "filter": {
+      "type": "applydebuff",
+      "first": true,
+      "ability": {
+        "id": 241721
+      }
+    }
+  }
+]

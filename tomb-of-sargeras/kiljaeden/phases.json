@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Phase 1",
+    "tags": [ "phase" ],
+    "show": true,
+    "eventType": "phase",
+    "timestamp": 0
+  },
+  {
+    "name": "Transition 1",
+    "tags": [ "phase" ],
+    "show": true,
+    "eventType": "phase",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244834
+      }
+    }
+  },
+  {
+    "name": "Phase 2",
+    "tags": [ "phase" ],
+    "show": true,
+    "eventType": "phase",
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 244834
+      }
+    }
+  },
+  {
+    "name": "Transition 2",
+    "tags": [ "phase" ],
+    "show": true,
+    "eventType": "phase",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 241983
+      }
+    }
+  },
+  {
+    "name": "Phase 3",
+    "tags": [ "phase" ],
+    "show": true,
+    "eventType": "phase",
+    "filter": {
+      "type": "cast",
+      "first": true,
+      "ability": {
+        "id": 238999
+      }
+    }
+  }
+]
