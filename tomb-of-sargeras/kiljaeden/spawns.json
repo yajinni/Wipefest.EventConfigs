@@ -49,26 +49,14 @@
     }
   },
   {
-    "name": "Flaming Orb",
-    "tags": [ "spawn" ],
-    "eventType": "spawn",
-    "show": true,
-    "friendly": false,
-    "filter": {
-      "type": "firstseen",
-      "actor": {
-        "name": "Flaming Orb"
-      }
-    }
-  },
-  {
     "name": "Flaming Detonation",
     "tags": [ "spawn", "ability" ],
     "show": true,
     "eventType": "ability",
-    "friendly": true,
+    "friendly": false,
     "filter": {
-      "types": ["damage", "miss"],
+      "types": [ "damage", "miss" ],
+      "range": 3000,
       "ability": {
         "id": 239267
       }
