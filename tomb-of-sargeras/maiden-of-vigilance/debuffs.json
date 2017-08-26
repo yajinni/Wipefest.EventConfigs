@@ -1,6 +1,20 @@
 ﻿[
   {
-    "name": "Creator's Grace",
+    "name": "Creator's Grace (5)",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuffstack",
+      "stack": 5,
+      "ability": {
+        "id": 235534
+      }
+    }
+  },
+  {
+    "name": "Creator's Grace (10)",
     "tags": [ "player", "buff" ],
     "show": true,
     "eventType": "debuff",
@@ -16,20 +30,20 @@
   {
     "name": "Unstable Soul",
     "tags": [ "player", "debuff" ],
-    "show": true,
+    "show": false,
     "eventType": "debuff",
     "friendly": false,
     "filter": {
       "type": "applydebuff",
       "ability": {
-        "id": 243276
+        "id": 235117
       }
     }
   },
   {
     "name": "Aegwynn's Ward",
     "tags": [ "player", "buff" ],
-    "show": true,
+    "show": false,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
