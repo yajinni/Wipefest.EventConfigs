@@ -5,7 +5,7 @@
     "show": false,
     "eventType": "spawn",
     "filter": {
-      "type": "cast",
+      "type": "begincast",
       "firstPerInstance": true,
       "ability": {
         "id": 235927

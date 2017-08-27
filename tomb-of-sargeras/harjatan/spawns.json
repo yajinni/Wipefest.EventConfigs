@@ -19,9 +19,10 @@
     "show": false,
     "friendly": false,
     "filter": {
-      "type": "firstseen",
-      "actor": {
-        "name": "Razorjaw Wavemender"
+      "type": "begincast",
+      "firstPerInstance": true,
+      "ability": {
+        "id": 231729
       }
     }
   }
