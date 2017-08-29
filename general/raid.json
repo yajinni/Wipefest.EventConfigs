@@ -12,6 +12,21 @@
     }
   },
   {
+    "name": "Combat Resurrection",
+    "tags": [ "raid", "utility" ],
+    "show": true,
+    "eventType": "ability",
+    "showTarget": true,
+    "icon": "arrow-up",
+    "style": "combat-resurrection",
+    "filter": {
+      "type": "resurrect",
+      "ability": {
+        "ids": [ 20484, 61999, 126393, 159931, 159956, 20707 ]
+      }
+    }
+  },
+  {
     "name": "Aura Mastery",
     "tags": [ "raid", "healing" ],
     "show": true,
