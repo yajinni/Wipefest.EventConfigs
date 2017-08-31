@@ -8,7 +8,7 @@
     "filter": {
       "type": "firstseen",
       "actor": {
-        "name": "Razorjaw Gladiator"
+        "id": 117596
       }
     }
   },

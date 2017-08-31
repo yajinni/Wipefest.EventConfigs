@@ -14,7 +14,7 @@
     "filter": {
       "type": "percent",
       "actor": {
-        "name": "Mistress Sassz'ine",
+        "id": 115767,
         "percent": 70
       }
     }
@@ -27,7 +27,7 @@
     "filter": {
       "type": "percent",
       "actor": {
-        "name": "Mistress Sassz'ine",
+        "id": 115767,
         "percent": 30
       }
     }

@@ -24,18 +24,6 @@
     }
   },
   {
-    "name": "Commanding Roar",
-    "tags": [ "spawn" ],
-    "eventType": "ability",
-    "show": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 232192
-      }
-    }
-  },
-  {
     "name": "Draw In",
     "tags": [ "boss", "ability" ],
     "eventType": "ability",
