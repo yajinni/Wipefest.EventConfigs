@@ -14,7 +14,7 @@
     "filter": {
       "type": "percent",
       "actor": {
-        "name": "Huntress Kasparian",
+        "id": 118523,
         "percent": 70
       }
     }
@@ -27,7 +27,7 @@
     "filter": {
       "type": "percent",
       "actor": {
-        "name": "Captain Yathae Moonstrike",
+        "id": 118374,
         "percent": 40
       }
     }
