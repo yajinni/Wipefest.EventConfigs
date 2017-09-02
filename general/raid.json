@@ -27,6 +27,18 @@
     }
   },
   {
+    "name": "Immunities",
+    "tags": [ "raid", "utility" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "ids": [ 196555, 186265, 45438, 642, 31224 ]
+      }
+    }
+  },
+  {
     "name": "Aura Mastery",
     "tags": [ "raid", "healing" ],
     "show": true,
