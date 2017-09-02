@@ -41,7 +41,7 @@
   {
     "name": "Externals",
     "tags": [ "raid", "utility" ],
-    "show": true,
+    "show": false,
     "showTarget": true,
     "eventType": "ability",
     "filter": {
@@ -52,122 +52,26 @@
     }
   },
   {
-    "name": "Aura Mastery",
-    "tags": [ "raid", "healing" ],
+    "name": "Major Cooldowns",
+    "tags": [ "raid" ],
     "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
       "ability": {
-        "id": 31821
+        "ids": [ 31821, 62618, 98008, 64843, 108280, 740, 115310 ]
       }
     }
   },
   {
-    "name": "Power Word: Barrier",
-    "tags": [ "raid", "damage reduction" ],
+    "name": "Minor Cooldowns",
+    "tags": [ "raid" ],
     "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
       "ability": {
-        "id": 62618
-      }
-    }
-  },
-  {
-    "name": "Spirit Link Totem",
-    "tags": [ "raid", "damage reduction" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 98008
-      }
-    }
-  },
-  {
-    "name": "Commanding Shout",
-    "tags": [ "raid", "damage reduction" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 97462
-      }
-    }
-  },
-  {
-    "name": "Divine Hymn",
-    "tags": [ "raid", "healing" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 64843
-      }
-    }
-  },
-  {
-    "name": "Healing Tide Totem",
-    "tags": [ "raid", "healing" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 108280
-      }
-    }
-  },
-  {
-    "name": "Tranquility",
-    "tags": [ "raid", "healing" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 740
-      }
-    }
-  },
-  {
-    "name": "Revival",
-    "tags": [ "raid", "healing" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 115310
-      }
-    }
-  },
-  {
-    "name": "Vampiric Embrace",
-    "tags": [ "raid", "healing" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 15286
-      }
-    }
-  },
-  {
-    "name": "Darkness",
-    "tags": [ "raid", "damage reduction" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 196718
+        "ids": [ 97462, 15286, 196718 ]
       }
     }
   }
