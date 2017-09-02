@@ -27,6 +27,45 @@
     }
   },
   {
+    "name": "Combat Resurrection",
+    "tags": [ "raid", "utility" ],
+    "show": true,
+    "eventType": "ability",
+    "icon": "arrow-up",
+    "style": "combat-resurrection",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "ids": [ 21169 ]
+      }
+    }
+  },
+  {
+    "name": "Ancestral Protection Totem",
+    "tags": [ "raid", "utility" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 207399
+      }
+    }
+  },
+  {
+    "name": "Innervate",
+    "tags": [ "raid", "utility" ],
+    "show": false,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 29166
+      }
+    }
+  },
+  {
     "name": "Immunities",
     "tags": [ "raid", "utility" ],
     "show": true,
@@ -59,7 +98,7 @@
     "filter": {
       "type": "cast",
       "ability": {
-        "ids": [ 31821, 62618, 98008, 64843, 108280, 740, 115310 ]
+        "ids": [ 31821, 62618, 98008, 64843, 108280, 740, 115310, 207946 ]
       }
     }
   },
@@ -71,7 +110,7 @@
     "filter": {
       "type": "cast",
       "ability": {
-        "ids": [ 97462, 15286, 196718 ]
+        "ids": [ 97462, 15286, 196718, 204150, 108281, 198664 ]
       }
     }
   }
