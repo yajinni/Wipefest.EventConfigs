@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Heroism",
     "tags": [ "raid", "utility" ],
@@ -113,5 +113,11 @@
         "ids": [ 97462, 15286, 196718, 204150, 108281, 198664 ]
       }
     }
+  },
+  {
+    "name": "Deaths",
+    "tags": [ "player" ],
+    "show": true,
+    "eventType": "death"
   }
 ]
