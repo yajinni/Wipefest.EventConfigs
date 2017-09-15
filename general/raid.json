@@ -78,6 +78,18 @@
     }
   },
   {
+    "name": "Immunities",
+    "tags": [ "raid", "utility" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "types": [ "heal", "absorbed" ],
+      "ability": {
+        "ids": [ 213313 ]
+      }
+    }
+  },
+  {
     "name": "Externals",
     "tags": [ "raid", "utility" ],
     "show": false,
