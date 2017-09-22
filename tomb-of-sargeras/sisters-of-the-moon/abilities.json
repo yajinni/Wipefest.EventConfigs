@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Embrace of the Eclipse",
     "tags": [ "boss", "ability" ],
@@ -8,6 +8,18 @@
       "type": "cast",
       "ability": {
         "id": 233263
+      }
+    }
+  },
+  {
+    "name": "Glaive Storm",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 239379
       }
     }
   },

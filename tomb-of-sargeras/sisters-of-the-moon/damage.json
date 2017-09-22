@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Twilight Glaive",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 236541
+      }
+    }
+  },
+  {
+    "name": "Glaive Storm",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 236480
+      }
+    }
+  }
+]

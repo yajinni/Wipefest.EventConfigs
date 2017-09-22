@@ -1,7 +1,7 @@
-﻿[
+[
   {
     "name": "Moon Burn",
-    "tags": [ "boss", "debuff" ],
+    "tags": [ "player", "debuff" ],
     "show": false,
     "eventType": "debuff",
     "filter": {
@@ -13,7 +13,7 @@
   },
   {
     "name": "Incorporeal Shot",
-    "tags": [ "boss", "ability" ],
+    "tags": [ "player", "ability" ],
     "show": true,
     "eventType": "debuff",
     "filter": {
@@ -25,7 +25,7 @@
   },
   {
     "name": "Lunar Beacon",
-    "tags": [ "boss", "debuff" ],
+    "tags": [ "player", "debuff" ],
     "show": true,
     "eventType": "debuff",
     "filter": {
@@ -37,7 +37,7 @@
   },
   {
     "name": "Discorporate",
-    "tags": [ "boss", "debuff" ],
+    "tags": [ "player", "debuff" ],
     "show": false,
     "eventType": "debuff",
     "filter": {
@@ -49,13 +49,25 @@
   },
   {
     "name": "Rapid Shot",
-    "tags": [ "boss", "debuff" ],
+    "tags": [ "player", "debuff" ],
     "show": false,
     "eventType": "debuff",
     "filter": {
       "type": "applydebuff",
       "ability": {
         "id": 236596
+      }
+    }
+  },
+  {
+    "name": "Twilight Glaive",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 237561
       }
     }
   }

@@ -83,7 +83,7 @@
     "show": true,
     "eventType": "ability",
     "filter": {
-      "types": [ "heal", "absorbed" ],
+      "types": [ "heal", "absorbed", "healabsorbed" ],
       "ability": {
         "ids": [ 213313 ]
       }
