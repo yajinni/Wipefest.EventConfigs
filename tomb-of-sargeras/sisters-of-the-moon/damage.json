@@ -4,6 +4,7 @@
     "tags": [ "player", "damage" ],
     "show": false,
     "eventType": "damage",
+    "friendly": true,
     "filter": {
       "types": [ "damage", "absorb" ],
       "ability": {
@@ -16,6 +17,7 @@
     "tags": [ "player", "damage" ],
     "show": false,
     "eventType": "damage",
+    "friendly": true,
     "filter": {
       "types": [ "damage", "absorb" ],
       "ability": {

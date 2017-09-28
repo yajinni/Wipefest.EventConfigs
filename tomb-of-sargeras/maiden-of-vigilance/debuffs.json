@@ -30,7 +30,7 @@
   {
     "name": "Unstable Soul",
     "tags": [ "player", "debuff" ],
-    "show": false,
+    "show": true,
     "eventType": "debuff",
     "friendly": false,
     "filter": {
@@ -43,7 +43,7 @@
   {
     "name": "Aegwynn's Ward",
     "tags": [ "player", "buff" ],
-    "show": false,
+    "show": true,
     "eventType": "debuff",
     "friendly": true,
     "filter": {

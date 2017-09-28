@@ -70,5 +70,23 @@
         "id": 237561
       }
     }
+  },
+  {
+    "name": "Astral Vulnerability (6)",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "target": "Raid",
+    "showSource": true,
+    "filter": {
+      "type": "applydebuffstack",
+      "stack": 6,
+      "range": 3000,
+      "minimum": 5,
+      "ability": {
+        "id": 236330
+      }
+    }
   }
 ]
