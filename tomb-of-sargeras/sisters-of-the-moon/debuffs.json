@@ -12,6 +12,19 @@
     }
   },
   {
+    "name": "Moon Burn (Removed)",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 236519
+      }
+    }
+  },
+  {
     "name": "Incorporeal Shot",
     "tags": [ "player", "ability" ],
     "show": true,
