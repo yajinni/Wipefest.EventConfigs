@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Unstable Soul Explosion",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "target": "Raid",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "range": 3000,
+      "ability": {
+        "id": 235138
+      }
+    }
+  },
+  {
+    "name": "Essence Fragments",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "title": "{[style='npc'] Raid} fails to soak {[style='fire'] Fel Orb}",
+    "filter": {
+      "type": "applydebuff",
+      "range": 500,
+      "ability": {
+        "id": 248801
+      }
+    }
+  },
+  {
+    "name": "Essence Fragments",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "target": "Raid",
+    "title": "{[style='npc'] Raid} fails to soak {[style='holy'] Holy Orb}",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "range": 500,
+      "ability": {
+        "id": 239069
+      }
+    }
+  },
+  {
+    "name": "Fel Echoes",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 238420
+      }
+    }
+  },
+  {
+    "name": "Light Echoes",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 238037
+      }
+    }
+  }
+]

@@ -65,6 +65,7 @@
     "name": "Maiden of Vigilance",
     "includes": [
       "tomb-of-sargeras/maiden-of-vigilance/abilities",
+      "tomb-of-sargeras/maiden-of-vigilance/damage",
       "tomb-of-sargeras/maiden-of-vigilance/debuffs",
       "tomb-of-sargeras/maiden-of-vigilance/phases"
     ]

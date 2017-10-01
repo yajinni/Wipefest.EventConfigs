@@ -28,6 +28,34 @@
     }
   },
   {
+    "name": "Demon's Vigor (5)",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuffstack",
+      "stack": 5,
+      "ability": {
+        "id": 235538
+      }
+    }
+  },
+  {
+    "name": "Demon's Vigor (10)",
+    "tags": [ "player", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuffstack",
+      "stack": 10,
+      "ability": {
+        "id": 235538
+      }
+    }
+  },
+  {
     "name": "Unstable Soul",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -35,6 +63,19 @@
     "friendly": false,
     "filter": {
       "type": "applydebuff",
+      "ability": {
+        "ids": [ 235117, 243276 ]
+      }
+    }
+  },
+  {
+    "name": "Unstable Soul (Removed)",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
       "ability": {
         "ids": [ 235117, 243276 ]
       }
@@ -54,6 +95,19 @@
     }
   },
   {
+    "name": "Aegwynn's Ward (Removed)",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 241593
+      }
+    }
+  },
+  {
     "name": "Titanic Bulwark",
     "tags": [ "boss", "buff" ],
     "show": true,
@@ -63,6 +117,30 @@
       "type": "applybuff",
       "ability": {
         "id": 235028
+      }
+    }
+  },
+  {
+    "name": "Fel Infusion",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 235240
+      }
+    }
+  },
+  {
+    "name": "Holy Infusion",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 235213
       }
     }
   }
