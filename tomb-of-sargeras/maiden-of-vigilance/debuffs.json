@@ -1,13 +1,13 @@
 [
   {
-    "name": "Creator's Grace (5)",
+    "name": "Creator's Grace (7)",
     "tags": [ "player", "buff" ],
     "show": false,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
       "type": "applydebuffstack",
-      "stack": 5,
+      "stack": 7,
       "ability": {
         "id": 235534
       }
@@ -28,14 +28,14 @@
     }
   },
   {
-    "name": "Demon's Vigor (5)",
+    "name": "Demon's Vigor (7)",
     "tags": [ "player", "buff" ],
     "show": false,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
       "type": "applydebuffstack",
-      "stack": 5,
+      "stack": 7,
       "ability": {
         "id": 235538
       }
