@@ -133,7 +133,7 @@
     }
   },
   {
-    "name": "Holy Infusion",
+    "name": "Light Infusion",
     "tags": [ "player", "debuff" ],
     "show": false,
     "eventType": "debuff",

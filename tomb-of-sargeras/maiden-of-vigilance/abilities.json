@@ -48,7 +48,7 @@
     }
   },
   {
-    "name": "Essence Fragments",
+    "name": "Orbs",
     "tags": [ "boss", "ability" ],
     "show": true,
     "eventType": "debuff",
@@ -63,7 +63,7 @@
     }
   },
   {
-    "name": "Essence Fragments",
+    "name": "Orbs",
     "tags": [ "boss", "ability" ],
     "show": true,
     "eventType": "debuff",
