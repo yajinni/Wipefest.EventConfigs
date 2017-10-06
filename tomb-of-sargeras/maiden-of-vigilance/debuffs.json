@@ -90,7 +90,7 @@
     "filter": {
       "type": "applydebuff",
       "ability": {
-        "id": 241593
+        "ids": [ 241593, 236420 ]
       }
     }
   },
@@ -103,7 +103,7 @@
     "filter": {
       "type": "removedebuff",
       "ability": {
-        "id": 241593
+        "ids": [ 241593, 236420 ]
       }
     }
   },
@@ -115,6 +115,19 @@
     "friendly": false,
     "filter": {
       "type": "applybuff",
+      "ability": {
+        "id": 235028
+      }
+    }
+  },
+  {
+    "name": "Titanic Bulwark (Removed)",
+    "tags": [ "boss", "buff" ],
+    "show": true,
+    "eventType": "removedebuff",
+    "friendly": false,
+    "filter": {
+      "type": "removebuff",
       "ability": {
         "id": 235028
       }
