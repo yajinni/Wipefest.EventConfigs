@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Slicing Tornado",
     "tags": [ "boss", "debuff" ],
@@ -35,6 +35,43 @@
       "type": "applydebuff",
       "ability": {
         "ids": [ 239375, 239362 ]
+      }
+    }
+  },
+  {
+    "name": "Delicious Bufferfish (Removed)",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "ids": [ 239375, 239362 ]
+      }
+    }
+  },
+  {
+    "name": "Consuming Hunger",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "ids": [ 234661, 230384 ]
+      }
+    }
+  },
+  {
+    "name": "Consuming Hunger (Removed)",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "ids": [ 234661, 230384 ]
       }
     }
   }

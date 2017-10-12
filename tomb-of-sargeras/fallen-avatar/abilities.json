@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Touch of Sargeras",
     "tags": [ "boss", "ability" ],
@@ -40,7 +40,6 @@
     "tags": [ "boss", "ability" ],
     "show": true,
     "eventType": "ability",
-    "friendly": true,
     "filter": {
       "type": "damage",
       "range": 3000,
