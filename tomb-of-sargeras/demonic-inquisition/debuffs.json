@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Unbearable Torment",
     "tags": [ "player", "debuff" ],
@@ -14,7 +14,7 @@
   },
   {
     "name": "Soul Corruption",
-    "tags": [ "player", "action" ],
+    "tags": [ "player", "debuff" ],
     "show": false,
     "eventType": "debuff",
     "friendly": true,
@@ -22,6 +22,45 @@
       "type": "applydebuff",
       "ability": {
         "id": 248713
+      }
+    }
+  },
+  {
+    "name": "Soul Corruption (Removed)",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 248713
+      }
+    }
+  },
+  {
+    "name": "Echoing Anguish",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 233983
+      }
+    }
+  },
+  {
+    "name": "Echoing Anguish (Removed)",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 233983
       }
     }
   },

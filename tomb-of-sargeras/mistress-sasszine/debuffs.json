@@ -74,5 +74,29 @@
         "ids": [ 234661, 230384 ]
       }
     }
+  },
+  {
+    "name": "Thundering Shock",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 230362
+      }
+    }
+  },
+  {
+    "name": "Thundering Shock (Removed)",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 230362
+      }
+    }
   }
 ]

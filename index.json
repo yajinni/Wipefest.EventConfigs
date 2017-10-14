@@ -5,6 +5,7 @@
     "name": "Goroth",
     "includes": [
       "tomb-of-sargeras/goroth/abilities",
+      "tomb-of-sargeras/goroth/damage",
       "tomb-of-sargeras/goroth/debuffs"
     ]
   },
@@ -14,7 +15,9 @@
     "name": "Demonic Inquisition",
     "includes": [
       "tomb-of-sargeras/demonic-inquisition/abilities",
-      "tomb-of-sargeras/demonic-inquisition/debuffs"
+      "tomb-of-sargeras/demonic-inquisition/damage",
+      "tomb-of-sargeras/demonic-inquisition/debuffs",
+      "tomb-of-sargeras/demonic-inquisition/spawns"
     ]
   },
   {

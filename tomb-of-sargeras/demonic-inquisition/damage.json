@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Explosive Anguish",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 241524
+      }
+    }
+  }
+]

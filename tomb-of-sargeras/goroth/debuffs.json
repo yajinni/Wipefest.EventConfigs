@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Shattering Star",
     "tags": [ "boss", "ability" ],
@@ -33,6 +33,20 @@
     "friendly": false,
     "filter": {
       "type": "applydebuff",
+      "ability": {
+        "id": 231363
+      }
+    }
+  },
+  {
+    "name": "Burning Armor (2)",
+    "tags": [ "boss", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": false,
+    "filter": {
+      "type": "applydebuffstack",
+      "stack": 2,
       "ability": {
         "id": 231363
       }
