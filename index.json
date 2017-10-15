@@ -6,7 +6,8 @@
     "includes": [
       "tomb-of-sargeras/goroth/abilities",
       "tomb-of-sargeras/goroth/damage",
-      "tomb-of-sargeras/goroth/debuffs"
+      "tomb-of-sargeras/goroth/debuffs",
+      "tomb-of-sargeras/goroth/spawns"
     ]
   },
   {

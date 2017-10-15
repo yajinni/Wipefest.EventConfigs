@@ -13,21 +13,6 @@
     }
   },
   {
-    "name": "Infernal Detonation",
-    "tags": [ "player", "damage" ],
-    "show": true,
-    "eventType": "damage",
-    "friendly": true,
-    "target": "Raid",
-    "filter": {
-      "types": [ "damage", "absorb" ],
-      "range": 3000,
-      "ability": {
-        "id": 233900
-      }
-    }
-  },
-  {
     "name": "Fel Pool",
     "tags": [ "player", "damage" ],
     "show": false,

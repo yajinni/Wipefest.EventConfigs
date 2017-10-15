@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Brimstone Infernal",
+    "tags": [ "spawn" ],
+    "show": true,
+    "eventType": "spawn",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "firstPerInstance": true,
+      "ability": {
+        "id": 241455
+      }
+    }
+  }
+]

@@ -6,9 +6,9 @@
     "show": true,
     "friendly": false,
     "filter": {
-      "type": "removedebuff",
-      "ability": {
-        "id": 248713
+      "type": "firstseen",
+      "actor": {
+        "id": 119950
       }
     }
   }
