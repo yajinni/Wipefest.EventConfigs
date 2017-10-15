@@ -2,7 +2,7 @@
   {
     "name": "Infernal Spike",
     "tags": [ "player", "damage" ],
-    "show": true,
+    "show": false,
     "eventType": "damage",
     "friendly": true,
     "filter": {
