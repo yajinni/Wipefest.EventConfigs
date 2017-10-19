@@ -96,5 +96,93 @@
       "tomb-of-sargeras/kiljaeden/phases",
       "tomb-of-sargeras/kiljaeden/spawns"
     ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2076,
+    "name": "Garothi Worldbreaker",
+    "includes": [
+      "antorus-the-burning-throne/garothi-worldbreaker/abilities"
+    ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2074,
+    "name": "Felhounds of Sargeras",
+    "includes": [
+      "antorus-the-burning-throne/felhounds-of-sargeras/abilities"
+    ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2070,
+    "name": "Antoran High Command",
+    "includes": [
+      "antorus-the-burning-throne/antoran-high-command/abilities"
+    ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2075,
+    "name": "The Defense of Eonar",
+    "includes": [
+      "antorus-the-burning-throne/the-defense-of-eonar/abilities"
+    ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2064,
+    "name": "Portal Keeper Hasabel",
+    "includes": [
+      "antorus-the-burning-throne/portal-keeper-hasabel/abilities"
+    ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2082,
+    "name": "Imonar the Soulhunter",
+    "includes": [
+      "antorus-the-burning-throne/imonar-the-soulhunter/abilities"
+    ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2088,
+    "name": "Kin'garoth",
+    "includes": [
+      "antorus-the-burning-throne/kingaroth/abilities"
+    ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2069,
+    "name": "Varimathras",
+    "includes": [
+      "antorus-the-burning-throne/varimathras/abilities"
+    ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2073,
+    "name": "The Coven of Shivarra",
+    "includes": [
+      "antorus-the-burning-throne/the-coven-of-shivarra/abilities"
+    ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2063,
+    "name": "Aggramar",
+    "includes": [
+      "antorus-the-burning-throne/aggramar/abilities"
+    ]
+  },
+  {
+    "zone": "Antorus, The Burning Throne",
+    "id": 2092,
+    "name": "Argus the Unmaker",
+    "includes": [
+      "antorus-the-burning-throne/argus-the-unmaker/abilities"
+    ]
   }
 ]
