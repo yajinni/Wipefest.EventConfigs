@@ -101,7 +101,7 @@ When you're ready, click "Create pull request".
 Go back to the original issue, and add another comment to let people know that you've solved it
 (reference your pull request with a "#" and the number your pull request was given when you created it).
 
-I'll test your change and merge it into the "master" branch, will will put it live.
+I'll test your change and merge it into the "master" branch, which will put it live.
 You'll get a notification/email when your pull request has been merged!
 
 Thanks for contributing :)
