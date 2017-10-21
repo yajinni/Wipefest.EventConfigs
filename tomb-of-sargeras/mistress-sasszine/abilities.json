@@ -95,18 +95,5 @@
         "id": 232746
       }
     }
-  },
-  {
-    "name": "Concealing Murk",
-    "tags": [ "spawn", "ability" ],
-    "show": false,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "range": 3000,
-      "ability": {
-        "id": 230950
-      }
-    }
   }
 ]
