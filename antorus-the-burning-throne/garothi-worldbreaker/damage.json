@@ -39,9 +39,9 @@
     }
   },
   {
-    "name": "Decimation > 3m",
+    "name": "Decimation > 2m",
     "tags": [ "player", "damage" ],
-    "show": false,
+    "show": true,
     "eventType": "damage",
     "friendly": true,
     "showSource": false,
@@ -50,7 +50,7 @@
       "ability": {
         "id": 244449
       },
-      "query": "type in ('damage', 'absorb') and ability.id = 244449 and rawDamage > 3000000"
+      "query": "type in ('damage', 'absorb') and ability.id = 244449 and rawDamage > 2000000"
     }
   }
 ]
