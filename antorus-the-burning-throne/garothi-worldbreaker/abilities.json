@@ -1,3 +1,86 @@
 [
-
+  {
+    "name": "Annihilation",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244294
+      }
+    }
+  },
+  {
+    "name": "Decimation",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244399
+      }
+    }
+  },
+  {
+    "name": "Empowered Decimation",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 245294
+      }
+    }
+  },
+  {
+    "name": "Carnage",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244106
+      }
+    }
+  },
+  {
+    "name": "Apocalypse Drive",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "begincast",
+      "ability": {
+        "id": 240277
+      }
+    }
+  },
+  {
+    "name": "Empowered",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 245237
+      }
+    }
+  },
+  {
+    "name": "Eradication",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244969
+      }
+    }
+  }
 ]

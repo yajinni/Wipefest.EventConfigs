@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Eradication",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244969
+      }
+    }
+  },
+  {
+    "name": "Fel Bombardment",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244532
+      }
+    }
+  },
+  {
+    "name": "Annihilation",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244761
+      }
+    }
+  },
+  {
+    "name": "Decimation > 3m",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244449
+      },
+      "query": "type in ('damage', 'absorb') and ability.id = 244449 and rawDamage > 3000000"
+    }
+  }
+]

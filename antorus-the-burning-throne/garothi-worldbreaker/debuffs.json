@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Fel Bombardment",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 246220
+      }
+    }
+  },
+  {
+    "name": "Decimation",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244410
+      }
+    }
+  }
+]
