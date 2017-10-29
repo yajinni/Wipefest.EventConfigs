@@ -1,17 +1,5 @@
 [
   {
-    "name": "Enflamed",
-    "tags": [ "player", "damage" ],
-    "show": false,
-    "eventType": "damage",
-    "filter": {
-      "types": [ "damage", "absorb" ],
-      "ability": {
-        "id": 244473
-      }
-    }
-  },
-  {
     "name": "Desolate Path",
     "tags": [ "player", "damage" ],
     "show": false,

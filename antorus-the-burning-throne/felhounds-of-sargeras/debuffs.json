@@ -47,5 +47,29 @@
         "id": 244768
       }
     }
+  },
+  {
+    "name": "Smouldering",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "types": [ "applydebuff", "applydebuffstack" ],
+      "ability": {
+        "id": 251445
+      }
+    }
+  },
+  {
+    "name": "Decay",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "types": [ "applydebuff", "applydebuffstack" ],
+      "ability": {
+        "id": 245098
+      }
+    }
   }
 ]
