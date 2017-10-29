@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Weight of Darkness",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 254429
+      }
+    }
+  },
+  {
+    "name": "Weight of Darkness (Fear)",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244071
+      }
+    }
+  },
+  {
+    "name": "Molten Touch",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244072
+      }
+    }
+  },
+  {
+    "name": "Desolate Gaze",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244768
+      }
+    }
+  }
+]

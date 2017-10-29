@@ -1,3 +1,63 @@
 [
-
+  {
+    "name": "Desolate Path",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "begincast",
+      "ability": {
+        "id": 244825
+      }
+    }
+  },
+  {
+    "name": "Molten Touch",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244072
+      }
+    }
+  },
+  {
+    "name": "Enflame Corruption",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244057
+      }
+    }
+  },
+  {
+    "name": "Weight of Darkness",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "applydebuff",
+      "range": 30000,
+      "ability": {
+        "id": 254429
+      }
+    }
+  },
+  {
+    "name": "Siphon Corruption",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244056
+      }
+    }
+  }
 ]

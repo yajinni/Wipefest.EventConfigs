@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sargeras' Blessing",
+    "tags": [ "boss", "buff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "target": "Boss",
+    "filter": {
+      "type": "applybuff",
+      "range": 1000,
+      "ability": {
+        "id": 246057
+      }
+    }
+  },
+  {
+    "name": "Sargeras' Blessing (Removed)",
+    "tags": [ "boss", "buff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "target": "Boss",
+    "filter": {
+      "type": "removebuff",
+      "range": 1000,
+      "ability": {
+        "id": 246057
+      }
+    }
+  }
+]

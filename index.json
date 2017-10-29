@@ -113,7 +113,10 @@
     "id": 2074,
     "name": "Felhounds of Sargeras",
     "includes": [
-      "antorus-the-burning-throne/felhounds-of-sargeras/abilities"
+      "antorus-the-burning-throne/felhounds-of-sargeras/abilities",
+      "antorus-the-burning-throne/felhounds-of-sargeras/buffs",
+      "antorus-the-burning-throne/felhounds-of-sargeras/damage",
+      "antorus-the-burning-throne/felhounds-of-sargeras/debuffs"
     ]
   },
   {

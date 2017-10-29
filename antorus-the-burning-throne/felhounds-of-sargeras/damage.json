@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Enflamed",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244473
+      }
+    }
+  },
+  {
+    "name": "Desolate Path",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244767
+      }
+    }
+  },
+  {
+    "name": "Molten Flare",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244163
+      }
+    }
+  },
+  {
+    "name": "Consuming Sphere",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 254403
+      }
+    }
+  }
+]
