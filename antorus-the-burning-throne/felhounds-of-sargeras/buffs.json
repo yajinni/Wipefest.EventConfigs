@@ -2,7 +2,7 @@
   {
     "name": "Sargeras' Blessing",
     "tags": [ "boss", "buff" ],
-    "show": false,
+    "show": true,
     "eventType": "debuff",
     "friendly": true,
     "target": "Boss",
@@ -17,7 +17,7 @@
   {
     "name": "Sargeras' Blessing (Removed)",
     "tags": [ "boss", "buff" ],
-    "show": false,
+    "show": true,
     "eventType": "removedebuff",
     "friendly": true,
     "target": "Boss",
