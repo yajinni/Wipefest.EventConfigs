@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Admiral Svirax",
+    "tags": [ "phase" ],
+    "show": true,
+    "eventType": "phase",
+    "timestamp": 0
+  },
+  {
+    "name": "Engineer Ishkar",
+    "tags": [ "phase" ],
+    "show": true,
+    "eventType": "phase",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 245227
+      },
+      "actor": {
+        "id": 122367
+      },
+      "query": "type = 'cast' and ability.id = 245227 and source.id = 122367"
+    }
+  },
+  {
+    "name": "General Erodus",
+    "tags": [ "phase" ],
+    "show": true,
+    "eventType": "phase",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 245227
+      },
+      "actor": {
+        "id": 122369
+      },
+      "query": "type = 'cast' and ability.id = 245227 and source.id = 122369"
+    }
+  },
+  {
+    "name": "Admiral Svirax",
+    "tags": [ "phase" ],
+    "show": true,
+    "eventType": "phase",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 245227
+      },
+      "actor": {
+        "id": 122333
+      },
+      "query": "type = 'cast' and ability.id = 245227 and source.id = 122333"
+    }
+  }
+]
