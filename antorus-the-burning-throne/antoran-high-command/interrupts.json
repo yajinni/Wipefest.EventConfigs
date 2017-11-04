@@ -2,7 +2,7 @@
   {
     "name": "Pyroblast",
     "tags": [ "interrupt" ],
-    "show": true,
+    "show": false,
     "eventType": "interrupt",
     "filter": {
       "type": "interrupt",
