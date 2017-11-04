@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Pyroblast",
+    "tags": [ "interrupt" ],
+    "show": true,
+    "eventType": "interrupt",
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 246505
+      }
+    }
+  }
+]
