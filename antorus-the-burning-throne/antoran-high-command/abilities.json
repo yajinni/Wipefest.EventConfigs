@@ -1,3 +1,53 @@
 [
-
+  {
+    "name": "Pyroblast",
+    "tags": [ "spawn", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "showTarget": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 246505
+      }
+    }
+  },
+  {
+    "name": "Fusillade",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244625
+      }
+    }
+  },
+  {
+    "name": "Felshield Emitter",
+    "tags": [ "player", "ability" ],
+    "show": false,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244902
+      }
+    }
+  },
+  {
+    "name": "Disruption Field",
+    "tags": [ "player", "ability" ],
+    "show": false,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 254771
+      }
+    }
+  }
 ]

@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "name": "Exploit Weakness",
+    "tags": [ "tank", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244892
+      }
+    }
+  },
+  {
+    "name": "Pyroblast",
+    "tags": [ "player", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 246505
+      }
+    }
+  },
+  {
+    "name": "Entropic Mines",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 245121
+      }
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Felshield",
+    "tags": [ "raid", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "target": "Raid",
+    "filter": {
+      "type": "applydebuff",
+      "range": 11000,
+      "ability": {
+        "id": 244910
+      }
+    }
+  }
+]

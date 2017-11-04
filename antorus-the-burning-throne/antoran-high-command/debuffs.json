@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "name": "Psychic Assault",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "rangePerActor": 180000,
+      "ability": {
+        "id": 244172
+      }
+    }
+  },
+  {
+    "name": "Psychic Scarring",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244388
+      }
+    }
+  },
+  {
+    "name": "Demonic Charge",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 253037
+      }
+    }
+  }
+]
