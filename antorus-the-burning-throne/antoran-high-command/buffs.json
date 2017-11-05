@@ -8,6 +8,7 @@
     "filter": {
       "type": "applydebuff",
       "range": 11000,
+      "minimum": 5,
       "ability": {
         "id": 244910
       }
