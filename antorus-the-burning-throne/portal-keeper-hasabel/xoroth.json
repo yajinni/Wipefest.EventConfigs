@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Xoroth Portal",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "firstseen",
+      "actor": {
+        "id": 122211
+      }
+    }
+  },
+  {
+    "name": "Flames of Xoroth",
+    "tags": [ "xoroth", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244607
+      }
+    }
+  },
+  {
+    "name": "Flames of Xoroth",
+    "tags": [ "xoroth", "interrupt" ],
+    "show": true,
+    "friendly": true,
+    "eventType": "interrupt",
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 244607
+      }
+    }
+  },
+  {
+    "name": "Supernova",
+    "tags": [ "xoroth", "ability" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244598
+      }
+    }
+  },
+  {
+    "name": "Supernova",
+    "tags": [ "xoroth", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244601
+      }
+    }
+  },
+  {
+    "name": "Everburning Flames",
+    "tags": [ "xoroth", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244613
+      }
+    }
+  },
+  {
+    "name": "Everburning Flames (Removed)",
+    "tags": [ "xoroth", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 244613
+      }
+    }
+  }
+]

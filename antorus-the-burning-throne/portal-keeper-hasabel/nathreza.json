@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Nathreza Portal",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "firstseen",
+      "actor": {
+        "id": 122213
+      }
+    }
+  },
+  {
+    "name": "Delusions",
+    "tags": [ "nathreza", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 245050
+      }
+    }
+  },
+  {
+    "name": "Delusions",
+    "tags": [ "nathreza", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 245050
+      }
+    }
+  },
+  {
+    "name": "Delusions (Removed)",
+    "tags": [ "nathreza", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 245050
+      }
+    }
+  },
+  {
+    "name": "Corrupt",
+    "tags": [ "nathreza", "ability" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 245040
+      }
+    }
+  },
+  {
+    "name": "Mind Fog",
+    "tags": [ "nathreza", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 245099
+      }
+    }
+  },
+  {
+    "name": "Mind Fog (Removed)",
+    "tags": [ "nathreza", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 245099
+      }
+    }
+  },
+  {
+    "name": "Cloying Shadows",
+    "tags": [ "nathreza", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 245118
+      }
+    }
+  },
+  {
+    "name": "Cloying Shadows (Removed)",
+    "tags": [ "nathreza", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 245118
+      }
+    }
+  },
+  {
+    "name": "Hungering Gloom",
+    "tags": [ "nathreza", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "type": "damage",
+      "ability": {
+        "id": 245075
+      }
+    }
+  }
+]

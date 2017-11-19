@@ -68,7 +68,7 @@
   {
     "name": "Immunities",
     "tags": [ "raid", "utility" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -80,7 +80,7 @@
   {
     "name": "Immunities",
     "tags": [ "raid", "utility" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "types": [ "heal", "absorbed", "healabsorbed" ],
@@ -117,7 +117,7 @@
   {
     "name": "Minor Healing Cooldowns",
     "tags": [ "raid" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",

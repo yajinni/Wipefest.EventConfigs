@@ -145,7 +145,10 @@
     "id": 2064,
     "name": "Portal Keeper Hasabel",
     "includes": [
-      "antorus-the-burning-throne/portal-keeper-hasabel/abilities"
+      "antorus-the-burning-throne/portal-keeper-hasabel/nexus",
+      "antorus-the-burning-throne/portal-keeper-hasabel/xoroth",
+      "antorus-the-burning-throne/portal-keeper-hasabel/rancora",
+      "antorus-the-burning-throne/portal-keeper-hasabel/nathreza"
     ]
   },
   {

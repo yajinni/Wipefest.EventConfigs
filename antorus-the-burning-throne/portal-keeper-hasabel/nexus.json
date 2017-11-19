@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Pull",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "timestamp": 0
+  },
+  {
+    "name": "Reality Tear",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 244016
+      }
+    }
+  },
+  {
+    "name": "Reality Tear",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244016
+      }
+    }
+  },
+  {
+    "name": "Reality Tear (Removed)",
+    "tags": [ "tank", "debuff" ],
+    "show": true,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 244016
+      }
+    }
+  },
+  {
+    "name": "Collapsing World",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 243983
+      }
+    }
+  },
+  {
+    "name": "Collapsing World > 3m",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 243984
+      },
+      "query": "type in ('damage', 'absorb') and ability.id = 243984 and rawDamage > 3000000"
+    }
+  },
+  {
+    "name": "Felstorm Barrage",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244000
+      }
+    }
+  },
+  {
+    "name": "Felstorm Barrage",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244001
+      }
+    }
+  },
+  {
+    "name": "Transport Portal",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244689
+      }
+    }
+  },
+  {
+    "name": "Fiery Detonation",
+    "tags": [ "spawn", "ability" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244709
+      }
+    }
+  },
+  {
+    "name": "Fiery Detonation",
+    "tags": [ "interrupt" ],
+    "show": false,
+    "eventType": "interrupt",
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 244709
+      }
+    }
+  },
+  {
+    "name": "Howling Shadows",
+    "tags": [ "spawn", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 245504
+      }
+    }
+  },
+  {
+    "name": "Howling Shadows",
+    "tags": [ "interrupt" ],
+    "show": true,
+    "eventType": "interrupt",
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 245504
+      }
+    }
+  },
+  {
+    "name": "Catastrophic Implosion",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 246075
+      }
+    }
+  },
+  {
+    "name": "Unstable Portal",
+    "tags": [ "spawn", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 255805
+      }
+    }
+  }
+]
