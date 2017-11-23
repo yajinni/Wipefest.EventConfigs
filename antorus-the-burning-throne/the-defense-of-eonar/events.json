@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Rain of Fel",
+    "tags": [ "boss", "cast" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "range": 3000,
+      "ability": {
+        "id": 248329
+      }
+    }
+  },
+  {
+    "name": "Rain of Fel",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 248329
+      }
+    }
+  },
+  {
+    "name": "Fel Wake",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 248795
+      }
+    }
+  },
+  {
+    "name": "Fel Swipe",
+    "tags": [ "spawn", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "ids": [ 250701, 250703 ]
+      }
+    }
+  },
+  {
+    "name": "Fel Swipe",
+    "tags": [ "tank", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 250703
+      }
+    }
+  },
+  {
+    "name": "Life Force",
+    "tags": [ "boss", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 250030
+      }
+    }
+  },
+  {
+    "name": "Artillery Strike",
+    "tags": [ "spawn", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 246305
+      }
+    }
+  },
+  {
+    "name": "Artillery Strike",
+    "tags": [ "player", "interrupt" ],
+    "show": true,
+    "friendly": true,
+    "eventType": "interrupt",
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 246305
+      }
+    }
+  }
+]
