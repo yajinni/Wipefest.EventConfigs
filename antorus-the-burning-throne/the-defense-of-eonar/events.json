@@ -2,7 +2,7 @@
   {
     "name": "Rain of Fel",
     "tags": [ "boss", "cast" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "types": [ "damage", "absorb" ],
@@ -97,6 +97,42 @@
       "type": "interrupt",
       "ability": {
         "id": 246305
+      }
+    }
+  },
+  {
+    "name": "Fel-Powered Purifier",
+    "tags": [ "spawn" ],
+    "eventType": "spawn",
+    "show": true,
+    "filter": {
+      "type": "firstseen",
+      "actor": {
+        "id": 123726
+      }
+    }
+  },
+  {
+    "name": "Fel-Infused Destructor",
+    "tags": [ "spawn" ],
+    "eventType": "spawn",
+    "show": true,
+    "filter": {
+      "type": "firstseen",
+      "actor": {
+        "id": 123760
+      }
+    }
+  },
+  {
+    "name": "Fel-Charged Obfuscator",
+    "tags": [ "spawn" ],
+    "eventType": "spawn",
+    "show": true,
+    "filter": {
+      "type": "firstseen",
+      "actor": {
+        "id": 124207
       }
     }
   }
