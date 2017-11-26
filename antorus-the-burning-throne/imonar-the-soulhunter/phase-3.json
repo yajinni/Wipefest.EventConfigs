@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Empowered Shock Lance",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 250255
+      }
+    }
+  },
+  {
+    "name": "Empowered Shock Lance",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 250255
+      }
+    }
+  },
+  {
+    "name": "Empowered Shock Lance (Removed)",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 250255
+      }
+    }
+  },
+  {
+    "name": "Empowered Pulse Grenade",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 250006
+      }
+    }
+  },
+  {
+    "name": "Empowered Pulse Grenade",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 250007
+      }
+    }
+  },
+  {
+    "name": "Empowered Shrapnel Blast",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "types": [ "cast" ],
+      "ability": {
+        "id": 248070
+      }
+    }
+  },
+  {
+    "name": "Empowered Shrapnel Blast",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 248094
+      }
+    }
+  }
+]

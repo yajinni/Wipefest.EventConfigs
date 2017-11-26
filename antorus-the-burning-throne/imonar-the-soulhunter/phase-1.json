@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Shock Lance",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 247367
+      }
+    }
+  },
+  {
+    "name": "Shock Lance",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 247367
+      }
+    }
+  },
+  {
+    "name": "Shock Lance (Removed)",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 247367
+      }
+    }
+  },
+  {
+    "name": "Sleep Canister",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 255029
+      }
+    }
+  },
+  {
+    "name": "Sleep Canister (Removed)",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 255029
+      }
+    }
+  },
+  {
+    "name": "Slumber Gas",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 247565
+      }
+    }
+  },
+  {
+    "name": "Pulse Grenade",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 247376
+      }
+    }
+  },
+  {
+    "name": "Pulse Grenade",
+    "tags": [ "player", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "ids": [ 247681, 247388 ]
+      }
+    }
+  }
+]

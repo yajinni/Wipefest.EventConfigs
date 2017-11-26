@@ -156,7 +156,11 @@
     "id": 2082,
     "name": "Imonar the Soulhunter",
     "includes": [
-      "antorus-the-burning-throne/imonar-the-soulhunter/abilities"
+      "antorus-the-burning-throne/imonar-the-soulhunter/platforms",
+      "antorus-the-burning-throne/imonar-the-soulhunter/phase-1",
+      "antorus-the-burning-throne/imonar-the-soulhunter/phase-2",
+      "antorus-the-burning-throne/imonar-the-soulhunter/phase-3",
+      "antorus-the-burning-throne/imonar-the-soulhunter/transition"
     ]
   },
   {

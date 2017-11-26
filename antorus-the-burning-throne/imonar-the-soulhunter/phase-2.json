@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Sever",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 247687
+      }
+    }
+  },
+  {
+    "name": "Sever",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 247687
+      }
+    }
+  },
+  {
+    "name": "Sever (Removed)",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 247687
+      }
+    }
+  },
+  {
+    "name": "Charged Blasts",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 248254
+      }
+    }
+  },
+  {
+    "name": "Charged Blasts",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 247716
+      }
+    }
+  },
+  {
+    "name": "Shrapnel Blast",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "ids": [ 247932, 247923 ]
+      }
+    }
+  },
+  {
+    "name": "Shrapnel Blast",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "ids": [ 247932, 247949 ]
+      }
+    }
+  }
+]

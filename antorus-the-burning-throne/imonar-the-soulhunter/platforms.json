@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Phase 1",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "timestamp": 0
+  },
+  {
+    "name": "Phase 2",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 248233
+      }
+    }
+  },
+  {
+    "name": "Conflagration",
+    "tags": [ "player", "interrupt" ],
+    "eventType": "interrupt",
+    "show": true,
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 248233
+      }
+    }
+  },
+  {
+    "name": "Phase 3",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 250135
+      }
+    }
+  },
+  {
+    "name": "Conflagration",
+    "tags": [ "player", "interrupt" ],
+    "eventType": "interrupt",
+    "show": true,
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 250135
+      }
+    }
+  },
+  {
+    "name": "Infernal Rockets",
+    "tags": [ "player", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 248252
+      }
+    }
+  }
+]
