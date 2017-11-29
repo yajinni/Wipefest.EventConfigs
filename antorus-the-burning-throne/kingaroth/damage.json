@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Feedback Overload",
+    "tags": [ "spawn", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "title": "{[style=\"npc\"] Fel Reaver} died",
+    "icon": "minus-circle",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 258643
+      }
+    }
+  },
+  {
+    "name": "Apocalypse Blast",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 246634
+      }
+    }
+  },
+  {
+    "name": "Annihilation",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 246664
+      }
+    }
+  },
+  {
+    "name": "Annihilation Blast",
+    "tags": [ "player", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "target": "Raid",
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "range": 1000,
+      "ability": {
+        "id": 246666
+      }
+    }
+  },
+  {
+    "name": "Ruiner",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 246840
+      }
+    }
+  },
+  {
+    "name": "Flame Reverberation",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244328
+      }
+    }
+  },
+  {
+    "name": "Demolish",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 246706
+      }
+    }
+  },
+  {
+    "name": "Decimation > 2m",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 246690
+      },
+      "query": "type in ('damage', 'absorb') and ability.id = 246690 and rawDamage > 2000000"
+    }
+  }
+]

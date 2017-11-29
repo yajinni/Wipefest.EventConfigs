@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Phase 1",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "timestamp": 0
+  },
+  {
+    "name": "Phase 2",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 246516
+      }
+    }
+  },
+  {
+    "name": "Phase 1",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 246516
+      }
+    }
+  }
+]

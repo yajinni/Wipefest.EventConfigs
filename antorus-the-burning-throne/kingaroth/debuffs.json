@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Forging Strike",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 254919
+      }
+    }
+  },
+  {
+    "name": "Forging Strike",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 254919
+      }
+    }
+  },
+  {
+    "name": "Forging Strike (Removed)",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 254919
+      }
+    }
+  },
+  {
+    "name": "Demolish",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 246698
+      }
+    }
+  },
+  {
+    "name": "Decimation",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 246687
+      }
+    }
+  }
+]

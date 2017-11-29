@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Garothi Demolisher",
+    "tags": [ "spawn" ],
+    "eventType": "spawn",
+    "show": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 246504
+      },
+      "actor": {
+        "id": 123929
+      }
+    }
+  },
+  {
+    "name": "Garothi Annihilator",
+    "tags": [ "spawn" ],
+    "eventType": "spawn",
+    "show": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 246504
+      },
+      "actor": {
+        "id": 123906
+      }
+    }
+  },
+  {
+    "name": "Garothi Decimator",
+    "tags": [ "spawn" ],
+    "eventType": "spawn",
+    "show": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 246504
+      },
+      "actor": {
+        "id": 123921
+      }
+    }
+  }
+]

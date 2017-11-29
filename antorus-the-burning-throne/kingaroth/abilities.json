@@ -1,3 +1,38 @@
 [
-
+  {
+    "name": "Diabolic Bomb",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 248214
+      }
+    }
+  },
+  {
+    "name": "Reverberating Strike",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 254926
+      }
+    }
+  },
+  {
+    "name": "Ruiner",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "begincast",
+      "ability": {
+        "id": 246833
+      }
+    }
+  }
 ]

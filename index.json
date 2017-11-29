@@ -168,7 +168,11 @@
     "id": 2088,
     "name": "Kin'garoth",
     "includes": [
-      "antorus-the-burning-throne/kingaroth/abilities"
+      "antorus-the-burning-throne/kingaroth/abilities",
+      "antorus-the-burning-throne/kingaroth/damage",
+      "antorus-the-burning-throne/kingaroth/debuffs",
+      "antorus-the-burning-throne/kingaroth/phases",
+      "antorus-the-burning-throne/kingaroth/spawns"
     ]
   },
   {
