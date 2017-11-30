@@ -7,54 +7,80 @@
     "timestamp": 0
   },
   {
-    "name": "Torment of Norgannon",
+    "name": "Noura and Asara",
     "tags": [ "phase" ],
     "eventType": "phase",
     "show": true,
     "filter": {
       "type": "cast",
-      "range": 60000,
+      "index": 0,
       "ability": {
-        "id": 249863
+        "ids": [ 250335, 249793, 250334, 250333 ]
       }
     }
   },
   {
-    "name": "Torment of Khaz'goroth",
+    "name": "Asara and Diima",
     "tags": [ "phase" ],
     "eventType": "phase",
     "show": true,
     "filter": {
       "type": "cast",
-      "range": 60000,
+      "index": 2,
       "ability": {
-        "id": 245671
+        "ids": [ 250335, 249793, 250334, 250333 ]
       }
     }
   },
   {
-    "name": "Torment of Aman'Thul",
+    "name": "Diima and Noura",
     "tags": [ "phase" ],
     "eventType": "phase",
     "show": true,
     "filter": {
       "type": "cast",
-      "range": 60000,
+      "index": 4,
       "ability": {
-        "id": 250097
+        "ids": [ 250335, 249793, 250334, 250333 ]
       }
     }
   },
   {
-    "name": "Torment of Golganneth",
+    "name": "Noura and Asara",
     "tags": [ "phase" ],
     "eventType": "phase",
     "show": true,
     "filter": {
       "type": "cast",
-      "range": 60000,
+      "index": 6,
       "ability": {
-        "id": 246739
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "name": "Asara and Diima",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "index": 8,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "name": "Diima and Noura",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "index": 10,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
       }
     }
   }

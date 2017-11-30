@@ -1,5 +1,57 @@
 [
   {
+    "name": "Torment of Norgannon",
+    "tags": [ "titan" ],
+    "eventType": "ability",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "range": 60000,
+      "ability": {
+        "id": 249863
+      }
+    }
+  },
+  {
+    "name": "Torment of Khaz'goroth",
+    "tags": [ "titan" ],
+    "eventType": "ability",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "range": 60000,
+      "ability": {
+        "id": 245671
+      }
+    }
+  },
+  {
+    "name": "Torment of Aman'Thul",
+    "tags": [ "titan" ],
+    "eventType": "ability",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "range": 60000,
+      "ability": {
+        "id": 250097
+      }
+    }
+  },
+  {
+    "name": "Torment of Golganneth",
+    "tags": [ "titan" ],
+    "eventType": "ability",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "range": 60000,
+      "ability": {
+        "id": 246739
+      }
+    }
+  },
+  {
     "name": "Shadow Blades",
     "tags": [ "boss", "ability" ],
     "eventType": "ability",
