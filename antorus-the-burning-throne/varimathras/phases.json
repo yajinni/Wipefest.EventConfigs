@@ -8,18 +8,18 @@
   },
   {
     "name": "Torment of Frost",
+    "difficulties": [ 4, 5 ],
     "tags": [ "phase" ],
     "eventType": "phase",
     "show": true,
-    "difficulties": [ "heroic", "mythic" ],
     "timestamp": 120000
   },
   {
     "name": "Torment of Fel",
+    "difficulties": [ 4, 5 ],
     "tags": [ "phase" ],
     "eventType": "phase",
     "show": true,
-    "difficulties": [ "heroic", "mythic" ],
     "timestamp": 240000
   },
   {
@@ -27,7 +27,6 @@
     "tags": [ "phase" ],
     "eventType": "phase",
     "show": true,
-    "difficulties": [ "heroic", "mythic" ],
     "timestamp": 360000
   }
 ]
