@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Shadow Strike",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 243960
+      }
+    }
+  },
+  {
+    "name": "Alone in the Darkness",
+    "tags": [ "player", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 243963
+      }
+    }
+  },
+  {
+    "name": "Shadow Hunter",
+    "tags": [ "player", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244070
+      }
+    }
+  },
+  {
+    "name": "Dark Fissure",
+    "tags": [ "player", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244005
+      }
+    }
+  }
+]

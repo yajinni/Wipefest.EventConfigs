@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Torment of Flames",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "timestamp": 0
+  },
+  {
+    "name": "Torment of Frost",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "difficulties": [ "heroic", "mythic" ],
+    "timestamp": 120000
+  },
+  {
+    "name": "Torment of Fel",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "difficulties": [ "heroic", "mythic" ],
+    "timestamp": 240000
+  },
+  {
+    "name": "Torment of Shadows",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "difficulties": [ "heroic", "mythic" ],
+    "timestamp": 360000
+  }
+]

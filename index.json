@@ -180,7 +180,10 @@
     "id": 2069,
     "name": "Varimathras",
     "includes": [
-      "antorus-the-burning-throne/varimathras/abilities"
+      "antorus-the-burning-throne/varimathras/abilities",
+      "antorus-the-burning-throne/varimathras/damage",
+      "antorus-the-burning-throne/varimathras/debuffs",
+      "antorus-the-burning-throne/varimathras/phases"
     ]
   },
   {

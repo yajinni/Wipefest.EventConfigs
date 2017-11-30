@@ -1,3 +1,14 @@
 [
-
+  {
+    "name": "Dark Fissure",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 243999
+      }
+    }
+  }
 ]

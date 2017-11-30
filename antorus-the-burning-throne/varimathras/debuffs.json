@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Misery",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 243961
+      }
+    }
+  },
+  {
+    "name": "Necrotic Embrace",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244094
+      }
+    }
+  },
+  {
+    "name": "Marked Prey",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244042
+      }
+    }
+  }
+]
