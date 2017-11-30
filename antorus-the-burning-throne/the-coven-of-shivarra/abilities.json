@@ -1,6 +1,6 @@
 [
   {
-    "name": "Torment of Norgannon",
+    "name": "Visage of the Titan",
     "tags": [ "titan" ],
     "eventType": "ability",
     "show": true,
@@ -13,12 +13,12 @@
     }
   },
   {
-    "name": "Torment of Khaz'goroth",
+    "name": "Flames of Khaz'goroth",
     "tags": [ "titan" ],
     "eventType": "ability",
     "show": true,
     "filter": {
-      "type": "cast",
+      "type": "begincast",
       "range": 60000,
       "ability": {
         "id": 245671
@@ -26,7 +26,7 @@
     }
   },
   {
-    "name": "Torment of Aman'Thul",
+    "name": "Machinations of Aman'Thul",
     "tags": [ "titan" ],
     "eventType": "ability",
     "show": true,
@@ -39,12 +39,12 @@
     }
   },
   {
-    "name": "Torment of Golganneth",
+    "name": "Fury of Golganneth",
     "tags": [ "titan" ],
     "eventType": "ability",
     "show": true,
     "filter": {
-      "type": "cast",
+      "type": "begincast",
       "range": 60000,
       "ability": {
         "id": 246739

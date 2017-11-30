@@ -51,5 +51,33 @@
         "id": 245674
       }
     }
+  },
+  {
+    "name": "Fury of Golganneth",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 246770
+      }
+    }
+  },
+  {
+    "name": "Spectral Army of Norgannon",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 245921
+      }
+    }
   }
 ]
