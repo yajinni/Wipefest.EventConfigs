@@ -191,7 +191,11 @@
     "id": 2073,
     "name": "The Coven of Shivarra",
     "includes": [
-      "antorus-the-burning-throne/the-coven-of-shivarra/abilities"
+      "antorus-the-burning-throne/the-coven-of-shivarra/abilities",
+      "antorus-the-burning-throne/the-coven-of-shivarra/coven",
+      "antorus-the-burning-throne/the-coven-of-shivarra/damage",
+      "antorus-the-burning-throne/the-coven-of-shivarra/debuffs",
+      "antorus-the-burning-throne/the-coven-of-shivarra/phases"
     ]
   },
   {

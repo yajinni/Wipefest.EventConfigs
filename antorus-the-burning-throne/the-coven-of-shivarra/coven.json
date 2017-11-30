@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Noura and Asara",
+    "tags": [ "boss" ],
+    "eventType": "ability",
+    "show": true,
+    "title": "{[style=\"npc\"] Noura} and {[style=\"npc\"] Asara} active",
+    "filter": {
+      "type": "cast",
+      "index": 0,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "name": "Asara and Diima",
+    "tags": [ "boss" ],
+    "eventType": "ability",
+    "show": true,
+    "title": "{[style=\"npc\"] Asara} and {[style=\"npc\"] Diima} active",
+    "filter": {
+      "type": "cast",
+      "index": 2,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "name": "Diima and Noura",
+    "tags": [ "boss" ],
+    "eventType": "ability",
+    "show": true,
+    "title": "{[style=\"npc\"] Diima} and {[style=\"npc\"] Noura} active",
+    "filter": {
+      "type": "cast",
+      "index": 4,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "name": "Noura and Asara",
+    "tags": [ "boss" ],
+    "eventType": "ability",
+    "show": true,
+    "title": "{[style=\"npc\"] Noura} and {[style=\"npc\"] Asara} active",
+    "filter": {
+      "type": "cast",
+      "index": 6,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "name": "Asara and Diima",
+    "tags": [ "boss" ],
+    "eventType": "ability",
+    "show": true,
+    "title": "{[style=\"npc\"] Asara} and {[style=\"npc\"] Diima} active",
+    "filter": {
+      "type": "cast",
+      "index": 8,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "name": "Diima and Noura",
+    "tags": [ "boss" ],
+    "eventType": "ability",
+    "show": true,
+    "title": "{[style=\"npc\"] Diima} and {[style=\"npc\"] Noura} active",
+    "filter": {
+      "type": "cast",
+      "index": 10,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  }
+]

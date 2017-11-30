@@ -1,3 +1,76 @@
 [
-
+  {
+    "name": "Shadow Blades",
+    "tags": [ "boss", "ability" ],
+    "eventType": "ability",
+    "show": false,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 246329
+      }
+    }
+  },
+  {
+    "name": "Whirling Saber",
+    "tags": [ "boss", "ability" ],
+    "eventType": "ability",
+    "show": false,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 245627
+      }
+    }
+  },
+  {
+    "name": "Orb of Frost",
+    "tags": [ "boss", "ability" ],
+    "eventType": "ability",
+    "show": false,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 253650
+      }
+    }
+  },
+  {
+    "name": "Storm of Darkness",
+    "tags": [ "boss", "ability" ],
+    "eventType": "ability",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 252861
+      }
+    }
+  },
+  {
+    "name": "Chilled Blood",
+    "tags": [ "boss", "ability" ],
+    "eventType": "ability",
+    "show": false,
+    "filter": {
+      "type": "applydebuff",
+      "range": 3000,
+      "ability": {
+        "id": 245586
+      }
+    }
+  },
+  {
+    "name": "Fulminating Pulse",
+    "tags": [ "boss", "ability" ],
+    "eventType": "ability",
+    "show": true,
+    "filter": {
+      "type": "applydebuff",
+      "range": 3000,
+      "ability": {
+        "id": 253520
+      }
+    }
+  }
 ]

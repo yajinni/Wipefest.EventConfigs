@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Shadow Blades",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 246374
+      }
+    }
+  },
+  {
+    "name": "Fulminating Burst",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 253588
+      }
+    }
+  },
+  {
+    "name": "Whirling Saber",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 245634
+      }
+    }
+  },
+  {
+    "name": "Flames of Khaz'goroth",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 245674
+      }
+    }
+  }
+]

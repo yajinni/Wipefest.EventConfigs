@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Pull",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "timestamp": 0
+  },
+  {
+    "name": "Torment of Norgannon",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "range": 60000,
+      "ability": {
+        "id": 249863
+      }
+    }
+  },
+  {
+    "name": "Torment of Khaz'goroth",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "range": 60000,
+      "ability": {
+        "id": 245671
+      }
+    }
+  },
+  {
+    "name": "Torment of Aman'Thul",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "range": 60000,
+      "ability": {
+        "id": 250097
+      }
+    }
+  },
+  {
+    "name": "Torment of Golganneth",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "range": 60000,
+      "ability": {
+        "id": 246739
+      }
+    }
+  }
+]

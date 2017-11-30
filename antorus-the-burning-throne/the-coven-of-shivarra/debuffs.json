@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Fiery Strike",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 244899
+      }
+    }
+  },
+  {
+    "name": "Fiery Strike",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244899
+      }
+    }
+  },
+  {
+    "name": "Fiery Strike (Removed)",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 244899
+      }
+    }
+  },
+  {
+    "name": "Flashfreeze",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 245518
+      }
+    }
+  },
+  {
+    "name": "Flashfreeze",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 245518
+      }
+    }
+  },
+  {
+    "name": "Flashfreeze (Removed)",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 245518
+      }
+    }
+  },
+  {
+    "name": "Chilled Blood",
+    "tags": [ "player", "debuff" ],
+    "eventType": "debuff",
+    "show": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 245586
+      }
+    }
+  },
+  {
+    "name": "Chilled Blood (Frozen)",
+    "tags": [ "player", "debuff" ],
+    "eventType": "debuff",
+    "show": false,
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 256356
+      }
+    }
+  },
+  {
+    "name": "Fulminating Pulse",
+    "tags": [ "player", "debuff" ],
+    "eventType": "debuff",
+    "show": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 253520
+      }
+    }
+  }
+]
