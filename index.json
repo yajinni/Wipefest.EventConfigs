@@ -202,7 +202,12 @@
     "id": 2063,
     "name": "Aggramar",
     "includes": [
-      "antorus-the-burning-throne/aggramar/abilities"
+      "antorus-the-burning-throne/aggramar/abilities",
+      "antorus-the-burning-throne/aggramar/buffs",
+      "antorus-the-burning-throne/aggramar/damage",
+      "antorus-the-burning-throne/aggramar/debuffs",
+      "antorus-the-burning-throne/aggramar/phases",
+      "antorus-the-burning-throne/aggramar/spawns"
     ]
   },
   {

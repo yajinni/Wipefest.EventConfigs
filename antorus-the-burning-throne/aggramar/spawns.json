@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Flame of Taeshalach",
+    "tags": [ "spawn" ],
+    "eventType": "spawn",
+    "show": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 244901
+      }
+    }
+  },
+  {
+    "name": "Flame of Taeshalach (Died)",
+    "tags": [ "spawn" ],
+    "eventType": "ability",
+    "show": true,
+    "friendly": true,
+    "title": "{[style=\"npc\"] Flame of Taeshalach} died",
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 244901
+      }
+    }
+  },
+  {
+    "name": "Catalyzing Presence",
+    "tags": [ "spawn", "buff" ],
+    "eventType": "debuff",
+    "show": false,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 244903
+      }
+    }
+  },
+  {
+    "name": "Catalyzing Presence (Removed)",
+    "tags": [ "spawn", "buff" ],
+    "eventType": "removedebuff",
+    "show": false,
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 244903
+      }
+    }
+  }
+]
