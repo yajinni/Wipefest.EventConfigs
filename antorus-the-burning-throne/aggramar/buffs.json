@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Corrupt Aegis",
+    "tags": [ "boss", "buff" ],
+    "eventType": "debuff",
+    "show": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 244894
+      }
+    }
+  },
+  {
+    "name": "Corrupt Aegis (Removed)",
+    "tags": [ "boss", "buff" ],
+    "eventType": "removedebuff",
+    "show": true,
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 244894
+      }
+    }
+  },
+  {
+    "name": "Burning Rage",
+    "tags": [ "boss", "buff" ],
+    "eventType": "debuff",
+    "show": true,
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 244713
+      }
+    }
+  }
+]

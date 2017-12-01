@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Corrupt Aegis",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 254022
+      }
+    }
+  },
+  {
+    "name": "Flare",
+    "tags": [ "player", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 245391
+      }
+    }
+  },
+  {
+    "name": "Empowered Flare",
+    "tags": [ "player", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 245392
+      }
+    }
+  },
+  {
+    "name": "Meteor Swarm",
+    "tags": [ "player", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244686
+      }
+    }
+  }
+]

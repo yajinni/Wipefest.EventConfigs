@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Phase 1",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "timestamp": 0
+  },
+  {
+    "name": "Intermission 1",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "applybuff",
+      "index": 0,
+      "ability": {
+        "id": 244894
+      }
+    }
+  },
+  {
+    "name": "Phase 2",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "removebuff",
+      "index": 0,
+      "ability": {
+        "id": 244894
+      }
+    }
+  },
+  {
+    "name": "Intermission 2",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "applybuff",
+      "index": 1,
+      "ability": {
+        "id": 244894
+      }
+    }
+  },
+  {
+    "name": "Phase 3",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "removebuff",
+      "index": 1,
+      "ability": {
+        "id": 244894
+      }
+    }
+  }
+]

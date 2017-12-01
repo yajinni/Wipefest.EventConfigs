@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Wake of Flame",
+    "tags": [ "player", "debuff" ],
+    "eventType": "debuff",
+    "show": true,
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244736
+      }
+    }
+  },
+  {
+    "name": "Foe Breaker",
+    "tags": [ "tank", "debuff" ],
+    "eventType": "debuff",
+    "show": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244291
+      }
+    }
+  },
+  {
+    "name": "Molten Remnants",
+    "tags": [ "player", "debuff" ],
+    "eventType": "debuff",
+    "show": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 245916
+      }
+    }
+  },
+  {
+    "name": "Taeshalach's Reach",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 245990
+      }
+    }
+  },
+  {
+    "name": "Taeshalach's Reach",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 245990
+      }
+    }
+  },
+  {
+    "name": "Taeshalach's Reach (Removed)",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 245990
+      }
+    }
+  }
+]
