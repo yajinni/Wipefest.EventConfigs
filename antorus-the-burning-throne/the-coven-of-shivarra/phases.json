@@ -1,23 +1,10 @@
 [
   {
-    "name": "Pull",
-    "tags": [ "phase" ],
-    "eventType": "phase",
-    "show": true,
-    "timestamp": 0
-  },
-  {
     "name": "Noura and Asara",
     "tags": [ "phase" ],
     "eventType": "phase",
     "show": true,
-    "filter": {
-      "type": "cast",
-      "index": 0,
-      "ability": {
-        "ids": [ 250335, 249793, 250334, 250333 ]
-      }
-    }
+    "timestamp": 0
   },
   {
     "name": "Asara and Diima",
