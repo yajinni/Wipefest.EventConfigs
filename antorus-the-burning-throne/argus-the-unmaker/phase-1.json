@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Sweeping Scythe",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 248499
+      }
+    }
+  },
+  {
+    "name": "Sweeping Scythe",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 248499
+      }
+    }
+  },
+  {
+    "name": "Sweeping Scythe (Removed)",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 248499
+      }
+    }
+  },
+  {
+    "name": "Cone of Death",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 248165
+      }
+    }
+  },
+  {
+    "name": "Soulblight",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 248396
+      }
+    }
+  },
+  {
+    "name": "Death Fog",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 248167
+      }
+    }
+  },
+  {
+    "name": "Tortured Rage",
+    "tags": [ "boss", "ability" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 257296
+      }
+    }
+  },
+  {
+    "name": "Sky and Sea",
+    "tags": [ "titan" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": false,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 255594
+      }
+    }
+  },
+  {
+    "name": "Strength of the Sky",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 253903
+      }
+    }
+  },
+  {
+    "name": "Strength of the Sky",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 253903
+      }
+    }
+  },
+  {
+    "name": "Strength of the Sky (Removed)",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 253903
+      }
+    }
+  },
+  {
+    "name": "Strength of the Sea",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 253901
+      }
+    }
+  },
+  {
+    "name": "Strength of the Sea",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 253901
+      }
+    }
+  },
+  {
+    "name": "Strength of the Sea (Removed)",
+    "tags": [ "player", "buff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 253901
+      }
+    }
+  }
+]

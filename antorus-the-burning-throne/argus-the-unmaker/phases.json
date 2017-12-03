@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Phase 1",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "timestamp": 0
+  },
+  {
+    "name": "Phase 2",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 255648
+      }
+    }
+  },
+  {
+    "name": "Phase 3",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 257645
+      }
+    }
+  },
+  {
+    "name": "Reap Soul",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "collapsed": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 258399
+      }
+    }
+  },
+  {
+    "name": "Phase 4",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 257619
+      }
+    }
+  }
+]

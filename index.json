@@ -215,7 +215,12 @@
     "id": 2092,
     "name": "Argus the Unmaker",
     "includes": [
-      "antorus-the-burning-throne/argus-the-unmaker/abilities"
+      "antorus-the-burning-throne/argus-the-unmaker/phase-1",
+      "antorus-the-burning-throne/argus-the-unmaker/phase-2",
+      "antorus-the-burning-throne/argus-the-unmaker/phase-3",
+      "antorus-the-burning-throne/argus-the-unmaker/phase-4",
+      "antorus-the-burning-throne/argus-the-unmaker/phases",
+      "antorus-the-burning-throne/argus-the-unmaker/reap-soul"
     ]
   }
 ]

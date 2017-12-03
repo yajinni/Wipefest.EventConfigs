@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Temporal Blast",
+    "tags": [ "titan" ],
+    "eventType": "ability",
+    "show": true,
+    "friendly": false,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 257645
+      }
+    }
+  },
+  {
+    "name": "Cosmic Beacon",
+    "tags": [ "player", "interrupt" ],
+    "eventType": "interrupt",
+    "show": true,
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 252616
+      }
+    }
+  },
+  {
+    "name": "Starblast",
+    "tags": [ "player", "interrupt" ],
+    "eventType": "interrupt",
+    "show": true,
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 253061
+      }
+    }
+  },
+  {
+    "name": "Cosmic Ray",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 252729
+      }
+    }
+  },
+  {
+    "name": "Cosmic Ray",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 252707
+      }
+    }
+  },
+  {
+    "name": "The Discs of Norgannon",
+    "tags": [ "titan" ],
+    "eventType": "ability",
+    "show": true,
+    "friendly": false,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 252516
+      }
+    }
+  },
+  {
+    "name": "Sword of the Cosmos",
+    "tags": [ "spawn", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 255496
+      }
+    }
+  },
+  {
+    "name": "Blades of the Eternal",
+    "tags": [ "spawn", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 255478
+      }
+    }
+  },
+  {
+    "name": "Cosmic Power",
+    "tags": [ "spawn", "ability" ],
+    "eventType": "ability",
+    "show": true,
+    "filter": {
+      "type": "begincast",
+      "ability": {
+        "id": 255935
+      }
+    }
+  },
+  {
+    "name": "Cosmic Power",
+    "tags": [ "spawn", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 255935
+      }
+    }
+  },
+  {
+    "name": "Cosmic Power",
+    "tags": [ "spawn", "buff" ],
+    "show": true,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applybuffstack",
+      "ability": {
+        "id": 255935
+      }
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Reap Soul",
+    "tags": [ "boss", "ability" ],
+    "eventType": "ability",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 258399
+      }
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Golganneth's Wrath",
+    "tags": [ "titan" ],
+    "eventType": "ability",
+    "show": true,
+    "friendly": false,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 255648
+      }
+    }
+  },
+  {
+    "name": "Soulburst",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 250669
+      }
+    }
+  },
+  {
+    "name": "Soulbomb",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 251570
+      }
+    }
+  },
+  {
+    "name": "Soulbomb Detonation",
+    "tags": [ "raid", "damage" ],
+    "show": true,
+    "eventType": "damage",
+    "friendly": true,
+    "target": "Raid",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "range": 10000,
+      "ability": {
+        "id": 251571
+      }
+    }
+  },
+  {
+    "name": "Avatar of Aggramar",
+    "tags": [ "tank", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 255199
+      }
+    }
+  },
+  {
+    "name": "Aggramar's Boon",
+    "tags": [ "player", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "showSource": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 255200
+      },
+      "query": "type = 'applydebuff' and ability.id = 255200 and in range from type = 'applydebuff' and ability.id = 251570 to type = 'removedebuff' and ability.id = 251570 group by target end"
+    }
+  },
+  {
+    "name": "Aggramar's Boon (Removed)",
+    "tags": [ "player", "buff" ],
+    "show": true,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 255200
+      },
+      "query": "type = 'removedebuff' and ability.id = 255200 and in range from type = 'applydebuff' and ability.id = 251570 to type = 'removedebuff' and ability.id = 251570 group by target end"
+    }
+  },
+  {
+    "name": "Edge of Obliteration",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 255826
+      }
+    }
+  },
+  {
+    "name": "Edge of Obliteration",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 251815
+      }
+    }
+  }
+]

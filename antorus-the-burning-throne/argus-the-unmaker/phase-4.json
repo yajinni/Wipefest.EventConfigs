@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Deadly Scythe",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 258039
+      }
+    }
+  },
+  {
+    "name": "Deadly Scythe",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 258039
+      }
+    }
+  },
+  {
+    "name": "Deadly Scythe (Removed)",
+    "tags": [ "tank", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 258039
+      }
+    }
+  },
+  {
+    "name": "End of All Things",
+    "tags": [ "player", "interrupt" ],
+    "eventType": "interrupt",
+    "show": true,
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 256544
+      }
+    }
+  },
+  {
+    "name": "Ember of Rage",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuffstack",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuffstack",
+      "ability": {
+        "id": 257299
+      }
+    }
+  },
+  {
+    "name": "Ember of Rage",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 257299
+      }
+    }
+  },
+  {
+    "name": "Ember of Rage (Removed)",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 257299
+      }
+    }
+  },
+  {
+    "name": "Reorigination Module",
+    "tags": [ "spawn" ],
+    "eventType": "spawn",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 256388
+      }
+    }
+  },
+  {
+    "name": "Reorigination Pulse",
+    "tags": [ "spawn", "ability" ],
+    "eventType": "ability",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 256396
+      }
+    }
+  },
+  {
+    "name": "Soul Detonation",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 256899
+      }
+    }
+  },
+  {
+    "name": "Titanforging",
+    "tags": [ "titan" ],
+    "eventType": "ability",
+    "show": true,
+    "friendly": false,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 257214
+      }
+    }
+  },
+  {
+    "name": "Gift of the Lifebinder",
+    "tags": [ "titan" ],
+    "eventType": "ability",
+    "show": true,
+    "friendly": false,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 257619
+      }
+    }
+  },
+  {
+    "name": "Withering Roots",
+    "tags": [ "spawn", "debuff" ],
+    "show": true,
+    "eventType": "debuffstack",
+    "friendly": true,
+    "filter": {
+      "type": "applybuffstack",
+      "ability": {
+        "id": 256399
+      }
+    }
+  },
+  {
+    "name": "Withering Roots",
+    "tags": [ "spawn", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 256399
+      }
+    }
+  }
+]
