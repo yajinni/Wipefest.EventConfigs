@@ -4,10 +4,25 @@
     "tags": [ "boss", "ability" ],
     "show": true,
     "eventType": "ability",
+    "friendly": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "range": 3000,
+      "ability": {
+        "ids": [ 244761, 246971 ]
+      }
+    }
+  },
+  {
+    "name": "Shrapnel",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
     "filter": {
       "type": "cast",
+      "range": 3000,
       "ability": {
-        "id": 244294
+        "id": 247044
       }
     }
   },
@@ -32,6 +47,18 @@
       "type": "cast",
       "ability": {
         "id": 245294
+      }
+    }
+  },
+  {
+    "name": "Haywire Decimation",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 246919
       }
     }
   },
@@ -80,6 +107,44 @@
       "type": "cast",
       "ability": {
         "id": 244969
+      }
+    }
+  },
+  {
+    "name": "Luring Destruction",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 246848
+      }
+    }
+  },
+  {
+    "name": "Haywire (Annihilation)",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "title": "{[style=\"npc\"] Annihilator} destroyed",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 246965
+      }
+    }
+  },
+  {
+    "name": "Haywire (Decimation)",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "title": "{[style=\"npc\"] Decimator} destroyed",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 246897
       }
     }
   }

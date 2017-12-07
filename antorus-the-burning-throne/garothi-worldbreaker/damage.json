@@ -34,7 +34,21 @@
     "filter": {
       "types": [ "damage", "absorb" ],
       "ability": {
-        "id": 244761
+        "ids": [ 244761, 246971 ]
+      }
+    }
+  },
+  {
+    "name": "Shrapnel",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "showSource": false,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 247044
       }
     }
   },
