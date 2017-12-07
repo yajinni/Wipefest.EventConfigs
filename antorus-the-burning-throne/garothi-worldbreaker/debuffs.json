@@ -2,7 +2,7 @@
   {
     "name": "Fel Bombardment",
     "tags": [ "player", "debuff" ],
-    "show": true,
+    "show": false,
     "eventType": "debuff",
     "filter": {
       "type": "applydebuff",
