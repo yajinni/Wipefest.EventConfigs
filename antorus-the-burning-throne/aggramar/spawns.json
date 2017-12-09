@@ -48,5 +48,18 @@
         "id": 244903
       }
     }
+  },
+  {
+    "name": "Blazing Eruption",
+    "tags": [ "spawn" ],
+    "eventType": "ability",
+    "show": true,
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 244912
+      }
+    }
   }
 ]
