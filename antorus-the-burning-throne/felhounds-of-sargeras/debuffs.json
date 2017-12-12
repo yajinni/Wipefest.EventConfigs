@@ -71,5 +71,29 @@
         "id": 245098
       }
     }
+  },
+  {
+    "name": "Flametouched",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244054
+      }
+    }
+  },
+  {
+    "name": "Shadowtouched",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244055
+      }
+    }
   }
 ]
