@@ -4,6 +4,7 @@
     "tags": [ "player", "damage" ],
     "show": false,
     "eventType": "damage",
+    "friendly": true,
     "filter": {
       "types": [ "damage", "absorb" ],
       "ability": {
@@ -16,6 +17,7 @@
     "tags": [ "player", "damage" ],
     "show": false,
     "eventType": "damage",
+    "friendly": true,
     "filter": {
       "types": [ "damage", "absorb" ],
       "ability": {
@@ -28,10 +30,49 @@
     "tags": [ "player", "damage" ],
     "show": false,
     "eventType": "damage",
+    "friendly": true,
     "filter": {
       "types": [ "damage", "absorb" ],
       "ability": {
         "id": 254403
+      }
+    }
+  },
+  {
+    "name": "Burning Flash",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244681
+      }
+    }
+  },
+  {
+    "name": "Burning Remnant",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 245022
+      }
+    }
+  },
+  {
+    "name": "Shadowscar",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 245100
       }
     }
   }
