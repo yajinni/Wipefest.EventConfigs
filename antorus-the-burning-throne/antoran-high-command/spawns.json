@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Entropic Mine",
+    "tags": [ "spawn" ],
+    "show": false,
+    "eventType": "ability",
+    "title": "Entropic Mine spawned",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 257262
+      }
+    }
+  }
+]

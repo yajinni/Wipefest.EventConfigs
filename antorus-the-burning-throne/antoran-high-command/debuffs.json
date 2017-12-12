@@ -22,7 +22,7 @@
     "filter": {
       "type": "applydebuff",
       "ability": {
-        "id": 244388
+        "ids": [ 244388, 253306 ]
       }
     }
   },
