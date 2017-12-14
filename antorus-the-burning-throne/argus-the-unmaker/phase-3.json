@@ -25,14 +25,14 @@
     }
   },
   {
-    "name": "Starblast",
-    "tags": [ "player", "interrupt" ],
-    "eventType": "interrupt",
+    "name": "Cosmic Beacon",
+    "tags": [ "spawn", "ability" ],
+    "eventType": "ability",
     "show": true,
     "filter": {
-      "type": "interrupt",
+      "type": "cast",
       "ability": {
-        "id": 253061
+        "id": 252616
       }
     }
   },

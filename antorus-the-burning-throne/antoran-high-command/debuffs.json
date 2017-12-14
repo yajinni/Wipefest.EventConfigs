@@ -37,5 +37,17 @@
         "id": 253037
       }
     }
+  },
+  {
+    "name": "Shock Grenade",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244737
+      }
+    }
   }
 ]

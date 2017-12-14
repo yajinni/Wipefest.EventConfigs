@@ -24,6 +24,19 @@
     }
   },
   {
+    "name": "Shocked",
+    "tags": [ "player", "damage" ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true, 
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 244748
+      }
+    }
+  },
+  {
     "name": "Entropic Mines",
     "tags": [ "player", "damage" ],
     "show": false,
