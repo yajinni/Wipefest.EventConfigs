@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Normal Waves",
+    "difficulties": [ 3 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamps": [
+      6000,
+      44000,
+      74000,
+      112000,
+      165000,
+      195000,
+      205000,
+      236000,
+      285000
+    ],
+    "titles": [
+      "Wave 1: Middle Destructor",
+      "Wave 2: Bottom Destructor",
+      "Wave 3: Middle Destructor",
+      "Wave 4: Top Destructor",
+      "Wave 5: Middle Obfuscator",
+      "Wave 6: Bats",
+      "Wave 7: Bottom Destructor",
+      "Wave 8: Top Destructor",
+      "Wave 9: Middle Destructor"
+    ]
+  },
+  {
+    "name": "Heroic Waves",
+    "difficulties": [ 4 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamps": [
+      6800,
+      35000,
+      68000,
+      87000,
+      114000,
+      159000,
+      190000,
+      215000,
+      285000,
+      320000
+    ],
+    "titles": [
+      "Wave 1: Middle Destructor",
+      "Wave 2: Bottom Destructor",
+      "Wave 3: Top Obfuscator",
+      "Wave 4: Top Destructor",
+      "Wave 5: Middle Purifier",
+      "Wave 6: Bats",
+      "Wave 7 / 8: Top Small Adds / Bottom Destructor",
+      "Wave 9: Middle Purifier",
+      "Wave 10: Bats",
+      "Wave 11 / 12: Top Destructor / Middle Destructor / Bottom Obfuscator"
+    ]
+  },
+  {
+    "name": "Wave 1: Middle Destructor",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 11000
+  },
+  {
+    "name": "Wave 2 / 3: Top Destructor / Bottom Obfuscator",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 38000
+  },
+  {
+    "name": "Wave 4: Middle Purifier",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 65000
+  },
+  {
+    "name": "Wave 5: Bottom Destructor",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 110000
+  },
+  {
+    "name": "Wave 6: Middle Purifier",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 133000
+  },
+  {
+    "name": "Wave 7: Top Small Adds",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 145000
+  },
+  {
+    "name": "Wave 8: Bats",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 165000
+  },
+  {
+    "name": "Wave 9: Bottom Purifier",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 208000
+  },
+  {
+    "name": "Wave 10: Bats",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 260000
+  },
+  {
+    "name": "Wave 11: Middle Obfuscator",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 278000
+  },
+  {
+    "name": "Wave 12: Bottom Small Adds",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 297000
+  },
+  {
+    "name": "Wave 13: Top Obfuscator",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 328000
+  },
+  {
+    "name": "Wave 14: Top Purifier",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 352000
+  },
+  {
+    "name": "Wave 15: Bats",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 360000
+  },
+  {
+    "name": "Wave 16: Middle Destructor",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 403000
+  },
+  {
+    "name": "Wave 17: Bottom Obfuscator",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 413000
+  },
+  {
+    "name": "Wave 18: Top Destructor",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 424000
+  },
+  {
+    "name": "Wave 19: Bats",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "eventType": "title",
+    "show": true,
+    "timestamp": 480000
+  }
+]

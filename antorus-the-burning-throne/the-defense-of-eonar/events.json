@@ -40,7 +40,7 @@
   {
     "name": "Fel Swipe",
     "tags": [ "spawn", "ability" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -101,39 +101,83 @@
     }
   },
   {
-    "name": "Fel-Powered Purifier",
-    "tags": [ "spawn" ],
-    "eventType": "spawn",
+    "name": "Purge",
+    "tags": [ "boss", "ability" ],
     "show": true,
+    "eventType": "ability",
     "filter": {
-      "type": "firstseen",
-      "actor": {
-        "id": 123726
+      "type": "cast",
+      "ability": {
+        "id": 249934
       }
     }
   },
   {
-    "name": "Fel-Infused Destructor",
-    "tags": [ "spawn" ],
-    "eventType": "spawn",
+    "name": "Feedback - Foul Steps",
+    "difficulties": [ 5 ],
+    "tags": [ "player", "debuff" ],
     "show": true,
+    "eventType": "debuff",
+    "friendly": true,
     "filter": {
-      "type": "firstseen",
-      "actor": {
-        "id": 123760
+      "type": "applydebuff",
+      "firstPerInstance": true,
+      "ability": {
+        "id": 249014
       }
     }
   },
   {
-    "name": "Fel-Charged Obfuscator",
-    "tags": [ "spawn" ],
-    "eventType": "spawn",
+    "name": "Feedback - Arcane Singularity",
+    "difficulties": [ 5 ],
+    "tags": [ "player", "debuff" ],
     "show": true,
+    "eventType": "debuff",
+    "friendly": true,
     "filter": {
-      "type": "firstseen",
-      "actor": {
-        "id": 124207
+      "type": "applydebuff",
+      "firstPerInstance": true,
+      "ability": {
+        "id": 249017
       }
     }
+  },
+  {
+    "name": "Feedback - Targeted",
+    "difficulties": [ 5 ],
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "firstPerInstance": true,
+      "ability": {
+        "id": 249016
+      }
+    }
+  },
+  {
+    "name": "Feedback - Burning Embers",
+    "difficulties": [ 5 ],
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "firstPerInstance": true,
+      "ability": {
+        "id": 249015
+      }
+    }
+  },
+  {
+    "name": "Final Doom",
+    "difficulties": [ 5 ],
+    "tags": [ "title" ],
+    "show": true,
+    "eventType": "title",
+    "timestamps": [ 60500, 180500, 281000, 385500, 486000 ]
   }
 ]
