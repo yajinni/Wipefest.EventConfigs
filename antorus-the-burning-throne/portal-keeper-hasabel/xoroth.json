@@ -12,6 +12,19 @@
     }
   },
   {
+    "name": "Aegis of Flames",
+    "tags": [ "xoroth", "buff" ],
+    "show": true,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "types": [ "removebuff", "removebuffstack" ],
+      "ability": {
+        "id": 244383
+      }
+    }
+  },
+  {
     "name": "Flames of Xoroth",
     "tags": [ "xoroth", "ability" ],
     "show": true,
@@ -77,7 +90,7 @@
   {
     "name": "Everburning Flames (Removed)",
     "tags": [ "xoroth", "debuff" ],
-    "show": false,
+    "show": true,
     "eventType": "removedebuff",
     "friendly": true,
     "filter": {

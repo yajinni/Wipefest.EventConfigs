@@ -90,7 +90,7 @@
   {
     "name": "Caustic Detonation",
     "tags": [ "rancora", "damage" ],
-    "show": true,
+    "show": false,
     "eventType": "damage",
     "friendly": true,
     "filter": {

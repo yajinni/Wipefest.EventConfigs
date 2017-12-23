@@ -89,6 +89,7 @@
     "tags": [ "nathreza", "debuff" ],
     "show": true,
     "eventType": "debuff",
+    "friendly": true,
     "filter": {
       "type": "applydebuff",
       "ability": {
@@ -101,6 +102,7 @@
     "tags": [ "nathreza", "debuff" ],
     "show": false,
     "eventType": "removedebuff",
+    "friendly": true,
     "filter": {
       "type": "removedebuff",
       "ability": {
@@ -110,12 +112,25 @@
   },
   {
     "name": "Hungering Gloom",
-    "tags": [ "nathreza", "damage" ],
-    "show": false,
-    "eventType": "damage",
+    "tags": [ "nathreza", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
     "friendly": true,
     "filter": {
-      "type": "damage",
+      "type": "applydebuff",
+      "ability": {
+        "id": 245075
+      }
+    }
+  },
+  {
+    "name": "Hungering Gloom (Removed)",
+    "tags": [ "nathreza", "debuff" ],
+    "show": true,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
       "ability": {
         "id": 245075
       }
