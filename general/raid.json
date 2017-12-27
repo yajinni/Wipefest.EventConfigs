@@ -162,6 +162,27 @@
     }
   },
   {
+    "name": "Taunts",
+    "tags": [ "tank" ],
+    "show": false,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "ids": [
+          56222,
+          49576,
+          185245,
+          6795,
+          115546,
+          62124,
+          355
+        ]
+      }
+    }
+  },
+  {
     "name": "Personal Defensives",
     "tags": [ "player" ],
     "show": false,
