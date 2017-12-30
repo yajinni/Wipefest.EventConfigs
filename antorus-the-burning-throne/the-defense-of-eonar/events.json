@@ -14,6 +14,18 @@
   },
   {
     "name": "Rain of Fel",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 248332
+      }
+    }
+  },
+  {
+    "name": "Rain of Fel",
     "tags": [ "player", "damage" ],
     "show": false,
     "eventType": "damage",
