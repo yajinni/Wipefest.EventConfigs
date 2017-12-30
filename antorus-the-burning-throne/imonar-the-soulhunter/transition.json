@@ -6,6 +6,7 @@
     "show": true,
     "filter": {
       "type": "cast",
+      "index": 0,
       "ability": {
         "id": 248233
       }
@@ -18,6 +19,33 @@
     "show": true,
     "filter": {
       "type": "cast",
+      "index": 0,
+      "ability": {
+        "id": 250135
+      }
+    }
+  },
+  {
+    "name": "Transition 3",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "index": 1,
+      "ability": {
+        "id": 248233
+      }
+    }
+  },
+  {
+    "name": "Transition 4",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "index": 1,
       "ability": {
         "id": 250135
       }

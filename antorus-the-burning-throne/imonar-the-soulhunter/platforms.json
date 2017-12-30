@@ -13,8 +13,48 @@
     "show": true,
     "filter": {
       "type": "interrupt",
+      "index": 0,
       "ability": {
         "id": 248233
+      }
+    }
+  },
+  {
+    "name": "Phase 3",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "interrupt",
+      "index": 0,
+      "ability": {
+        "id": 250135
+      }
+    }
+  },
+  {
+    "name": "Phase 4",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "interrupt",
+      "index": 1,
+      "ability": {
+        "id": 248233
+      }
+    }
+  },
+  {
+    "name": "Phase 5",
+    "tags": [ "phase" ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "interrupt",
+      "index": 1,
+      "ability": {
+        "id": 250135
       }
     }
   },
@@ -30,18 +70,7 @@
       }
     }
   },
-  {
-    "name": "Phase 3",
-    "tags": [ "phase" ],
-    "eventType": "phase",
-    "show": true,
-    "filter": {
-      "type": "interrupt",
-      "ability": {
-        "id": 250135
-      }
-    }
-  },
+
   {
     "name": "Conflagration",
     "tags": [ "player", "interrupt" ],
