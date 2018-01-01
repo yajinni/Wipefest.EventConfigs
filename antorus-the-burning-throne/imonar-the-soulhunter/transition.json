@@ -1,5 +1,6 @@
 [
   {
+    "id": "T1",
     "name": "Transition 1",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "T2",
     "name": "Transition 2",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -26,6 +28,7 @@
     }
   },
   {
+    "id": "T3",
     "name": "Transition 3",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -39,6 +42,7 @@
     }
   },
   {
+    "id": "T4",
     "name": "Transition 4",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -52,6 +56,7 @@
     }
   },
   {
+    "id": "SS",
     "name": "Seared Skin",
     "tags": [ "player", "damage" ],
     "show": true,
@@ -65,6 +70,7 @@
     }
   },
   {
+    "id": "ST",
     "name": "Stasis Trap",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -78,6 +84,7 @@
     }
   },
   {
+    "id": "0B",
     "name": "Blastwire",
     "tags": [ "player", "damage" ],
     "show": true,

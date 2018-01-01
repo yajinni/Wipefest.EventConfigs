@@ -1,5 +1,6 @@
 [
   {
+    "id": "FS",
     "name": "Fiery Strike",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "0H",
     "name": "Fiery Strike",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "0I",
     "name": "Fiery Strike (Removed)",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "0F",
     "name": "Flashfreeze",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -48,6 +52,7 @@
     }
   },
   {
+    "id": "0K",
     "name": "Flashfreeze",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -60,6 +65,7 @@
     }
   },
   {
+    "id": "0L",
     "name": "Flashfreeze (Removed)",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -72,6 +78,7 @@
     }
   },
   {
+    "id": "0M",
     "name": "Chilled Blood",
     "tags": [ "player", "debuff" ],
     "eventType": "debuff",
@@ -84,6 +91,7 @@
     }
   },
   {
+    "id": "0N",
     "name": "Chilled Blood (Frozen)",
     "tags": [ "player", "debuff" ],
     "eventType": "debuff",
@@ -97,6 +105,7 @@
     }
   },
   {
+    "id": "0O",
     "name": "Fulminating Pulse",
     "tags": [ "player", "debuff" ],
     "eventType": "debuff",

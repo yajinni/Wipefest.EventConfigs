@@ -1,5 +1,6 @@
 [
   {
+    "id": "NP",
     "name": "Nathreza Portal",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "0D",
     "name": "Delusions",
     "tags": [ "nathreza", "ability" ],
     "show": true,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "02",
     "name": "Delusions",
     "tags": [ "nathreza", "debuff" ],
     "show": false,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "03",
     "name": "Delusions (Removed)",
     "tags": [ "nathreza", "debuff" ],
     "show": false,
@@ -49,6 +53,7 @@
     }
   },
   {
+    "id": "0C",
     "name": "Corrupt",
     "tags": [ "nathreza", "ability" ],
     "show": false,
@@ -61,6 +66,7 @@
     }
   },
   {
+    "id": "MF",
     "name": "Mind Fog",
     "tags": [ "nathreza", "debuff" ],
     "show": false,
@@ -73,6 +79,7 @@
     }
   },
   {
+    "id": "06",
     "name": "Mind Fog (Removed)",
     "tags": [ "nathreza", "debuff" ],
     "show": false,
@@ -85,6 +92,7 @@
     }
   },
   {
+    "id": "CS",
     "name": "Cloying Shadows",
     "tags": [ "nathreza", "debuff" ],
     "show": true,
@@ -98,6 +106,7 @@
     }
   },
   {
+    "id": "08",
     "name": "Cloying Shadows (Removed)",
     "tags": [ "nathreza", "debuff" ],
     "show": false,
@@ -111,6 +120,7 @@
     }
   },
   {
+    "id": "HG",
     "name": "Hungering Gloom",
     "tags": [ "nathreza", "debuff" ],
     "show": true,
@@ -124,6 +134,7 @@
     }
   },
   {
+    "id": "0A",
     "name": "Hungering Gloom (Removed)",
     "tags": [ "nathreza", "debuff" ],
     "show": true,

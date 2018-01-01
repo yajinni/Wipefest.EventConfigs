@@ -1,5 +1,6 @@
 [
   {
+    "id": "DB",
     "name": "Diabolic Bomb",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "RS",
     "name": "Reverberating Strike",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "0R",
     "name": "Ruiner",
     "tags": [ "boss", "ability" ],
     "show": true,

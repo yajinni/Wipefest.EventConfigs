@@ -1,5 +1,6 @@
 [
   {
+    "id": "04",
     "name": "Felshield",
     "tags": [ "raid", "buff" ],
     "show": true,

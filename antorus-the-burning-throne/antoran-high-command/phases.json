@@ -1,5 +1,6 @@
 [
   {
+    "id": "AS",
     "name": "Admiral Svirax",
     "tags": [ "phase" ],
     "show": true,
@@ -7,6 +8,7 @@
     "timestamp": 0
   },
   {
+    "id": "CE",
     "name": "Chief Engineer Ishkar",
     "tags": [ "phase" ],
     "show": true,
@@ -23,6 +25,7 @@
     }
   },
   {
+    "id": "GE",
     "name": "General Erodus",
     "tags": [ "phase" ],
     "show": true,
@@ -39,6 +42,7 @@
     }
   },
   {
+    "id": "0H",
     "name": "Admiral Svirax",
     "tags": [ "phase" ],
     "show": true,

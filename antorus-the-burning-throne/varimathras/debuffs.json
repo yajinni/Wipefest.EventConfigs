@@ -1,5 +1,6 @@
 [
   {
+    "id": "0M",
     "name": "Misery",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "NE",
     "name": "Necrotic Embrace",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "MP",
     "name": "Marked Prey",
     "tags": [ "player", "debuff" ],
     "show": true,

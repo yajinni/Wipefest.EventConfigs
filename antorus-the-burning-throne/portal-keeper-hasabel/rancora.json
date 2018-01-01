@@ -1,5 +1,6 @@
 [
   {
+    "id": "RP",
     "name": "Rancora Portal",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "FW",
     "name": "Felsilk Wrap",
     "tags": [ "rancora", "debuff" ],
     "show": true,
@@ -25,6 +27,7 @@
     }
   },
   {
+    "id": "0S",
     "name": "Felsilk Wrap (Removed)",
     "tags": [ "rancora", "debuff" ],
     "show": false,
@@ -38,6 +41,7 @@
     }
   },
   {
+    "id": "LE",
     "name": "Leech Essence",
     "tags": [ "rancora", "ability" ],
     "show": true,
@@ -50,6 +54,7 @@
     }
   },
   {
+    "id": "PE",
     "name": "Poison Essence",
     "tags": [ "rancora", "ability" ],
     "show": true,
@@ -62,6 +67,7 @@
     }
   },
   {
+    "id": "0V",
     "name": "Caustic Slime",
     "tags": [ "rancora", "debuff" ],
     "show": true,
@@ -75,6 +81,7 @@
     }
   },
   {
+    "id": "0W",
     "name": "Caustic Slime (Removed)",
     "tags": [ "rancora", "debuff" ],
     "show": false,
@@ -88,6 +95,7 @@
     }
   },
   {
+    "id": "CD",
     "name": "Caustic Detonation",
     "tags": [ "rancora", "damage" ],
     "show": false,

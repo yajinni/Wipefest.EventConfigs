@@ -1,5 +1,6 @@
 [
   {
+    "id": "0A",
     "name": "Wake of Flame",
     "tags": [ "player", "debuff" ],
     "eventType": "debuff",
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "FB",
     "name": "Foe Breaker",
     "tags": [ "tank", "debuff" ],
     "eventType": "debuff",
@@ -25,6 +27,7 @@
     }
   },
   {
+    "id": "MR",
     "name": "Molten Remnants",
     "tags": [ "player", "debuff" ],
     "eventType": "debuff",
@@ -37,6 +40,7 @@
     }
   },
   {
+    "id": "TR",
     "name": "Taeshalach's Reach",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -49,6 +53,7 @@
     }
   },
   {
+    "id": "0E",
     "name": "Taeshalach's Reach",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -61,6 +66,7 @@
     }
   },
   {
+    "id": "0F",
     "name": "Taeshalach's Reach (Removed)",
     "tags": [ "tank", "debuff" ],
     "show": false,

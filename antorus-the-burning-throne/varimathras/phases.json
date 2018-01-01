@@ -1,5 +1,6 @@
 [
   {
+    "id": "TO",
     "name": "Torment of Flames",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -7,6 +8,7 @@
     "timestamp": 0
   },
   {
+    "id": "09",
     "name": "Torment of Frost",
     "difficulties": [ 4, 5 ],
     "tags": [ "phase" ],
@@ -15,6 +17,7 @@
     "timestamp": 120000
   },
   {
+    "id": "0A",
     "name": "Torment of Fel",
     "difficulties": [ 4, 5 ],
     "tags": [ "phase" ],
@@ -23,6 +26,7 @@
     "timestamp": 240000
   },
   {
+    "id": "0B",
     "name": "Torment of Shadows",
     "tags": [ "phase" ],
     "eventType": "phase",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "0D",
     "name": "Weight of Darkness",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "0E",
     "name": "Weight of Darkness (Fear)",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -25,6 +27,7 @@
     }
   },
   {
+    "id": "0F",
     "name": "Molten Touch",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -37,6 +40,7 @@
     }
   },
   {
+    "id": "DG",
     "name": "Desolate Gaze",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -49,6 +53,7 @@
     }
   },
   {
+    "id": "0H",
     "name": "Smouldering",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -61,6 +66,7 @@
     }
   },
   {
+    "id": "0I",
     "name": "Decay",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -73,6 +79,7 @@
     }
   },
   {
+    "id": "0J",
     "name": "Flametouched",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -85,6 +92,7 @@
     }
   },
   {
+    "id": "0K",
     "name": "Shadowtouched",
     "tags": [ "player", "debuff" ],
     "show": false,

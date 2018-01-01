@@ -1,5 +1,6 @@
 [
   {
+    "id": "CA",
     "name": "Corrupt Aegis",
     "tags": [ "boss", "buff" ],
     "eventType": "debuff",
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "04",
     "name": "Corrupt Aegis (Removed)",
     "tags": [ "boss", "buff" ],
     "eventType": "removedebuff",
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "BR",
     "name": "Burning Rage",
     "tags": [ "boss", "buff" ],
     "eventType": "debuff",

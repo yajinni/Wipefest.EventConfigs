@@ -1,5 +1,6 @@
 [
   {
+    "id": "SS",
     "name": "Shadow Strike",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "AI",
     "name": "Alone in the Darkness",
     "tags": [ "player", "damage" ],
     "show": true,
@@ -26,6 +28,7 @@
     }
   },
   {
+    "id": "SH",
     "name": "Shadow Hunter",
     "tags": [ "player", "damage" ],
     "show": true,
@@ -40,6 +43,7 @@
     }
   },
   {
+    "id": "04",
     "name": "Dark Fissure",
     "tags": [ "player", "damage" ],
     "show": true,

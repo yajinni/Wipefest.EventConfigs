@@ -1,5 +1,6 @@
 [
   {
+    "id": "P1",
     "name": "Phase 1",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -7,6 +8,7 @@
     "timestamp": 0
   },
   {
+    "id": "P2",
     "name": "Phase 2",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -20,6 +22,7 @@
     }
   },
   {
+    "id": "P3",
     "name": "Phase 3",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -33,6 +36,7 @@
     }
   },
   {
+    "id": "P4",
     "name": "Phase 4",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -46,6 +50,7 @@
     }
   },
   {
+    "id": "P5",
     "name": "Phase 5",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -59,6 +64,7 @@
     }
   },
   {
+    "id": "0R",
     "name": "Conflagration",
     "tags": [ "player", "interrupt" ],
     "eventType": "interrupt",
@@ -72,6 +78,7 @@
   },
 
   {
+    "id": "0S",
     "name": "Conflagration",
     "tags": [ "player", "interrupt" ],
     "eventType": "interrupt",
@@ -84,6 +91,7 @@
     }
   },
   {
+    "id": "IR",
     "name": "Infernal Rockets",
     "tags": [ "player", "damage" ],
     "show": true,

@@ -1,5 +1,6 @@
 [
   {
+    "id": "0r",
     "name": "Reap Soul",
     "tags": [ "boss", "ability" ],
     "eventType": "ability",

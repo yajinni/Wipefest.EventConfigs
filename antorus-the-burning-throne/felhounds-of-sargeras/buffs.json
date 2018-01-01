@@ -1,5 +1,6 @@
 [
   {
+    "id": "SB",
     "name": "Sargeras' Blessing",
     "tags": [ "boss", "buff" ],
     "show": true,
@@ -15,6 +16,7 @@
     }
   },
   {
+    "id": "06",
     "name": "Sargeras' Blessing (Removed)",
     "tags": [ "boss", "buff" ],
     "show": true,

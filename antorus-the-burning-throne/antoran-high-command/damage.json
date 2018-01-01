@@ -1,5 +1,6 @@
 [
   {
+    "id": "EW",
     "name": "Exploit Weakness",
     "tags": [ "tank", "damage" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "06",
     "name": "Pyroblast",
     "tags": [ "player", "damage" ],
     "show": true,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "0S",
     "name": "Shocked",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -37,6 +40,7 @@
     }
   },
   {
+    "id": "EM",
     "name": "Entropic Mines",
     "tags": [ "player", "damage" ],
     "show": false,

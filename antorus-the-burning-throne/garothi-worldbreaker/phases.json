@@ -1,5 +1,6 @@
 [
   {
+    "id": "P1",
     "name": "Phase 1",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -7,6 +8,7 @@
     "timestamp": 0
   },
   {
+    "id": "P2",
     "name": "Phase 2",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -19,6 +21,7 @@
     }
   },
   {
+    "id": "0M",
     "name": "Phase 1",
     "tags": [ "phase" ],
     "eventType": "phase",

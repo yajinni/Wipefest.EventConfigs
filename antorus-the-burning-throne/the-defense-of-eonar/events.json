@@ -1,5 +1,6 @@
 [
   {
+    "id": "RO",
     "name": "Rain of Fel",
     "tags": [ "boss", "cast" ],
     "show": false,
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "01",
     "name": "Rain of Fel",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -25,6 +27,7 @@
     }
   },
   {
+    "id": "02",
     "name": "Rain of Fel",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -37,6 +40,7 @@
     }
   },
   {
+    "id": "FW",
     "name": "Fel Wake",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -50,6 +54,7 @@
     }
   },
   {
+    "id": "FS",
     "name": "Fel Swipe",
     "tags": [ "spawn", "ability" ],
     "show": false,
@@ -62,6 +67,7 @@
     }
   },
   {
+    "id": "05",
     "name": "Fel Swipe",
     "tags": [ "tank", "damage" ],
     "show": false,
@@ -75,6 +81,7 @@
     }
   },
   {
+    "id": "LF",
     "name": "Life Force",
     "tags": [ "boss", "damage" ],
     "show": true,
@@ -88,6 +95,7 @@
     }
   },
   {
+    "id": "AS",
     "name": "Artillery Strike",
     "tags": [ "spawn", "ability" ],
     "show": true,
@@ -100,6 +108,7 @@
     }
   },
   {
+    "id": "08",
     "name": "Artillery Strike",
     "tags": [ "player", "interrupt" ],
     "show": true,
@@ -113,6 +122,7 @@
     }
   },
   {
+    "id": "0P",
     "name": "Purge",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -125,6 +135,7 @@
     }
   },
   {
+    "id": "FF",
     "name": "Feedback - Foul Steps",
     "difficulties": [ 5 ],
     "tags": [ "player", "debuff" ],
@@ -140,6 +151,7 @@
     }
   },
   {
+    "id": "FA",
     "name": "Feedback - Arcane Singularity",
     "difficulties": [ 5 ],
     "tags": [ "player", "debuff" ],
@@ -155,6 +167,7 @@
     }
   },
   {
+    "id": "FT",
     "name": "Feedback - Targeted",
     "difficulties": [ 5 ],
     "tags": [ "player", "debuff" ],
@@ -170,6 +183,7 @@
     }
   },
   {
+    "id": "FB",
     "name": "Feedback - Burning Embers",
     "difficulties": [ 5 ],
     "tags": [ "player", "debuff" ],
@@ -185,6 +199,7 @@
     }
   },
   {
+    "id": "FD",
     "name": "Final Doom",
     "difficulties": [ 5 ],
     "tags": [ "title" ],

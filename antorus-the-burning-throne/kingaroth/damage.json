@@ -1,5 +1,6 @@
 [
   {
+    "id": "FO",
     "name": "Feedback Overload",
     "tags": [ "spawn", "damage" ],
     "show": true,
@@ -16,6 +17,7 @@
     }
   },
   {
+    "id": "AB",
     "name": "Apocalypse Blast",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -29,6 +31,7 @@
     }
   },
   {
+    "id": "0A",
     "name": "Annihilation",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -43,6 +46,7 @@
     }
   },
   {
+    "id": "06",
     "name": "Annihilation Blast",
     "tags": [ "player", "damage" ],
     "show": true,
@@ -59,6 +63,7 @@
     }
   },
   {
+    "id": "07",
     "name": "Ruiner",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -72,6 +77,7 @@
     }
   },
   {
+    "id": "FR",
     "name": "Flame Reverberation",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -85,6 +91,7 @@
     }
   },
   {
+    "id": "0D",
     "name": "Demolish",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -98,6 +105,7 @@
     }
   },
   {
+    "id": "D2",
     "name": "Decimation > 2m",
     "tags": [ "player", "damage" ],
     "show": false,

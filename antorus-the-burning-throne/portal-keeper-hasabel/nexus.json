@@ -1,5 +1,6 @@
 [
   {
+    "id": "0P",
     "name": "Pull",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -7,6 +8,7 @@
     "timestamp": 0
   },
   {
+    "id": "RT",
     "name": "Reality Tear",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -19,6 +21,7 @@
     }
   },
   {
+    "id": "0D",
     "name": "Reality Tear",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -31,6 +34,7 @@
     }
   },
   {
+    "id": "0E",
     "name": "Reality Tear (Removed)",
     "tags": [ "tank", "debuff" ],
     "show": true,
@@ -43,6 +47,7 @@
     }
   },
   {
+    "id": "CW",
     "name": "Collapsing World",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -55,6 +60,7 @@
     }
   },
   {
+    "id": "0G",
     "name": "Collapsing World > 3m",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -69,6 +75,7 @@
     }
   },
   {
+    "id": "FB",
     "name": "Felstorm Barrage",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -81,6 +88,7 @@
     }
   },
   {
+    "id": "0I",
     "name": "Felstorm Barrage",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -94,6 +102,7 @@
     }
   },
   {
+    "id": "TP",
     "name": "Transport Portal",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -106,6 +115,7 @@
     }
   },
   {
+    "id": "FD",
     "name": "Fiery Detonation",
     "tags": [ "spawn", "ability" ],
     "show": false,
@@ -118,6 +128,7 @@
     }
   },
   {
+    "id": "0L",
     "name": "Fiery Detonation",
     "tags": [ "interrupt" ],
     "show": false,
@@ -130,6 +141,7 @@
     }
   },
   {
+    "id": "HS",
     "name": "Howling Shadows",
     "tags": [ "spawn", "ability" ],
     "show": true,
@@ -142,6 +154,7 @@
     }
   },
   {
+    "id": "0N",
     "name": "Howling Shadows",
     "tags": [ "interrupt" ],
     "show": true,
@@ -154,6 +167,7 @@
     }
   },
   {
+    "id": "CI",
     "name": "Catastrophic Implosion",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -166,6 +180,7 @@
     }
   },
   {
+    "id": "UP",
     "name": "Unstable Portal",
     "tags": [ "spawn", "ability" ],
     "show": true,

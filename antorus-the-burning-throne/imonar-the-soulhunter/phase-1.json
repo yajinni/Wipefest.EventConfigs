@@ -1,5 +1,6 @@
 [
   {
+    "id": "SL",
     "name": "Shock Lance",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "01",
     "name": "Shock Lance",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "02",
     "name": "Shock Lance (Removed)",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "SC",
     "name": "Sleep Canister",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -48,6 +52,7 @@
     }
   },
   {
+    "id": "04",
     "name": "Sleep Canister (Removed)",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -60,6 +65,7 @@
     }
   },
   {
+    "id": "SG",
     "name": "Slumber Gas",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -73,6 +79,7 @@
     }
   },
   {
+    "id": "PG",
     "name": "Pulse Grenade",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -85,6 +92,7 @@
     }
   },
   {
+    "id": "07",
     "name": "Pulse Grenade",
     "tags": [ "player", "damage" ],
     "show": true,

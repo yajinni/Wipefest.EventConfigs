@@ -1,5 +1,6 @@
 [
   {
+    "id": "FO",
     "name": "Flame of Taeshalach",
     "tags": [ "spawn" ],
     "eventType": "spawn",
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "0M",
     "name": "Flame of Taeshalach (Died)",
     "tags": [ "spawn" ],
     "eventType": "ability",
@@ -26,6 +28,7 @@
     }
   },
   {
+    "id": "CP",
     "name": "Catalyzing Presence",
     "tags": [ "spawn", "buff" ],
     "eventType": "debuff",
@@ -38,6 +41,7 @@
     }
   },
   {
+    "id": "0O",
     "name": "Catalyzing Presence (Removed)",
     "tags": [ "spawn", "buff" ],
     "eventType": "removedebuff",
@@ -50,6 +54,7 @@
     }
   },
   {
+    "id": "BE",
     "name": "Blazing Eruption",
     "tags": [ "spawn" ],
     "eventType": "ability",

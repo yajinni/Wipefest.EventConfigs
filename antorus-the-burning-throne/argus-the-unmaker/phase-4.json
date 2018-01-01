@@ -1,5 +1,6 @@
 [
   {
+    "id": "DS",
     "name": "Deadly Scythe",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "0Z",
     "name": "Deadly Scythe",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "0a",
     "name": "Deadly Scythe (Removed)",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "0b",
     "name": "End of All Things",
     "tags": [ "player", "interrupt" ],
     "eventType": "interrupt",
@@ -48,6 +52,7 @@
     }
   },
   {
+    "id": "0c",
     "name": "Ember of Rage",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -61,6 +66,7 @@
     }
   },
   {
+    "id": "0d",
     "name": "Ember of Rage",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -74,6 +80,7 @@
     }
   },
   {
+    "id": "0e",
     "name": "Ember of Rage (Removed)",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -87,6 +94,7 @@
     }
   },
   {
+    "id": "RM",
     "name": "Reorigination Module",
     "tags": [ "spawn" ],
     "eventType": "spawn",
@@ -99,6 +107,7 @@
     }
   },
   {
+    "id": "RP",
     "name": "Reorigination Pulse",
     "tags": [ "spawn", "ability" ],
     "eventType": "ability",
@@ -111,6 +120,7 @@
     }
   },
   {
+    "id": "0h",
     "name": "Soul Detonation",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -124,6 +134,7 @@
     }
   },
   {
+    "id": "0i",
     "name": "Titanforging",
     "tags": [ "titan" ],
     "eventType": "ability",
@@ -137,6 +148,7 @@
     }
   },
   {
+    "id": "GO",
     "name": "Gift of the Lifebinder",
     "tags": [ "titan" ],
     "eventType": "ability",
@@ -150,6 +162,7 @@
     }
   },
   {
+    "id": "WR",
     "name": "Withering Roots",
     "tags": [ "spawn", "debuff" ],
     "show": true,
@@ -163,6 +176,7 @@
     }
   },
   {
+    "id": "0l",
     "name": "Withering Roots",
     "tags": [ "spawn", "debuff" ],
     "show": true,

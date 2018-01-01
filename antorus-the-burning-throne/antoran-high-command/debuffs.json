@@ -1,5 +1,6 @@
 [
   {
+    "id": "PA",
     "name": "Psychic Assault",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -14,6 +15,7 @@
     }
   },
   {
+    "id": "PS",
     "name": "Psychic Scarring",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -27,6 +29,7 @@
     }
   },
   {
+    "id": "DC",
     "name": "Demonic Charge",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -39,6 +42,7 @@
     }
   },
   {
+    "id": "SG",
     "name": "Shock Grenade",
     "tags": [ "player", "debuff" ],
     "show": false,

@@ -1,5 +1,6 @@
 [
   {
+    "id": "DP",
     "name": "Desolate Path",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "MT",
     "name": "Molten Touch",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "EC",
     "name": "Enflame Corruption",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "WO",
     "name": "Weight of Darkness",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -49,6 +53,7 @@
     }
   },
   {
+    "id": "SC",
     "name": "Siphon Corruption",
     "tags": [ "boss", "ability" ],
     "show": true,

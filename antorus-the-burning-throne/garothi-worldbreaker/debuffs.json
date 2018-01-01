@@ -1,5 +1,6 @@
 [
   {
+    "id": "0H",
     "name": "Fel Bombardment",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "0I",
     "name": "Decimation",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "0J",
     "name": "Haywire Decimation",
     "tags": [ "player", "debuff" ],
     "show": false,

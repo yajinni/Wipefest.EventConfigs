@@ -1,5 +1,6 @@
 [
   {
+    "id": "XP",
     "name": "Xoroth Portal",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "AO",
     "name": "Aegis of Flames",
     "tags": [ "xoroth", "buff" ],
     "show": true,
@@ -25,6 +27,7 @@
     }
   },
   {
+    "id": "FO",
     "name": "Flames of Xoroth",
     "tags": [ "xoroth", "ability" ],
     "show": true,
@@ -37,6 +40,7 @@
     }
   },
   {
+    "id": "0b",
     "name": "Flames of Xoroth",
     "tags": [ "xoroth", "interrupt" ],
     "show": true,
@@ -50,6 +54,7 @@
     }
   },
   {
+    "id": "0c",
     "name": "Supernova",
     "tags": [ "xoroth", "ability" ],
     "show": false,
@@ -62,6 +67,7 @@
     }
   },
   {
+    "id": "0d",
     "name": "Supernova",
     "tags": [ "xoroth", "damage" ],
     "show": false,
@@ -75,6 +81,7 @@
     }
   },
   {
+    "id": "EF",
     "name": "Everburning Flames",
     "tags": [ "xoroth", "debuff" ],
     "show": true,
@@ -88,6 +95,7 @@
     }
   },
   {
+    "id": "0f",
     "name": "Everburning Flames (Removed)",
     "tags": [ "xoroth", "debuff" ],
     "show": true,

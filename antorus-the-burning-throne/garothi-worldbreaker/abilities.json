@@ -1,5 +1,6 @@
 [
   {
+    "id": "0A",
     "name": "Annihilation",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -14,6 +15,7 @@
     }
   },
   {
+    "id": "0S",
     "name": "Shrapnel",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -27,6 +29,7 @@
     }
   },
   {
+    "id": "0D",
     "name": "Decimation",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -39,6 +42,7 @@
     }
   },
   {
+    "id": "ED",
     "name": "Empowered Decimation",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -51,6 +55,7 @@
     }
   },
   {
+    "id": "HD",
     "name": "Haywire Decimation",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -63,6 +68,7 @@
     }
   },
   {
+    "id": "0C",
     "name": "Carnage",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -75,6 +81,7 @@
     }
   },
   {
+    "id": "AD",
     "name": "Apocalypse Drive",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -87,6 +94,7 @@
     }
   },
   {
+    "id": "0E",
     "name": "Empowered",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -99,6 +107,7 @@
     }
   },
   {
+    "id": "08",
     "name": "Eradication",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -111,6 +120,7 @@
     }
   },
   {
+    "id": "LD",
     "name": "Luring Destruction",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -123,6 +133,7 @@
     }
   },
   {
+    "id": "0H",
     "name": "Haywire (Annihilation)",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -136,6 +147,7 @@
     }
   },
   {
+    "id": "0B",
     "name": "Haywire (Decimation)",
     "tags": [ "boss", "ability" ],
     "show": true,

@@ -1,5 +1,6 @@
 [
   {
+    "id": "0G",
     "name": "Empowered Shock Lance",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "ES",
     "name": "Empowered Shock Lance",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "0H",
     "name": "Empowered Shock Lance (Removed)",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "EP",
     "name": "Empowered Pulse Grenade",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -48,6 +52,7 @@
     }
   },
   {
+    "id": "0J",
     "name": "Empowered Pulse Grenade",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -61,6 +66,7 @@
     }
   },
   {
+    "id": "0K",
     "name": "Empowered Shrapnel Blast",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -73,6 +79,7 @@
     }
   },
   {
+    "id": "0L",
     "name": "Empowered Shrapnel Blast",
     "tags": [ "player", "debuff" ],
     "show": true,

@@ -1,5 +1,6 @@
 [
   {
+    "id": "P1",
     "name": "Phase 1",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -7,6 +8,7 @@
     "timestamp": 0
   },
   {
+    "id": "P2",
     "name": "Phase 2",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -19,6 +21,7 @@
     }
   },
   {
+    "id": "P3",
     "name": "Phase 3",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -31,6 +34,7 @@
     }
   },
   {
+    "id": "RS",
     "name": "Reap Soul",
     "tags": [ "phase" ],
     "eventType": "phase",
@@ -44,6 +48,7 @@
     }
   },
   {
+    "id": "P4",
     "name": "Phase 4",
     "tags": [ "phase" ],
     "eventType": "phase",

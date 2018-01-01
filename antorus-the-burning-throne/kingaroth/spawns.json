@@ -1,5 +1,6 @@
 [
   {
+    "id": "GD",
     "name": "Garothi Demolisher",
     "tags": [ "spawn" ],
     "eventType": "spawn",
@@ -15,6 +16,7 @@
     }
   },
   {
+    "id": "GA",
     "name": "Garothi Annihilator",
     "tags": [ "spawn" ],
     "eventType": "spawn",
@@ -30,6 +32,7 @@
     }
   },
   {
+    "id": "0L",
     "name": "Garothi Decimator",
     "tags": [ "spawn" ],
     "eventType": "spawn",

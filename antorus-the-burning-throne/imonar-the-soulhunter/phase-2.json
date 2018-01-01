@@ -1,5 +1,6 @@
 [
   {
+    "id": "0S",
     "name": "Sever",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "09",
     "name": "Sever",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "0A",
     "name": "Sever (Removed)",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "CB",
     "name": "Charged Blasts",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -48,6 +52,7 @@
     }
   },
   {
+    "id": "0C",
     "name": "Charged Blasts",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -61,6 +66,7 @@
     }
   },
   {
+    "id": "SB",
     "name": "Shrapnel Blast",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -73,6 +79,7 @@
     }
   },
   {
+    "id": "0E",
     "name": "Shrapnel Blast",
     "tags": [ "player", "debuff" ],
     "show": true,

@@ -1,5 +1,6 @@
 [
   {
+    "id": "FS",
     "name": "Forging Strike",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "0C",
     "name": "Forging Strike",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "0D",
     "name": "Forging Strike (Removed)",
     "tags": [ "tank", "debuff" ],
     "show": false,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "0E",
     "name": "Demolish",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -48,6 +52,7 @@
     }
   },
   {
+    "id": "0F",
     "name": "Decimation",
     "tags": [ "player", "debuff" ],
     "show": true,

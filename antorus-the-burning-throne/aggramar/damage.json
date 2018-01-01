@@ -1,5 +1,6 @@
 [
   {
+    "id": "06",
     "name": "Corrupt Aegis",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "0F",
     "name": "Flare",
     "tags": [ "player", "damage" ],
     "show": true,
@@ -27,6 +29,7 @@
     }
   },
   {
+    "id": "EF",
     "name": "Empowered Flare",
     "tags": [ "player", "damage" ],
     "show": true,
@@ -41,6 +44,7 @@
     }
   },
   {
+    "id": "MS",
     "name": "Meteor Swarm",
     "tags": [ "player", "damage" ],
     "show": true,

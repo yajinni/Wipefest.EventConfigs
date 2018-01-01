@@ -1,5 +1,6 @@
 [
   {
+    "id": "NW",
     "name": "Normal Waves",
     "difficulties": [ 3 ],
     "tags": [ "title" ],
@@ -29,6 +30,7 @@
     ]
   },
   {
+    "id": "HW",
     "name": "Heroic Waves",
     "difficulties": [ 4 ],
     "tags": [ "title" ],
@@ -60,6 +62,7 @@
     ]
   },
   {
+    "id": "W1",
     "name": "Wave 1: Middle Destructor",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -68,6 +71,7 @@
     "timestamp": 11000
   },
   {
+    "id": "W2",
     "name": "Wave 2 / 3: Top Destructor / Bottom Obfuscator",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -76,6 +80,7 @@
     "timestamp": 38000
   },
   {
+    "id": "W4",
     "name": "Wave 4: Middle Purifier",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -84,6 +89,7 @@
     "timestamp": 65000
   },
   {
+    "id": "W5",
     "name": "Wave 5: Bottom Destructor",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -92,6 +98,7 @@
     "timestamp": 110000
   },
   {
+    "id": "W6",
     "name": "Wave 6: Middle Purifier",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -100,6 +107,7 @@
     "timestamp": 133000
   },
   {
+    "id": "W7",
     "name": "Wave 7: Top Small Adds",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -108,6 +116,7 @@
     "timestamp": 145000
   },
   {
+    "id": "W8",
     "name": "Wave 8: Bats",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -116,6 +125,7 @@
     "timestamp": 165000
   },
   {
+    "id": "W9",
     "name": "Wave 9: Bottom Purifier",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -124,6 +134,7 @@
     "timestamp": 208000
   },
   {
+    "id": "0P",
     "name": "Wave 10: Bats",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -132,6 +143,7 @@
     "timestamp": 260000
   },
   {
+    "id": "0Q",
     "name": "Wave 11: Middle Obfuscator",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -140,6 +152,7 @@
     "timestamp": 278000
   },
   {
+    "id": "0R",
     "name": "Wave 12: Bottom Small Adds",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -148,6 +161,7 @@
     "timestamp": 297000
   },
   {
+    "id": "0S",
     "name": "Wave 13: Top Obfuscator",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -156,6 +170,7 @@
     "timestamp": 328000
   },
   {
+    "id": "0T",
     "name": "Wave 14: Top Purifier",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -164,6 +179,7 @@
     "timestamp": 352000
   },
   {
+    "id": "0U",
     "name": "Wave 15: Bats",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -172,6 +188,7 @@
     "timestamp": 360000
   },
   {
+    "id": "0V",
     "name": "Wave 16: Middle Destructor",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -180,6 +197,7 @@
     "timestamp": 403000
   },
   {
+    "id": "0W",
     "name": "Wave 17: Bottom Obfuscator",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -188,6 +206,7 @@
     "timestamp": 413000
   },
   {
+    "id": "0X",
     "name": "Wave 18: Top Destructor",
     "difficulties": [ 5 ],
     "tags": [ "title" ],
@@ -196,6 +215,7 @@
     "timestamp": 424000
   },
   {
+    "id": "0Y",
     "name": "Wave 19: Bats",
     "difficulties": [ 5 ],
     "tags": [ "title" ],

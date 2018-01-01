@@ -1,5 +1,6 @@
 [
   {
+    "id": "0P",
     "name": "Pyroblast",
     "tags": [ "spawn", "ability" ],
     "show": true,
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "0F",
     "name": "Fusillade",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -25,6 +27,7 @@
     }
   },
   {
+    "id": "FE",
     "name": "Felshield Emitter",
     "tags": [ "player", "ability" ],
     "show": false,
@@ -38,6 +41,7 @@
     }
   },
   {
+    "id": "DF",
     "name": "Disruption Field",
     "tags": [ "player", "ability" ],
     "show": false,

@@ -1,5 +1,6 @@
 [
   {
+    "id": "WO",
     "name": "Wake of Flame",
     "tags": [ "boss", "ability" ],
     "eventType": "ability",
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "ST",
     "name": "Searing Tempest",
     "tags": [ "boss", "ability" ],
     "eventType": "ability",
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "FR",
     "name": "Flame Rend",
     "tags": [ "boss", "ability" ],
     "eventType": "ability",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "GW",
     "name": "Golganneth's Wrath",
     "tags": [ "titan" ],
     "eventType": "ability",
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "0F",
     "name": "Soulburst",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -25,6 +27,7 @@
     }
   },
   {
+    "id": "0G",
     "name": "Soulbomb",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -37,6 +40,7 @@
     }
   },
   {
+    "id": "SD",
     "name": "Soulbomb Detonation",
     "tags": [ "raid", "damage" ],
     "show": true,
@@ -52,6 +56,7 @@
     }
   },
   {
+    "id": "AO",
     "name": "Avatar of Aggramar",
     "tags": [ "tank", "buff" ],
     "show": true,
@@ -64,6 +69,7 @@
     }
   },
   {
+    "id": "AB",
     "name": "Aggramar's Boon",
     "tags": [ "player", "buff" ],
     "show": true,
@@ -79,6 +85,7 @@
     }
   },
   {
+    "id": "0K",
     "name": "Aggramar's Boon (Removed)",
     "tags": [ "player", "buff" ],
     "show": true,
@@ -93,6 +100,7 @@
     }
   },
   {
+    "id": "EO",
     "name": "Edge of Obliteration",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -105,6 +113,7 @@
     }
   },
   {
+    "id": "0M",
     "name": "Edge of Obliteration",
     "tags": [ "player", "debuff" ],
     "show": true,
