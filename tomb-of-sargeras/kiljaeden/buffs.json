@@ -1,5 +1,6 @@
 [
   {
+    "id": "IS",
     "name": "Illidan's Sightless Gaze",
     "tags": [ "player", "buff" ],
     "show": true,

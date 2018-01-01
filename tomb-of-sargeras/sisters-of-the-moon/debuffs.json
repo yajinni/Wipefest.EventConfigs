@@ -1,5 +1,6 @@
 [
   {
+    "id": "MB",
     "name": "Moon Burn",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "08",
     "name": "Moon Burn (Removed)",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -25,6 +27,7 @@
     }
   },
   {
+    "id": "IS",
     "name": "Incorporeal Shot",
     "tags": [ "player", "ability" ],
     "show": true,
@@ -37,6 +40,7 @@
     }
   },
   {
+    "id": "LB",
     "name": "Lunar Beacon",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -49,6 +53,7 @@
     }
   },
   {
+    "id": "0D",
     "name": "Discorporate",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -61,6 +66,7 @@
     }
   },
   {
+    "id": "RS",
     "name": "Rapid Shot",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -73,6 +79,7 @@
     }
   },
   {
+    "id": "0D",
     "name": "Twilight Glaive",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -85,6 +92,7 @@
     }
   },
   {
+    "id": "AV",
     "name": "Astral Vulnerability (6)",
     "tags": [ "player", "debuff" ],
     "show": true,

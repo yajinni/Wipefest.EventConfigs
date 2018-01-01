@@ -1,5 +1,6 @@
-﻿[
+[
   {
+    "id": "TC",
     "name": "Tormented Cries",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "0S",
     "name": "Soulbind",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "WS",
     "name": "Wailing Souls",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "BA",
     "name": "Bonecage Armor",
     "tags": [ "boss", "ability" ],
     "show": false,
@@ -48,6 +52,7 @@
     }
   },
   {
+    "id": "SD",
     "name": "Sundering Doom",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -60,6 +65,7 @@
     }
   },
   {
+    "id": "DS",
     "name": "Doomed Sundering",
     "tags": [ "boss", "ability" ],
     "show": true,

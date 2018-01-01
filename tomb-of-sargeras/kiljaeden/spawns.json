@@ -1,5 +1,6 @@
 [
   {
+    "id": "SR",
     "name": "Shadow Reflection: Erupting",
     "tags": [ "spawn" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "0M",
     "name": "Shadow Reflection: Wailing",
     "tags": [ "spawn" ],
     "show": false,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "ED",
     "name": "Erupting Dreadflame",
     "tags": [ "spawn", "ability" ],
     "show": false,
@@ -37,6 +40,7 @@
     }
   },
   {
+    "id": "SW",
     "name": "Sorrowful Wail",
     "tags": [ "spawn", "ability" ],
     "show": false,
@@ -49,6 +53,7 @@
     }
   },
   {
+    "id": "0P",
     "name": "Flaming Detonation",
     "tags": [ "spawn", "ability" ],
     "show": true,
@@ -63,6 +68,7 @@
     }
   },
   {
+    "id": "0Q",
     "name": "Demonic Obelisk",
     "tags": [ "spawn" ],
     "show": true,
@@ -76,6 +82,7 @@
     }
   },
   {
+    "id": "DS",
     "name": "Destabilized Shadowsoul",
     "tags": [ "spawn", "ability" ],
     "show": false,

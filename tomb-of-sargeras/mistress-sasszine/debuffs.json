@@ -1,5 +1,6 @@
 [
   {
+    "id": "09",
     "name": "Slicing Tornado",
     "tags": [ "boss", "debuff" ],
     "show": true,
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "0A",
     "name": "Hydra Shot",
     "tags": [ "boss", "debuff" ],
     "show": false,
@@ -26,6 +28,7 @@
     }
   },
   {
+    "id": "DB",
     "name": "Delicious Bufferfish",
     "tags": [ "player", "buff" ],
     "show": false,
@@ -39,6 +42,7 @@
     }
   },
   {
+    "id": "0C",
     "name": "Delicious Bufferfish (Removed)",
     "tags": [ "player", "buff" ],
     "show": false,
@@ -52,6 +56,7 @@
     }
   },
   {
+    "id": "0D",
     "name": "Consuming Hunger",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -64,6 +69,7 @@
     }
   },
   {
+    "id": "0E",
     "name": "Consuming Hunger (Removed)",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -76,6 +82,7 @@
     }
   },
   {
+    "id": "0F",
     "name": "Thundering Shock",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -88,6 +95,7 @@
     }
   },
   {
+    "id": "0G",
     "name": "Thundering Shock (Removed)",
     "tags": [ "player", "debuff" ],
     "show": false,

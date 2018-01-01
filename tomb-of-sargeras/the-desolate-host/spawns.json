@@ -1,5 +1,6 @@
-﻿[
+[
   {
+    "id": "RT",
     "name": "Reanimated Templar",
     "tags": [ "spawn" ],
     "show": false,

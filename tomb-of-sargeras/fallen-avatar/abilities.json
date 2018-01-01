@@ -1,5 +1,6 @@
 [
   {
+    "id": "TO",
     "name": "Touch of Sargeras",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "RR",
     "name": "Rupture Realities",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "CM",
     "name": "Corrupted Matrix",
     "tags": [ "environment" ],
     "show": false,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "SB",
     "name": "Shadowy Blades",
     "tags": [ "boss", "ability" ],
     "show": true,

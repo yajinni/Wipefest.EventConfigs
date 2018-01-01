@@ -1,5 +1,6 @@
 [
   {
+    "id": "HO",
     "name": "Hammer of Creation",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "01",
     "name": "Hammer of Obliteration",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "0I",
     "name": "Infusion",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "MI",
     "name": "Mass Instability",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -48,6 +52,7 @@
     }
   },
   {
+    "id": "0O",
     "name": "Orbs",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -63,6 +68,7 @@
     }
   },
   {
+    "id": "05",
     "name": "Orbs",
     "tags": [ "boss", "ability" ],
     "show": true,

@@ -1,5 +1,6 @@
-﻿[
+[
   {
+    "id": "SD",
     "name": "Suffocating Dark",
     "tags": [ "boss", "ability" ],
     "show": false,
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "TB",
     "name": "Tormenting Burst",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -25,6 +27,7 @@
     }
   },
   {
+    "id": "EA",
     "name": "Echoing Anguish",
     "tags": [ "boss", "ability" ],
     "show": false,
@@ -38,6 +41,7 @@
     }
   },
   {
+    "id": "FS",
     "name": "Fel Squall",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -50,6 +54,7 @@
     }
   },
   {
+    "id": "SS",
     "name": "Scythe Sweep",
     "tags": [ "boss", "ability" ],
     "show": false,
@@ -62,6 +67,7 @@
     }
   },
   {
+    "id": "BS",
     "name": "Bone Saw",
     "tags": [ "boss", "ability" ],
     "show": true,

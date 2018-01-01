@@ -1,5 +1,6 @@
-﻿[
+[
   {
+    "id": "UR",
     "name": "Unchecked Rage",
     "tags": [ "boss", "ability" ],
     "eventType": "ability",
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "FD",
     "name": "Frosty Discharge",
     "tags": [ "boss", "ability" ],
     "eventType": "ability",
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "DI",
     "name": "Draw In",
     "tags": [ "boss", "ability" ],
     "eventType": "ability",

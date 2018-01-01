@@ -1,5 +1,6 @@
 [
   {
+    "id": "EO",
     "name": "Embrace of the Eclipse",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "GS",
     "name": "Glaive Storm",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "IT",
     "name": "Incorporeal Teleport",
     "tags": [ "boss", "ability" ],
     "show": false,
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "CM",
     "name": "Call Moontalon",
     "tags": [ "spawn" ],
     "show": true,
@@ -48,6 +52,7 @@
     }
   },
   {
+    "id": "DS",
     "name": "Deathly Screech",
     "tags": [ "spawn", "ability" ],
     "show": true,

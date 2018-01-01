@@ -1,5 +1,6 @@
 [
   {
+    "id": "US",
     "name": "Unstable Soul Explosion",
     "tags": [ "player", "damage" ],
     "show": true,
@@ -15,6 +16,7 @@
     }
   },
   {
+    "id": "FE",
     "name": "Fel Echoes",
     "tags": [ "player", "damage" ],
     "show": true,
@@ -28,6 +30,7 @@
     }
   },
   {
+    "id": "LE",
     "name": "Light Echoes",
     "tags": [ "player", "damage" ],
     "show": true,

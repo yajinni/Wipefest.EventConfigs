@@ -1,5 +1,6 @@
 [
   {
+    "id": "TF",
     "name": "Tormented Fragment",
     "tags": [ "spawn" ],
     "eventType": "spawn",

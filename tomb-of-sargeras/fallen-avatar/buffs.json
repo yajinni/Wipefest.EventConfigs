@@ -1,5 +1,6 @@
-﻿[
+[
   {
+    "id": "CP",
     "name": "Cleansing Protocol",
     "tags": [ "boss", "buff" ],
     "show": true,

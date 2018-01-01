@@ -1,5 +1,6 @@
 [
   {
+    "id": "UT",
     "name": "Unbearable Torment",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "SC",
     "name": "Soul Corruption",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -26,6 +28,7 @@
     }
   },
   {
+    "id": "09",
     "name": "Soul Corruption (Removed)",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -39,6 +42,7 @@
     }
   },
   {
+    "id": "0A",
     "name": "Echoing Anguish",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -52,6 +56,7 @@
     }
   },
   {
+    "id": "0B",
     "name": "Echoing Anguish (Removed)",
     "tags": [ "player", "debuff" ],
     "show": false,
@@ -65,6 +70,7 @@
     }
   },
   {
+    "id": "CQ",
     "name": "Calcified Quills",
     "tags": [ "boss", "ability" ],
     "show": true,

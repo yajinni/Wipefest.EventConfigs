@@ -1,5 +1,6 @@
-﻿[
+[
   {
+    "id": "BO",
     "name": "Burden of Pain",
     "tags": [ "boss", "ability" ],
     "show": false,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "ST",
     "name": "Slicing Tornado",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "HS",
     "name": "Hydra Shot",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -37,6 +40,7 @@
     }
   },
   {
+    "id": "CH",
     "name": "Consuming Hunger",
     "tags": [ "boss", "ability" ],
     "show": false,
@@ -49,6 +53,7 @@
     }
   },
   {
+    "id": "TS",
     "name": "Thundering Shock",
     "tags": [ "boss", "ability" ],
     "show": false,
@@ -61,6 +66,7 @@
     }
   },
   {
+    "id": "SO",
     "name": "Summon Ossunet",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -73,6 +79,7 @@
     }
   },
   {
+    "id": "CV",
     "name": "Call Vellius",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -85,6 +92,7 @@
     }
   },
   {
+    "id": "BS",
     "name": "Beckon Sarukel",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -97,6 +105,7 @@
     }
   },
   {
+    "id": "CM",
     "name": "Concealing Murk",
     "tags": [ "spawn", "ability" ],
     "show": false,

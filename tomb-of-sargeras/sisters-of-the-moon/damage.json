@@ -1,5 +1,6 @@
 [
   {
+    "id": "TG",
     "name": "Twilight Glaive",
     "tags": [ "player", "damage" ],
     "show": false,
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "06",
     "name": "Glaive Storm",
     "tags": [ "player", "damage" ],
     "show": false,

@@ -1,5 +1,6 @@
 [
   {
+    "id": "0A",
     "name": "Armageddon",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "AB",
     "name": "Armageddon Blast",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -26,6 +28,7 @@
     }
   },
   {
+    "id": "BD",
     "name": "Bursting Dreadflame",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -38,6 +41,7 @@
     }
   },
   {
+    "id": "NG",
     "name": "Nether Gale",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -50,6 +54,7 @@
     }
   },
   {
+    "id": "DV",
     "name": "Deceiver's Veil",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -62,6 +67,7 @@
     }
   },
   {
+    "id": "DO",
     "name": "Darkness of a Thousand Souls",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -74,6 +80,7 @@
     }
   },
   {
+    "id": "TR",
     "name": "Tear Rift",
     "tags": [ "boss", "ability" ],
     "show": true,

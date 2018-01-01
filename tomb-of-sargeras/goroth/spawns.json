@@ -1,5 +1,6 @@
 [
   {
+    "id": "BI",
     "name": "Brimstone Infernal",
     "tags": [ "spawn" ],
     "show": true,

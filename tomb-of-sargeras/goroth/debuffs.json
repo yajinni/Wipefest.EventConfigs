@@ -1,5 +1,6 @@
 [
   {
+    "id": "SS",
     "name": "Shattering Star",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "05",
     "name": "Infernal Burning",
     "tags": [ "boss", "debuff" ],
     "show": true,
@@ -26,6 +28,7 @@
     }
   },
   {
+    "id": "BA",
     "name": "Burning Armor",
     "tags": [ "boss", "debuff" ],
     "show": false,
@@ -39,6 +42,7 @@
     }
   },
   {
+    "id": "07",
     "name": "Burning Armor (2)",
     "tags": [ "boss", "debuff" ],
     "show": true,

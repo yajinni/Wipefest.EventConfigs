@@ -1,5 +1,6 @@
-﻿[
+[
   {
+    "id": "DM",
     "name": "Dark Mark",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -13,6 +14,7 @@
     }
   },
   {
+    "id": "BW",
     "name": "Black Winds",
     "tags": [ "player", "debuff" ],
     "show": true,
@@ -26,6 +28,7 @@
     }
   },
   {
+    "id": "UC",
     "name": "Unbound Chaos",
     "tags": [ "player", "debuff" ],
     "show": true,

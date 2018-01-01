@@ -1,5 +1,6 @@
 [
   {
+    "id": "06",
     "name": "Explosive Anguish",
     "tags": [ "player", "damage" ],
     "show": false,

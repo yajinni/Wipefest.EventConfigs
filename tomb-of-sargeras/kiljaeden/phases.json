@@ -1,5 +1,6 @@
 [
   {
+    "id": "P1",
     "name": "Phase 1",
     "tags": [ "phase" ],
     "show": true,
@@ -7,6 +8,7 @@
     "timestamp": 0
   },
   {
+    "id": "T1",
     "name": "Transition 1",
     "tags": [ "phase" ],
     "show": true,
@@ -19,6 +21,7 @@
     }
   },
   {
+    "id": "P2",
     "name": "Phase 2",
     "tags": [ "phase" ],
     "show": true,
@@ -31,6 +34,7 @@
     }
   },
   {
+    "id": "T2",
     "name": "Transition 2",
     "tags": [ "phase" ],
     "show": true,
@@ -43,6 +47,7 @@
     }
   },
   {
+    "id": "P3",
     "name": "Phase 3",
     "tags": [ "phase" ],
     "show": true,

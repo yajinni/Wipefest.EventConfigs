@@ -1,5 +1,6 @@
-﻿[
+[
   {
+    "id": "IB",
     "name": "Infernal Burning",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "RO",
     "name": "Rain of Brimstone",
     "tags": [ "boss", "ability" ],
     "show": true,
