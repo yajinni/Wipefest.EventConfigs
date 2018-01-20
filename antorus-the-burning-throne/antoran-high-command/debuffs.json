@@ -53,5 +53,35 @@
         "id": 244737
       }
     }
+  },
+  {
+    "id": "CP",
+    "name": "Chaos Pulse",
+    "tags": [ "boss", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 244420
+      },
+      "query": "ability.id = 244420 and type = 'applydebuff' and source.id in (123013, 123020, 122554) and target.class = 'boss'"
+    }
+  },
+  {
+    "id": "GW",
+    "name": "Chaos Pulse (Removed)",
+    "tags": [ "boss", "debuff" ],
+    "show": true,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
+      "ability": {
+        "id": 244420
+      },
+      "query": "ability.id = 244420 and type = 'removedebuff' and source.id in (123013, 123020, 122554) and target.class = 'boss'"
+    }
   }
 ]
