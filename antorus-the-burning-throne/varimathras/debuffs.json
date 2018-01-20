@@ -42,11 +42,25 @@
     "id": "ED",
     "name": "Echoes of Doom",
     "tags": [ "player", "debuff" ],
-    "show": true,
+    "show": false,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
       "type": "applydebuff",
+      "ability": {
+        "id": 248732
+      }
+    }
+  },
+  {
+    "id": "ER",
+    "name": "Echoes of Doom (Removed)",
+    "tags": [ "player", "debuff" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removedebuff",
       "ability": {
         "id": 248732
       }
