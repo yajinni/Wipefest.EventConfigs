@@ -1,0 +1,72 @@
+[
+  {
+    "id": "99",
+    "name": "Overcharge",
+    "tags": [ "boss", "buff" ],
+    "show": true,
+    "friendly": true,
+    "eventType": "debuffstack",
+    "filter": {
+      "type": "applybuffstack",
+      "ability": {
+        "id": 249740
+      }
+    }
+  },
+  {
+    "id": "98",
+    "name": "Overcharge",
+    "tags": [ "boss", "buff" ],
+    "show": true,
+    "friendly": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 249740
+      }
+    }
+  },
+  {
+    "id": "97",
+    "name": "Empowered Reverberating Strike",
+    "tags": [ "boss", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 254795
+      }
+    }
+  },
+  {
+    "id": "96",
+    "name": "Empowered Diabolic Bomb",
+    "tags": [ "boss", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 254796
+      }
+    }
+  },
+  {
+    "id": "95",
+    "name": "Empowered Ruiner",
+    "tags": [ "boss", "buff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 254797
+      }
+    }
+  }
+]
