@@ -1,0 +1,15 @@
+[
+  {
+    "id": "DH",
+    "name": "Divine Hymn",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 64843
+      }
+    }
+  }
+]
