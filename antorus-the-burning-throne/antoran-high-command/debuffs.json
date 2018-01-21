@@ -58,7 +58,7 @@
     "id": "CP",
     "name": "Chaos Pulse",
     "tags": [ "boss", "debuff" ],
-    "show": true,
+    "show": false,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
@@ -73,7 +73,7 @@
     "id": "GW",
     "name": "Chaos Pulse (Removed)",
     "tags": [ "boss", "debuff" ],
-    "show": true,
+    "show": false,
     "eventType": "removedebuff",
     "friendly": true,
     "filter": {
