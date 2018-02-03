@@ -2,7 +2,7 @@
   {
     "id": "HE",
     "name": "Heroism",
-    "tags": [ "priest", "holy" ],
+    "tags": [ "focus" ],
     "show": true,
     "eventType": "heroism",
     "filter": {

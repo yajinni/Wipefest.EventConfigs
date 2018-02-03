@@ -29,7 +29,7 @@
     "id": "PH",
     "name": "Prayer of Healing",
     "tags": [ "priest", "holy" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -42,7 +42,7 @@
     "id": "SA",
     "name": "Holy Word: Sanctify",
     "tags": [ "priest", "holy" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -55,7 +55,7 @@
     "id": "SE",
     "name": "Holy Word: Serenity",
     "tags": [ "priest", "holy" ],
-    "show": true,
+    "show": false,
     "showTarget": true,
     "eventType": "ability",
     "filter": {
@@ -89,6 +89,47 @@
       "type": "cast",
       "ability": {
         "id": 19236
+      }
+    }
+  },
+  {
+    "id": "FA",
+    "name": "Fade",
+    "tags": [ "priest", "holy" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 19236
+      }
+    }
+  },
+  {
+    "id": "LF",
+    "name": "Leap of Faith",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 73325
+      }
+    }
+  },
+  {
+    "id": "GS",
+    "name": "Guardian Spirit",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 47788
       }
     }
   },
@@ -131,6 +172,48 @@
       "type": "removebuff",
       "ability": {
         "id": 196644
+      }
+    }
+  },
+  {
+    "id": "S1",
+    "name": "Spirit of Redemption",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 27827
+      }
+    }
+  },
+  {
+    "id": "S2",
+    "name": "Spirit of Redemption (Removed)",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 27827
+      }
+    }
+  },
+  {
+    "id": "LC",
+    "name": "Benedictus' Restitution",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 211319
       }
     }
   }
