@@ -11,5 +11,127 @@
         "id": 64843
       }
     }
+  },
+  {
+    "id": "PM",
+    "name": "Prayer of Mending",
+    "tags": [ "priest", "holy" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 33076
+      }
+    }
+  },
+  {
+    "id": "PH",
+    "name": "Prayer of Healing",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 596
+      }
+    }
+  },
+  {
+    "id": "SA",
+    "name": "Holy Word: Sanctify",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 34861
+      }
+    }
+  },
+  {
+    "id": "SE",
+    "name": "Holy Word: Serenity",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 2050
+      }
+    }
+  },
+  {
+    "id": "LT",
+    "name": "Light of T'uure",
+    "tags": [ "priest", "holy" ],
+    "show": false,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 208065
+      }
+    }
+  },
+  {
+    "id": "DP",
+    "name": "Desperate Prayer",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 19236
+      }
+    }
+  },
+  {
+    "id": "AF",
+    "name": "Angelic Feather",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 121557
+      }
+    }
+  },
+  {
+    "id": "BT",
+    "name": "Blessing of Tuure",
+    "tags": [ "priest", "holy" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 196644
+      }
+    }
+  },
+  {
+    "id": "BR",
+    "name": "Blessing of Tuure (Removed)",
+    "tags": [ "priest", "holy" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 196644
+      }
+    }
   }
 ]

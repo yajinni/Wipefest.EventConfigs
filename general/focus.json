@@ -1,0 +1,15 @@
+[
+  {
+    "id": "HE",
+    "name": "Heroism",
+    "tags": [ "priest", "holy" ],
+    "show": true,
+    "eventType": "heroism",
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "ids": [ 32182, 80353, 2825, 90355, 160452 ]
+      }
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "EV",
+    "name": "Eonar's Verdant Embrace",
+    "tags": [ "healer", "trinket" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 257474
+      }
+    }
+  },
+  {
+    "id": "ME",
+    "name": "Mark of Eonar",
+    "tags": [ "healer", "trinket" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 256824
+      }
+    }
+  }
+]
