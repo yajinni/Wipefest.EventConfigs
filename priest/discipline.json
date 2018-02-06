@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "CL",
+    "name": "Cycle of the Legion",
+    "tags": [ "priest", "discipline" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 253260
+      }
+    }
+  },
+  {
+    "id": "SO",
+    "name": "Spectral Owl",
+    "tags": [ "priest", "discipline" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 242570
+      }
+    }
+  }
+]

@@ -11,5 +11,19 @@
         "ids": [ 32182, 80353, 2825, 90355, 160452 ]
       }
     }
+  },
+  {
+    "id": "TM",
+    "name": "Taste of Mana",
+    "tags": [ "focus" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 228461
+      }
+    }
   }
 ]

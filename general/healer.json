@@ -1,9 +1,23 @@
 [
   {
+    "id": "AG",
+    "name": "Aman'Thul's Grandeur",
+    "tags": [ "healer", "passive" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 256832
+      }
+    }
+  },
+  {
     "id": "EV",
     "name": "Eonar's Verdant Embrace",
-    "tags": [ "healer", "trinket" ],
-    "show": true,
+    "tags": [ "healer", "passive" ],
+    "show": false,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
@@ -16,14 +30,129 @@
   {
     "id": "ME",
     "name": "Mark of Eonar",
-    "tags": [ "healer", "trinket" ],
-    "show": true,
+    "tags": [ "healer", "passive" ],
+    "show": false,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
       "type": "applybuff",
       "ability": {
         "id": 256824
+      }
+    }
+  },
+  {
+    "id": "GH",
+    "name": "Guiding Hand",
+    "tags": [ "healer", "active" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 242622
+      }
+    }
+  },
+  {
+    "id": "OE",
+    "name": "Ocean's Embrace",
+    "tags": [ "healer", "passive" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 242467
+      }
+    }
+  },
+  {
+    "id": "FM",
+    "name": "Fruitful Machinations",
+    "tags": [ "healer", "active" ],
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 242623
+      }
+    }
+  },
+  {
+    "id": "VF",
+    "name": "Velen's Future Sight",
+    "tags": [ "healer", "active" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 235966
+      }
+    }
+  },
+  {
+    "id": "LI",
+    "name": "Lunar Infusion",
+    "tags": [ "healer", "passive" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 242543
+      }
+    }
+  },
+  {
+    "id": "RV",
+    "name": "Reverberating Vitality",
+    "tags": [ "healer", "active" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 253258
+      }
+    }
+  },
+  {
+    "id": "RA",
+    "name": "Refreshing Agony",
+    "tags": [ "healer", "active" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 253284
+      }
+    }
+  },
+  {
+    "id": "TK",
+    "name": "Tarratus Keystone",
+    "tags": [ "healer", "active" ],
+    "show": true,
+    "showTarget": true, 
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 255924
       }
     }
   }
