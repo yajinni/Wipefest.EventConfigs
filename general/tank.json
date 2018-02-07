@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "UP",
+    "name": "Unbending Potion",
+    "tags": [ "focus" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 188029
+      }
+    }
+  }
+]

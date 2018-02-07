@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "OW",
+    "name": "Potion of the Old War",
+    "tags": [ "melee", "active" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 188028
+      }
+    }
+  }
+]

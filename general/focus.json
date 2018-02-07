@@ -13,6 +13,21 @@
     }
   },
   {
+    "id": "PP",
+    "name": "Potion of Prolonged Power",
+    "tags": [ "focus" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 229206
+      }
+    }
+  },
+  {
     "id": "TM",
     "name": "Taste of Mana",
     "tags": [ "focus" ],
@@ -23,6 +38,20 @@
       "type": "applybuff",
       "ability": {
         "id": 228461
+      }
+    }
+  },
+  {
+    "id": "HS",
+    "name": "Healthstone / Healing Tonic",
+    "tags": [ "focus" ],
+    "show": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "ids": [ 6262, 251645, 188016 ]
       }
     }
   }

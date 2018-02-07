@@ -137,7 +137,7 @@
     "id": "AF",
     "name": "Angelic Feather",
     "tags": [ "priest", "holy" ],
-    "show": true,
+    "show": false,
     "eventType": "debuff",
     "friendly": true,
     "filter": {

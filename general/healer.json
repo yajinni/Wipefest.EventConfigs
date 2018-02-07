@@ -1,5 +1,35 @@
 [
   {
+    "id": "AM",
+    "name": "Ancient Mana Potion",
+    "tags": [ "healer", "active" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 188017
+      }
+    }
+  },
+  {
+    "id": "LP",
+    "name": "Leytorrent Potion",
+    "tags": [ "healer", "active" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "friendly": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 188030
+      }
+    }
+  },
+  {
     "id": "AG",
     "name": "Aman'Thul's Grandeur",
     "tags": [ "healer", "passive" ],
@@ -146,7 +176,7 @@
     "name": "Tarratus Keystone",
     "tags": [ "healer", "active" ],
     "show": true,
-    "showTarget": true, 
+    "showTarget": true,
     "eventType": "ability",
     "friendly": true,
     "filter": {
