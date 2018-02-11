@@ -91,7 +91,7 @@
     }
   },
   {
-    "id": "0D",
+    "id": "1D",
     "name": "Demolish",
     "tags": [ "player", "damage" ],
     "show": false,

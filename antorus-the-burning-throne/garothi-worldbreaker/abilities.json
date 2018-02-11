@@ -68,7 +68,7 @@
     }
   },
   {
-    "id": "0C",
+    "id": "1C",
     "name": "Carnage",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -94,7 +94,7 @@
     }
   },
   {
-    "id": "0E",
+    "id": "1E",
     "name": "Empowered",
     "tags": [ "boss", "ability" ],
     "show": true,
@@ -133,7 +133,7 @@
     }
   },
   {
-    "id": "0H",
+    "id": "1H",
     "name": "Haywire (Annihilation)",
     "tags": [ "boss", "ability" ],
     "show": true,

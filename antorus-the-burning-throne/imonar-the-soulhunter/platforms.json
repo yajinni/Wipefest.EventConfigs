@@ -78,7 +78,7 @@
   },
 
   {
-    "id": "0S",
+    "id": "1S",
     "name": "Conflagration",
     "tags": [ "player", "interrupt" ],
     "eventType": "interrupt",
