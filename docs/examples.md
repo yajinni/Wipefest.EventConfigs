@@ -1,7 +1,7 @@
 # Examples
 
 These examples should help you understand the format of an event config.
-Feel free to dive into the [specification](specification)
+Feel free to dive into the [specification](specification.md)
 if you need more details about each property.
 
 ## Ability
