@@ -16,7 +16,7 @@
     "id": "0E",
     "name": "Weight of Darkness (Fear)",
     "tags": [ "player", "debuff" ],
-    "show": false,
+    "show": true,
     "eventType": "debuff",
     "friendly": true,
     "filter": {

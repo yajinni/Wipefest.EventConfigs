@@ -10,6 +10,6 @@ When [Wipefest](https://www.wipefest.net/) constructs the events view, it:
 * Using the same configurations, decides how to convert the returned Warcraft Logs events into Wipefest events
 * Renders these events
 
-#### [Specification](docs/specification.md)
 #### [Examples](docs/examples.md)
+#### [Specification](docs/specification.md)
 #### [Contribute](docs/contribute.md)
