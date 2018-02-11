@@ -148,7 +148,7 @@ Most of the time, one *Warcraft Logs* event will become one *Wipefest* event,
 but there are also **filter** properties that will allow you to collapse several
 *Warcraft Logs* events into a single *Wipefest* event.
 
-#### > filter.type (*string*)
+### filter.type (*string*)
 
 * [x] Required (Unless **filter.types** is specified)
 
@@ -168,7 +168,7 @@ but the main ones you will need to use are:
 * removedebuff
 * interrupt
 
-#### > filter.types (*string[]*)
+### filter.types (*string[]*)
 
 * [x] Required (Unless **filter.type** is specified)
 
@@ -197,19 +197,19 @@ so as to include events where a player was hit but absorbed all of the damage:
 }
 ```
 
-#### > filter.ability (*FilterAbility*)
+### filter.ability (*FilterAbility*)
 
 As well as the *type* of the *Warcraft Logs* event,
 *Wipefest* needs to know what *ability* to filter to.
 
-##### > > filter.ability.id (*number*)
+### filter.ability.id (*number*)
 
 * [x] Required (Unless **filter.ability.ids** is specified)
 
 **filter.ability.id** is the numeric *World of Warcraft* spell ID for that ability.
 This is the same ID that is used in *Weak Auras*, *Warcraft Logs*, *WoWDB*, *Wowhead* etc.
 
-##### > > filter.ability.ids (*number[]*)
+### filter.ability.ids (*number[]*)
 
 * [x] Required (Unless **filter.ability.id** is specified)
 
