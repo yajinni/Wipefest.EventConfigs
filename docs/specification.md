@@ -1,4 +1,4 @@
-## Specification
+# Specification
 
 An event config can have a fair few possible properties, but a small handful of them cover most use cases.
 This page exists to document each property and what it can be used for.
@@ -9,6 +9,7 @@ This page exists to document each property and what it can be used for.
 * [Basic configuration](#Basic-configuration) (covers 95% of use cases)
   * [tags](#tags-string)
   * [show](#show-boolean)
+  * [difficulties](#difficulties-number)
   * [eventType](#eventType-string)
   * [friendly](#friendly-boolean)
   * [filter](#filter-Filter)
@@ -18,7 +19,6 @@ This page exists to document each property and what it can be used for.
       * [id](#filter.ability.id-number)
       * [ids](#filter.ability.ids-number)
 * Further configuration (to cover 99% of use cases)
-  * difficulties
   * filter
     * actor
       * id
@@ -45,9 +45,9 @@ This page exists to document each property and what it can be used for.
   * icon
   * style
 
-### Identifiers
+## Identifiers
 
-#### id (*string*)
+### id (*string*)
 
 * [x] Required
 
@@ -55,7 +55,7 @@ A **2-character** string that must be unique within the event config group (boss
 
 Should be URL friendly (convention is for upper case letters and digits).
 
-#### name: (*string*)
+### name: (*string*)
 
 * [x] Required
 
@@ -66,9 +66,9 @@ their events will be combined into the same "row" in the left-hand filter menu
 (so they are filtered on/off at the same time).
 This is mostly just used for stacking tank debuffs as the "debuff" and "debuffstack" events usually want to be combined.
 
-### Basic Configuration
+## Basic Configuration
 
-#### tags (*string[]*)
+### tags (*string[]*)
 
 * [x] Required
 
@@ -79,7 +79,7 @@ and the second tag will be the subheading.
 For bosses, the first tag is typically "boss" / "player" / "raid" / "spawn",
 and the second tag is typically "ability" / "buff" / "debuff" / "damage" / "interrupt".
 
-#### show (*boolean*)
+### show (*boolean*)
 
 * Default: *false*
 
@@ -90,7 +90,20 @@ Be careful not to have too many events defaulting to be shown,
 as the timeline can easily get cluttered with lots of frequent events
 that the user isn't necessarily concerned about.
 
-#### eventType (*string*)
+### difficulties (*number[]*)
+
+* Default: *[3, 4, 5]*
+
+**difficulties** determines which raid difficulties the event config will be loaded for:
+
+3. Normal
+4. Heroic
+5. Mythic
+
+This is useful for when a mechanic significantly differs from heroic to mythic,
+and you want to load different versions of the event config for each difficulty.
+
+### eventType (*string*)
 
 * [x] Required
 
@@ -112,7 +125,7 @@ Valid values:
 
 **debuff* / *debuffstack* / *removedebuff* events can also be used for buffs.
 
-#### friendly (*boolean*)
+### friendly (*boolean*)
 
 * Default: *depends on the source/target of the event and the eventType*
 
@@ -128,14 +141,14 @@ and an unfriendly *debuff* event might read "Z applied Y to X".
 
 If the default value of **friendly** is not correct, then simply override it by setting this property.
 
-#### filter (*Filter*)
+### filter (*Filter*)
 
 The **filter** determines which *Warcraft Logs* events are used to create *Wipefest* events.
 Most of the time, one *Warcraft Logs* event will become one *Wipefest* event,
 but there are also **filter** properties that will allow you to collapse several
 *Warcraft Logs* events into a single *Wipefest* event.
 
-##### > filter.type (*string*)
+#### > filter.type (*string*)
 
 * [x] Required (Unless **filter.types** is specified)
 
@@ -155,7 +168,7 @@ but the main ones you will need to use are:
 * removedebuff
 * interrupt
 
-##### > filter.types (*string[]*)
+#### > filter.types (*string[]*)
 
 * [x] Required (Unless **filter.type** is specified)
 
@@ -184,19 +197,19 @@ so as to include events where a player was hit but absorbed all of the damage:
 }
 ```
 
-##### > filter.ability (*FilterAbility*)
+#### > filter.ability (*FilterAbility*)
 
 As well as the *type* of the *Warcraft Logs* event,
 *Wipefest* needs to know what *ability* to filter to.
 
-###### > > filter.ability.id (*number*)
+##### > > filter.ability.id (*number*)
 
 * [x] Required (Unless **filter.ability.ids** is specified)
 
 **filter.ability.id** is the numeric *World of Warcraft* spell ID for that ability.
 This is the same ID that is used in *Weak Auras*, *Warcraft Logs*, *WoWDB*, *Wowhead* etc.
 
-###### > > filter.ability.ids (*number[]*)
+##### > > filter.ability.ids (*number[]*)
 
 * [x] Required (Unless **filter.ability.id** is specified)
 
