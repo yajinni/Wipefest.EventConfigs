@@ -12,4 +12,17 @@
     }
   }
 }
+{
+  "id": "BC",
+  "name": "Battle Cry",
+  "tags": [ "warrior", "fury" ],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 1719
+    }
+  }
+}
 ]
