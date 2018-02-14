@@ -24,5 +24,32 @@
       "id": 1719
     }
   }
+},
+{
+  "id": "ER",
+  "name": "Enraged Regeneration",
+  "tags": [ "warrior", "fury" ],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 184364
+    }
+  }
+},
+ {
+  "id": "WM",
+  "name": "War Machine",
+  "tags": [ "warrior", "fury" ],
+  "show": true,
+  "eventType": "debuff",
+  "friendly": true,
+  "filter": {
+    "type": "applybuff",
+    "ability": {
+      "id": 215556
+    }
+  }
 }
 ]
