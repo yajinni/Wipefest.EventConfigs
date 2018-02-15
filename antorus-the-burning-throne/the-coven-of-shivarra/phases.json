@@ -11,6 +11,7 @@
     "id": "AA",
     "name": "Asara and Diima",
     "tags": [ "phase" ],
+    "difficulties": [ 3, 4 ],
     "eventType": "phase",
     "show": true,
     "filter": {
@@ -25,6 +26,7 @@
     "id": "DA",
     "name": "Diima and Noura",
     "tags": [ "phase" ],
+    "difficulties": [ 3, 4 ],
     "eventType": "phase",
     "show": true,
     "filter": {
@@ -39,6 +41,7 @@
     "id": "0S",
     "name": "Noura and Asara",
     "tags": [ "phase" ],
+    "difficulties": [ 3, 4 ],
     "eventType": "phase",
     "show": true,
     "filter": {
@@ -53,6 +56,7 @@
     "id": "0T",
     "name": "Asara and Diima",
     "tags": [ "phase" ],
+    "difficulties": [ 3, 4 ],
     "eventType": "phase",
     "show": true,
     "filter": {
@@ -67,11 +71,72 @@
     "id": "0U",
     "name": "Diima and Noura",
     "tags": [ "phase" ],
+    "difficulties": [ 3, 4 ],
     "eventType": "phase",
     "show": true,
     "filter": {
       "type": "cast",
       "index": 10,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "id": "A1",
+    "name": "Asara and Diima",
+    "tags": [ "phase" ],
+    "difficulties": [ 5 ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "index": 4,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "id": "A2",
+    "name": "Diima and Thu'raya",
+    "tags": [ "phase" ],
+    "difficulties": [ 5 ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "index": 5,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "id": "A3",
+    "name": "Noura and Thu'raya",
+    "tags": [ "phase" ],
+    "difficulties": [ 5 ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "index": 8,
+      "ability": {
+        "ids": [ 250335, 249793, 250334, 250333 ]
+      }
+    }
+  },
+  {
+    "id": "A4",
+    "name": "Noura and Asara",
+    "tags": [ "phase" ],
+    "difficulties": [ 5 ],
+    "eventType": "phase",
+    "show": true,
+    "filter": {
+      "type": "cast",
+      "index": 9,
       "ability": {
         "ids": [ 250335, 249793, 250334, 250333 ]
       }

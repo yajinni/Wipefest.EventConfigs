@@ -116,5 +116,18 @@
         "id": 253520
       }
     }
+  },
+  {
+    "id": "CG",
+    "name": "Cosmic Glare",
+    "tags": [ "player", "debuff" ],
+    "eventType": "debuff",
+    "show": false,
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 250757
+      }
+    }
   }
 ]
