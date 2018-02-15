@@ -218,7 +218,24 @@
           122783,
           122278,
           118038,
-          184364
+          184364,
+          110960
+        ]
+      }
+    }
+  },
+  {
+    "id": "P2",
+    "name": "Personal Defensives",
+    "tags": [ "player" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true, 
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "ids": [
+          212800
         ]
       }
     }
