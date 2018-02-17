@@ -1,1 +1,80 @@
-[]
+[
+{
+  "id": "PB",
+  "name": "Battle Cry",
+  "tags": [ "warrior"],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 1719
+    }
+  }
+}, 
+{
+  "id": "PA",
+  "name": "Avatar",
+  "tags": [ "warrior"],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 107574
+    }
+  }
+}, 
+{
+  "id": "DS",
+  "name": "Demoralizing Shout",
+  "tags": [ "warrior", "protection" ],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 1160
+    }
+  }
+},
+{
+  "id": "SR",
+  "name": "Spell Reflection",
+  "tags": [ "warrior", "protection" ],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 23920
+    }
+  }
+},   
+{
+  "id": "SW",
+  "name": "Shield Wall",
+  "tags": [ "warrior", "protection" ],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 871
+    }
+  }
+},  
+{
+  "id": "LS",
+  "name": "Last Stand",
+  "tags": [ "warrior", "protection" ],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 12975
+    }
+  }
+}
+]

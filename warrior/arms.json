@@ -1,1 +1,80 @@
-[]
+[
+{
+  "id": "AA",
+  "name": "Avatar",
+  "tags": [ "warrior"],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 107574
+    }
+  }
+}, 
+{
+  "id": "AB",
+  "name": "Battle Cry",
+  "tags": [ "warrior"],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 1719
+    }
+  }
+},
+{
+  "id": "DS",
+  "name": "Defensive Stance",
+  "tags": [ "warrior", "arms" ],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 197690
+    }
+  }
+},    
+{
+  "id": "DB",
+  "name": "Die by the Sword",
+  "tags": [ "warrior", "arms" ],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 118038
+    }
+  }
+},  
+{
+  "id": "AC",
+  "name": "Commanding Shout",
+  "tags": [ "warrior"],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 97462
+    }
+  }
+},
+{
+  "id": "RV",
+  "name": "Ravager",
+  "tags": [ "warrior", "arms" ],
+  "show": true,
+  "eventType": "ability",
+  "filter": {
+    "type": "cast",
+    "ability": {
+      "id": 152277
+    }
+  }
+}
+]
