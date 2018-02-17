@@ -67,7 +67,7 @@
 {
   "id": "RV",
   "name": "Ravager",
-  "tags": [ "warrior", "fury" ],
+  "tags": [ "warrior", "arms" ],
   "show": true,
   "eventType": "ability",
   "filter": {
