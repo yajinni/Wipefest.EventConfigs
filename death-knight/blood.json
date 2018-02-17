@@ -3,7 +3,7 @@
     "id": "DW",
     "name": "Dancing Rune Weapon",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -29,7 +29,7 @@
     "id": "B1",
     "name": "Bone Shield (Applied)",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
@@ -43,7 +43,7 @@
     "id": "B2",
     "name": "Bone Shield (Removed)",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "removedebuff",
     "friendly": true,
     "filter": {
@@ -57,7 +57,7 @@
     "id": "MB",
     "name": "Mark of Blood",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -70,7 +70,7 @@
     "id": "O1",
     "name": "Ossuary (Applied)",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
@@ -84,7 +84,7 @@
     "id": "O2",
     "name": "Ossuary (Removed)",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "removedebuff",
     "friendly": true,
     "filter": {
@@ -98,7 +98,7 @@
     "id": "GG",
     "name": "Gorefiends Grasp",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -111,8 +111,9 @@
     "id": "AX",
     "name": "Asphyxiate",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
+    "showTarget": true,
     "filter": {
       "type": "cast",
       "ability": {
@@ -137,8 +138,9 @@
     "id": "CI",
     "name": "Chains of Ice",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
+    "showTarget": true,
     "filter": {
       "type": "cast",
       "ability": {
@@ -150,8 +152,9 @@
     "id": "DC",
     "name": "Dark Command",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
+    "showTarget": true,
     "filter": {
       "type": "cast",
       "ability": {
@@ -163,8 +166,9 @@
     "id": "DG",
     "name": "Death Grip",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
+    "showTarget": true,
     "filter": {
       "type": "cast",
       "ability": {
@@ -176,8 +180,9 @@
     "id": "MF",
     "name": "Mind Freeze",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
+    "showTarget": true,
     "filter": {
       "type": "cast",
       "ability": {
@@ -189,7 +194,7 @@
     "id": "DS",
     "name": "Death Strike",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -217,6 +222,7 @@
     "tags": [ "death knight", "blood" ],
     "show": true,
     "eventType": "ability",
+    "showTarget": true,
     "filter": {
       "type": "cast",
       "ability": {
@@ -228,7 +234,7 @@
     "id": "WW",
     "name": "Wraith Walk",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -241,7 +247,7 @@
     "id": "DR",
     "name": "Death's Caress",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -254,7 +260,7 @@
     "id": "CP",
     "name": "Consumption",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -267,7 +273,7 @@
     "id": "BD",
     "name": "Blooddrinker",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -280,7 +286,7 @@
     "id": "BT",
     "name": "Blood Tap",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -293,7 +299,7 @@
     "id": "TS",
     "name": "Tombstone",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -306,7 +312,7 @@
     "id": "RT",
     "name": "Rune Tap",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -319,7 +325,7 @@
     "id": "BR",
     "name": "Bonestorm",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -332,8 +338,9 @@
     "id": "BM",
     "name": "Blood Mirror",
     "tags": [ "death knight", "blood" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
+    "showTarget": true,
     "filter": {
       "type": "cast",
       "ability": {
