@@ -91,19 +91,6 @@
     }
   }
 },
-{
-  "id": "BS",
-  "name": "Bladestorm",
-  "tags": [ "warrior", "fury" ],
-  "show": true,
-  "eventType": "ability",
-  "filter": {
-    "type": "cast",
-    "ability": {
-      "id": 227847
-    }
-  }
-}
 ]
 
 
