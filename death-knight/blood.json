@@ -177,20 +177,6 @@
     }
   },
   {
-    "id": "MF",
-    "name": "Mind Freeze",
-    "tags": [ "death knight", "blood" ],
-    "show": false,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 47528
-      }
-    }
-  },
-  {
     "id": "DS",
     "name": "Death Strike",
     "tags": [ "death knight", "blood" ],
