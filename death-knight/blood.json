@@ -27,7 +27,7 @@
   },
   {
     "id": "B1",
-    "name": "Bone Shield",
+    "name": "Bone Shield (Applied)",
     "tags": [ "death knight", "blood" ],
     "show": true,
     "eventType": "debuff",
@@ -41,7 +41,7 @@
   },
   {
     "id": "B2",
-    "name": "Bone Shield",
+    "name": "Bone Shield (Removed)",
     "tags": [ "death knight", "blood" ],
     "show": true,
     "eventType": "debuff",
@@ -68,7 +68,7 @@
   },
   {
     "id": "O1",
-    "name": "Ossuary",
+    "name": "Ossuary (Applied)",
     "tags": [ "death knight", "blood" ],
     "show": true,
     "eventType": "debuff",
@@ -82,7 +82,7 @@
   },
   {
     "id": "O2",
-    "name": "Ossuary",
+    "name": "Ossuary (Removed)",
     "tags": [ "death knight", "blood" ],
     "show": true,
     "eventType": "debuff",
