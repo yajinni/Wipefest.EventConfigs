@@ -73,21 +73,9 @@
   "filter": {
     "type": "cast",
     "ability": {
-      "id": 118038
+      "id": 12975
     }
   }
 },  
-{
-  "id": "RV",
-  "name": "Ravager",
-  "tags": [ "warrior", "fury" ],
-  "show": true,
-  "eventType": "ability",
-  "filter": {
-    "type": "cast",
-    "ability": {
-      "id": 156287
-    }
-  }
-}
+
 ]
