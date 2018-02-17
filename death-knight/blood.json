@@ -27,7 +27,7 @@
   },
   {
     "id": "B1",
-    "name": "Bone Shield (Applied)",
+    "name": "Bone Shield",
     "tags": [ "death knight", "blood" ],
     "show": false,
     "eventType": "debuff",
@@ -68,7 +68,7 @@
   },
   {
     "id": "O1",
-    "name": "Ossuary (Applied)",
+    "name": "Ossuary",
     "tags": [ "death knight", "blood" ],
     "show": false,
     "eventType": "debuff",
@@ -96,7 +96,7 @@
   },
   {
     "id": "GG",
-    "name": "Gorefiends Grasp",
+    "name": "Gorefiend's Grasp",
     "tags": [ "death knight", "blood" ],
     "show": false,
     "eventType": "ability",

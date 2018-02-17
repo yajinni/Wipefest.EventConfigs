@@ -134,5 +134,32 @@
         "id": 253520
       }
     }
+  },
+  {
+    "id": "TC",
+    "name": "Touch of the Cosmos",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "friendly": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 250648
+      }
+    }
+  },
+  {
+    "id": "T2",
+    "name": "Touch of the Cosmos",
+    "tags": [ "interrupt" ],
+    "show": false,
+    "eventType": "interrupt",
+    "filter": {
+      "type": "interrupt",
+      "ability": {
+        "id": 250648
+      }
+    }
   }
 ]
