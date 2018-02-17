@@ -1,8 +1,8 @@
 [
 {
-  "id": "AV",
+  "id": "FA",
   "name": "Avatar",
-  "tags": [ "warrior", "fury" ],
+  "tags": [ "warrior"],
   "show": true,
   "eventType": "ability",
   "filter": {
@@ -26,9 +26,9 @@
   }
 },  
 {
-  "id": "BC",
+  "id": "FB",
   "name": "Battle Cry",
-  "tags": [ "warrior", "fury" ],
+  "tags": [ "warrior"],
   "show": true,
   "eventType": "ability",
   "filter": {
@@ -65,9 +65,9 @@
   }
 },  
 {
-  "id": "CM",
+  "id": "FC",
   "name": "Commanding Shout",
-  "tags": [ "warrior", "fury" ],
+  "tags": [ "warrior"],
   "show": true,
   "eventType": "ability",
   "filter": {
