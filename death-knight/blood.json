@@ -44,7 +44,7 @@
     "name": "Bone Shield (Removed)",
     "tags": [ "death knight", "blood" ],
     "show": true,
-    "eventType": "debuff",
+    "eventType": "removedebuff",
     "friendly": true,
     "filter": {
       "type": "removebuff",
@@ -85,7 +85,7 @@
     "name": "Ossuary (Removed)",
     "tags": [ "death knight", "blood" ],
     "show": true,
-    "eventType": "debuff",
+    "eventType": "removedebuff",
     "friendly": true,
     "filter": {
       "type": "removebuff",
