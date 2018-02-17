@@ -48,7 +48,7 @@
   "filter": {
     "type": "applybuff",
     "ability": {
-      "id": 215556
+      "id": 215562
     }
   }
 }
