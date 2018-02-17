@@ -26,7 +26,7 @@
     }
   },
   {
-    "id": "BS",
+    "id": "B1",
     "name": "Bone Shield",
     "tags": [ "death knight", "blood" ],
     "show": true,
@@ -40,7 +40,7 @@
     }
   },
   {
-    "id": "BS",
+    "id": "B2",
     "name": "Bone Shield",
     "tags": [ "death knight", "blood" ],
     "show": true,
@@ -67,20 +67,7 @@
     }
   },
   {
-    "id": "MB",
-    "name": "Mark of Blood",
-    "tags": [ "death knight", "blood" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 61606
-      }
-    }
-  },
-  {
-    "id": "OS",
+    "id": "O1",
     "name": "Ossuary",
     "tags": [ "death knight", "blood" ],
     "show": true,
@@ -94,7 +81,7 @@
     }
   },
   {
-    "id": "OS",
+    "id": "O2",
     "name": "Ossuary",
     "tags": [ "death knight", "blood" ],
     "show": true,
@@ -251,7 +238,7 @@
     }
   },
   {
-    "id": "DC",
+    "id": "DR",
     "name": "Death's Caress",
     "tags": [ "death knight", "blood" ],
     "show": true,
@@ -329,7 +316,7 @@
     }
   },
   {
-    "id": "BS",
+    "id": "BR",
     "name": "Bonestorm",
     "tags": [ "death knight", "blood" ],
     "show": true,
@@ -351,19 +338,6 @@
       "type": "cast",
       "ability": {
         "id": 206977
-      }
-    }
-  },
-  {
-    "id": "PG",
-    "name": "Purgatory",
-    "tags": [ "death knight", "blood" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 114556
       }
     }
   },
