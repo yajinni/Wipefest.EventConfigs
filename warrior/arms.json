@@ -1,8 +1,8 @@
 [
 {
-  "id": "AV",
+  "id": "AA",
   "name": "Avatar",
-  "tags": [ "warrior", "arms" ],
+  "tags": [ "warrior"],
   "show": true,
   "eventType": "ability",
   "filter": {
@@ -13,9 +13,9 @@
   }
 }, 
 {
-  "id": "BC",
+  "id": "AB",
   "name": "Battle Cry",
-  "tags": [ "warrior", "arms" ],
+  "tags": [ "warrior"],
   "show": true,
   "eventType": "ability",
   "filter": {
@@ -52,9 +52,9 @@
   }
 },  
 {
-  "id": "CM",
+  "id": "AC",
   "name": "Commanding Shout",
-  "tags": [ "warrior", "arms" ],
+  "tags": [ "warrior"],
   "show": true,
   "eventType": "ability",
   "filter": {
