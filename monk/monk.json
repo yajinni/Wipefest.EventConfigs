@@ -30,6 +30,7 @@
         "name": "Paralysis",
         "tags": ["monk"],
         "show": false,
+        "showTarget": true,
         "eventType": "ability",
         "filter": {
             "type": "cast",
@@ -56,6 +57,7 @@
         "name": "Tiger's Lust",
         "tags": ["monk"],
         "show": false,
+        "showTarget": true,
         "eventType": "ability",
         "filter": {
             "type": "cast",
