@@ -24,5 +24,18 @@
         "id": 1966
       }
     }
+  },
+  {
+    "id": "CV",
+    "name": "Crimson Vial",
+    "tags": [ "rogue" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 185311
+      }
+    }
   }
 ]
