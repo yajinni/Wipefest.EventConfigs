@@ -11,5 +11,18 @@
         "id": 121471
       }
     }
+  },
+  {
+    "id": "EV",
+    "name": "Evasion",
+    "tags": [ "rogue", "subtlety" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 5277
+      }
+    }
   }
 ]
