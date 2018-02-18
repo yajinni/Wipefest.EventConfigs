@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "CS",
+    "name": "Cloak of Shadows",
+    "tags": [ "rogue" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 31224
+      }
+    }
+  },
+  {
+    "id": "FE",
+    "name": "Feint",
+    "tags": [ "rogue" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 1966
+      }
+    }
+  }
+]
