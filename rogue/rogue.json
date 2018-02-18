@@ -37,5 +37,19 @@
         "id": 185311
       }
     }
+  },
+  {
+    "id": "BL",
+    "name": "Blind",
+    "tags": [ "rogue" ],
+    "show": true,
+    "eventType": "ability",
+    "showTarget": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 2094
+      }
+    }
   }
 ]
