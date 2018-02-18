@@ -29,7 +29,7 @@
         "id": "F1",
         "name": "Fortifying Brew",
         "tags": ["monk", "brewmaster"],
-        "show": false,
+        "show": true,
         "eventType": "ability",
         "filter": {
             "type": "cast",
@@ -42,7 +42,7 @@
         "id": "B4",
         "name": "Black Ox Brew",
         "tags": ["monk", "brewmaster"],
-        "show": false,
+        "show": true,
         "eventType": "ability",
         "filter": {
             "type": "cast",
@@ -52,57 +52,16 @@
         }
     },
     {
-        "id": "DH",
-        "name": "Dampen Harm",
-        "tags": ["monk"],
-        "show": false,
-        "eventType": "ability",
-        "filter": {
-            "type": "cast",
-            "ability": {
-                "id": 123715
-            }
-        }
-    },
-    {
         "id": "ZM",
         "name": "Zen Meditation",
         "tags": ["monk", "brewmaster"],
-        "show": false,
+        "show": true,
         "eventType": "ability",
         "filter": {
             "type": "cast",
             "ability": {
                 "id": 115176
             }
-        }
-    },
-    {
-        "id": "B8",
-        "name": "Blackout Combo",
-        "tags": [ "monk", "brewmaster" ],
-        "show": false,
-        "eventType": "debuff",
-        "friendly": true,
-        "filter": {
-          "type": "applybuff",
-          "ability": {
-            "id": 228563
-          }
-        }
-    },
-    {
-        "id": "B9",
-        "name": "Blackout Combo (Removed)",
-        "tags": [ "monk", "brewmaster" ],
-        "show": false,
-        "eventType": "removedebuff",
-        "friendly": true,
-        "filter": {
-          "type": "removebuff",
-          "ability": {
-            "id": 228563
-          }
         }
     }
 ]
