@@ -1,97 +1,68 @@
 [
-{
-  "id": "FA",
-  "name": "Avatar",
-  "tags": [ "warrior"],
-  "show": true,
-  "eventType": "ability",
-  "filter": {
-    "type": "cast",
-    "ability": {
-      "id": 107574
+  {
+    "id": "BB",
+    "name": "Bloodbath",
+    "tags": [ "warrior", "fury" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 12292
+      }
+    }
+  },
+  {
+    "id": "OF",
+    "name": "Odyn's Fury",
+    "tags": [ "warrior", "fury" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 205545
+      }
+    }
+  },
+  {
+    "id": "ER",
+    "name": "Enraged Regeneration",
+    "tags": [ "warrior", "fury" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 184364
+      }
+    }
+  },
+  {
+    "id": "FC",
+    "name": "Commanding Shout",
+    "tags": [ "warrior" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 97462
+      }
+    }
+  },
+  {
+    "id": "WM",
+    "name": "War Machine",
+    "tags": [ "warrior", "fury" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 215562
+      }
     }
   }
-},
-{
-  "id": "BB",
-  "name": "Bloodbath",
-  "tags": [ "warrior", "fury" ],
-  "show": true,
-  "eventType": "ability",
-  "filter": {
-    "type": "cast",
-    "ability": {
-      "id": 12292
-    }
-  }
-},  
-{
-  "id": "FB",
-  "name": "Battle Cry",
-  "tags": [ "warrior"],
-  "show": true,
-  "eventType": "ability",
-  "filter": {
-    "type": "cast",
-    "ability": {
-      "id": 1719
-    }
-  }
-},
-{
-  "id": "OF",
-  "name": "Odyn's Fury",
-  "tags": [ "warrior", "fury" ],
-  "show": true,
-  "eventType": "ability",
-  "filter": {
-    "type": "cast",
-    "ability": {
-      "id": 205545
-    }
-  }
-},  
-{
-  "id": "ER",
-  "name": "Enraged Regeneration",
-  "tags": [ "warrior", "fury" ],
-  "show": true,
-  "eventType": "ability",
-  "filter": {
-    "type": "cast",
-    "ability": {
-      "id": 184364
-    }
-  }
-},  
-{
-  "id": "FC",
-  "name": "Commanding Shout",
-  "tags": [ "warrior"],
-  "show": true,
-  "eventType": "ability",
-  "filter": {
-    "type": "cast",
-    "ability": {
-      "id": 97462
-    }
-  }
-},
- {
-  "id": "WM",
-  "name": "War Machine",
-  "tags": [ "warrior", "fury" ],
-  "show": true,
-  "eventType": "debuff",
-  "friendly": true,
-  "filter": {
-    "type": "applybuff",
-    "ability": {
-      "id": 215562
-    }
-  }
-}
 ]
-
-
-
