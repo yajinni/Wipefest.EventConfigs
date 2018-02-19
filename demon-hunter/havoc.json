@@ -1,5 +1,5 @@
 [
-{
+ {
     "id": "NM",
     "name": "Nemesis",
     "tags": [ "demon hunter", "havoc" ],
@@ -11,33 +11,7 @@
         "id": 206491
       }
     }
-  },
-        {
-    "id": "MetaApply",
-    "name": "Metamorphosis",
-    "tags": [ "demon hunter", "havoc" ],
-    "show": true,
-    "eventType": "debuff",
-    "filter": {
-      "type": "applybuff",
-      "ability": {
-        "id": 191427
-      }
-    }
-  },
-        {
-    "id": "MetaRemove",
-    "name": "Metamorphosis Removed",
-    "tags": [ "demon hunter", "havoc" ],
-    "show": true,
-    "eventType": "removedbuff",
-    "filter": {
-      "type": "removebuff",
-      "ability": {
-        "id": 191427
-      }
-    }
-  }
+ }
 
   
 ]
