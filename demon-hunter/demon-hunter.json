@@ -11,18 +11,5 @@
         "id": 191427
       }
     }
-  },
-        {
-    "id": "M2",
-    "name": "Metamorphosis Removed",
-    "tags": [ "demon hunter", "demon hunter" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 191427
-      }
-    }
   }
 ]
