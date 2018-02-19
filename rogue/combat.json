@@ -2,7 +2,7 @@
 {
     "id": "AR",
     "name": "Adrenaline Rush",
-    "tags": [ "rogue", "combat" ],
+    "tags": [ "rogue", "outlaw" ],
     "show": true,
     "eventType": "ability",
     "filter": {
@@ -15,7 +15,7 @@
 {
     "id": "CD",
     "name": "Curse of the Dreadblades",
-    "tags": [ "rogue", "combat" ],
+    "tags": [ "rogue", "outlaw" ],
     "show": true,
     "eventType": "ability",
     "filter": {
@@ -28,7 +28,7 @@
 {
     "id": "BF",
     "name": "Blade Flurry",
-    "tags": [ "rogue", "combat" ],
+    "tags": [ "rogue", "outlaw" ],
     "show": true,
     "eventType": "debuff",
     "friendly": true,
