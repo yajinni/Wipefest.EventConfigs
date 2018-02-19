@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "M1",
+    "name": "Metamorphosis",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 191427
+      }
+    }
+  },
+        {
+    "id": "M2",
+    "name": "Metamorphosis Removed",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "removedbuff",
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 191427
+      }
+    }
+  }
+]
