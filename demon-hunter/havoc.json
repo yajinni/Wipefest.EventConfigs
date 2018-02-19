@@ -27,7 +27,7 @@
   },
         {
     "id": "MetaRemove",
-    "name": "Metamorphosis",
+    "name": "Metamorphosis Removed",
     "tags": [ "demon hunter", "havoc" ],
     "show": true,
     "eventType": "ability",
