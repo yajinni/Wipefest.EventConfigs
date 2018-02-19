@@ -11,6 +11,32 @@
         "id": 206491
       }
     }
+  },
+        {
+    "id": "Meta",
+    "name": "Metamorphosis",
+    "tags": [ "demon hunter" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 191427
+      }
+    }
+  },
+        {
+    "id": "Meta",
+    "name": "Metamorphosis",
+    "tags": [ "demon hunter" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 191427
+      }
+    }
   }
 
   
