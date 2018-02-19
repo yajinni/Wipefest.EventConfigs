@@ -11,6 +11,19 @@
         "id": 206491
       }
     }
+  {
+    "id": "MT",
+    "name": "Metamorphosis",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 191427
+      }
+    }
+  }
  }
 
   
