@@ -2,7 +2,7 @@
     {
     "id": "Meta",
     "name": "Metamorphosis",
-    "tags": [ "demon hunter", ],
+    "tags": [ "demon hunter" ],
     "show": true,
     "eventType": "ability",
     "filter": {
