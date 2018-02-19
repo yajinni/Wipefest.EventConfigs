@@ -17,7 +17,7 @@
     "name": "Metamorphosis",
     "tags": [ "demon hunter", "havoc" ],
     "show": true,
-    "eventType": "ability",
+    "eventType": "debuff",
     "filter": {
       "type": "applybuff",
       "ability": {
@@ -30,7 +30,7 @@
     "name": "Metamorphosis Removed",
     "tags": [ "demon hunter", "havoc" ],
     "show": true,
-    "eventType": "ability",
+    "eventType": "removedbuff",
     "filter": {
       "type": "removebuff",
       "ability": {
