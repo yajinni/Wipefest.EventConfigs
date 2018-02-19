@@ -4,9 +4,9 @@
     "name": "Metamorphosis",
     "tags": [ "demon hunter", "demon hunter" ],
     "show": true,
-    "eventType": "debuff",
+    "eventType": "ability",
     "filter": {
-      "type": "applybuff",
+      "type": "cast",
       "ability": {
         "id": 191427
       }
@@ -17,9 +17,9 @@
     "name": "Metamorphosis Removed",
     "tags": [ "demon hunter", "demon hunter" ],
     "show": true,
-    "eventType": "removedbuff",
+    "eventType": "ability",
     "filter": {
-      "type": "removebuff",
+      "type": "cast",
       "ability": {
         "id": 191427
       }
