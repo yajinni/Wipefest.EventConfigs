@@ -13,7 +13,7 @@
     }
   },
         {
-    "id": "Meta",
+    "id": "MetaApply",
     "name": "Metamorphosis",
     "tags": [ "demon hunter", "havoc" ],
     "show": true,
@@ -26,7 +26,7 @@
     }
   },
         {
-    "id": "Meta",
+    "id": "MetaRemove",
     "name": "Metamorphosis",
     "tags": [ "demon hunter", "havoc" ],
     "show": true,
