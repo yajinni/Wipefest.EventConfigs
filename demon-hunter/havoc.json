@@ -1,16 +1,17 @@
 [
- {
-  "id": "NM",
-  "name": "Nemesis",
-  "tags": ["demon hunter", "havoc" ],
-  "show": true,
-  "eventType": "ability",
-  "filter": {
-    "type": "cast",
-    "ability": {
-      "id": 206491
+{
+    "id": "NM",
+    "name": "Nemesis",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 206491
+      }
     }
   }
-},
   
 ]
+
