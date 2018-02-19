@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "id": "CS",
+    "name": "Cloak of Shadows",
+    "tags": [ "rogue" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 31224
+      }
+    }
+  },
+  {
+    "id": "FE",
+    "name": "Feint",
+    "tags": [ "rogue" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 1966
+      }
+    }
+  },
+  {
+    "id": "CV",
+    "name": "Crimson Vial",
+    "tags": [ "rogue" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 185311
+      }
+    }
+  },
+  {
+    "id": "BL",
+    "name": "Blind",
+    "tags": [ "rogue" ],
+    "show": true,
+    "eventType": "ability",
+    "showTarget": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 2094
+      }
+    }
+  }
+]
