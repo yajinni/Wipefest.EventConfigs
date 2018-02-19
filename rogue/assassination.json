@@ -1,1 +1,28 @@
-[]
+[
+{
+    "id": "KB",
+    "name": "Kingsbane",
+    "tags": [ "rogue", "assassination" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 192759
+      }
+    }
+},
+{
+    "id": "VD",
+    "name": "Vendetta",
+    "tags": [ "rogue", "assassination" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 79140
+      }
+    }
+}
+]
