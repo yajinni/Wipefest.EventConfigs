@@ -15,7 +15,7 @@
         {
     "id": "Meta",
     "name": "Metamorphosis",
-    "tags": [ "demon hunter" ],
+    "tags": [ "demon hunter", "havoc" ],
     "show": true,
     "eventType": "ability",
     "filter": {
@@ -28,7 +28,7 @@
         {
     "id": "Meta",
     "name": "Metamorphosis",
-    "tags": [ "demon hunter" ],
+    "tags": [ "demon hunter", "havoc" ],
     "show": true,
     "eventType": "ability",
     "filter": {
