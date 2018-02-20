@@ -84,22 +84,6 @@
       }
     }
   },
-
-{
-  "id": "IV",
-  "name": "Innervate",
-  "tags": [ "druid", "restoration" ],
-  "show": false,
-  "eventType": "debuff",
-  "friendly": true,
-  "filter": {
-    "type": "applybuff",
-    "ability": {
-      "id": 29166
-    }
-  }
-},
-
 {
   "id": "E1",
   "name": "Essence of G'Hanir",
