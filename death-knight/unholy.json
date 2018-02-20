@@ -1,19 +1,5 @@
 [
   {
-    "id": "AX",
-    "name": "Asphyxiate",
-    "tags": [ "death knight", "unholy" ],
-    "show": false,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 108194
-      }
-    }
-  },
-  {
     "id": "CI",
     "name": "Chains of Ice",
     "tags": [ "death knight", "unholy" ],

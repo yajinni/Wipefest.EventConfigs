@@ -1,19 +1,5 @@
 [
   {
-    "id": "AX",
-    "name": "Asphyxiate",
-    "tags": [ "death knight", "frost" ],
-    "show": false,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 221562
-      }
-    }
-  },
-  {
     "id": "CI",
     "name": "Chains of Ice",
     "tags": [ "death knight", "frost" ],
@@ -31,7 +17,7 @@
     "id": "SF",
     "name": "Sindragosa's Fury",
     "tags": [ "death knight", "frost" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",

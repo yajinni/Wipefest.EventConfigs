@@ -29,7 +29,7 @@
     "id": "B1",
     "name": "Bone Shield",
     "tags": [ "death knight", "blood" ],
-    "show": false,
+    "show": true,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
@@ -98,26 +98,12 @@
     "id": "GG",
     "name": "Gorefiend's Grasp",
     "tags": [ "death knight", "blood" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
       "ability": {
         "id": 108199
-      }
-    }
-  },
-  {
-    "id": "AX",
-    "name": "Asphyxiate",
-    "tags": [ "death knight", "blood" ],
-    "show": false,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 221562
       }
     }
   },

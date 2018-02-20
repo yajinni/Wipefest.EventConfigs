@@ -3,7 +3,7 @@
     "id": "MS",
     "name": "Anti-Magic Shell",
     "tags": [ "death knight" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -30,7 +30,7 @@
     "id": "DG",
     "name": "Death Grip",
     "tags": [ "death knight" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "showTarget": true,
     "filter": {
@@ -44,7 +44,7 @@
     "id": "IF",
     "name": "Icebound Fortitude",
     "tags": [ "death knight" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -77,6 +77,20 @@
       "type": "cast",
       "ability": {
         "id": 61999
+      }
+    }
+  },
+  {
+    "id": "AX",
+    "name": "Asphyxiate",
+    "tags": [ "death knight" ],
+    "show": true,
+    "eventType": "ability",
+    "showTarget": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "ids": [ 221562, 108194 ]
       }
     }
   }
