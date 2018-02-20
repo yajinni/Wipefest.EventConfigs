@@ -89,7 +89,7 @@
   "id": "IV",
   "name": "Innervate",
   "tags": [ "druid", "restoration" ],
-  "show": true,
+  "show": false,
   "eventType": "debuff",
   "friendly": true,
   "filter": {
