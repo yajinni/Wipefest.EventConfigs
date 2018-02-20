@@ -61,6 +61,7 @@
     "name": "Swiftmend",
     "tags": [ "druid", "restoration" ],
     "show": true,
+    "showTarget": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -74,7 +75,7 @@
     "id": "CW",
     "name": "Cenarion Ward",
     "tags": [ "druid", "restoration" ],
-    "show": true,
+    "show": false,
     "showTarget": true,
     "eventType": "ability",
     "filter": {
@@ -132,7 +133,7 @@
     "id": "EF",
     "name": "Efflorescence",
     "tags": [ "druid", "restoration" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
