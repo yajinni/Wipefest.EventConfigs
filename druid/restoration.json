@@ -17,7 +17,7 @@
     "id": "NC",
     "name": "Nature's Cure",
     "tags": [ "druid", "restoration" ],
-    "show": false,
+    "show": true,
     "showTarget": true,
     "eventType": "ability",
     "filter": {
