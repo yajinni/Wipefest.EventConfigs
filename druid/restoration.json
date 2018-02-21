@@ -13,6 +13,21 @@
     }
   },  
   {
+    "id": "NC",
+    "name": "Nature's Cure",
+    "tags": [ "druid", "restoration" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "dispel",
+      "ability": {
+        "id": 88423
+      }
+    }
+  },
+  
+  {
     "id": "IB",
     "name": "Ironbark",
     "tags": [ "druid", "restoration" ],
