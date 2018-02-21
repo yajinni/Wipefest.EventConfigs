@@ -99,7 +99,7 @@
   "name": "Essence of G'Hanir",
   "tags": [ "druid", "restoration" ],
   "show": true,
-  "eventType": "debuff",
+  "eventType": "removedebuff",
   "friendly": true,
   "filter": {
     "type": "removebuff",
@@ -140,7 +140,7 @@
   "name": "Clearcasting",
   "tags": [ "druid", "restoration" ],
   "show": false,
-  "eventType": "debuff",
+  "eventType": "removedebuff",
   "friendly": true,
   "filter": {
     "type": "removebuff",
@@ -168,7 +168,7 @@
   "name": "Incarnation: Tree of Life",
   "tags": [ "druid", "restoration" ],
   "show": true,
-  "eventType": "debuff",
+  "eventType": "removedebuff",
   "friendly": true,
   "filter": {
     "type": "removebuff",
