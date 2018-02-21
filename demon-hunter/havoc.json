@@ -103,30 +103,32 @@
       }
     }
    },
-   {
+  {
     "id": "B1",
     "name": "Blur",
     "tags": [ "demon hunter", "havoc" ],
     "show": false,
     "eventType": "debuff",
+    "friendly": true,
     "filter": {
       "type": "applybuff",
       "ability": {
         "id": 198589
       }
     }
-   },
-    {
+  },
+  {
     "id": "B2",
     "name": "Blur (Removed)",
     "tags": [ "demon hunter", "havoc" ],
     "show": false,
-    "eventType": "debuff",
+    "eventType": "removedebuff",
+    "friendly": true,
     "filter": {
-      "type": "removedebuff",
+      "type": "removebuff",
       "ability": {
         "id": 198589
       }
     }
-   }
+  }
 ]
