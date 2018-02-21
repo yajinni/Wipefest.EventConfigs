@@ -130,5 +130,18 @@
         "id": 212800
       }
     }
-  }
+  },
+      {
+    "id": "NW",
+    "name": "Netherwalk",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 196555
+      }
+    }
+   }
 ]
