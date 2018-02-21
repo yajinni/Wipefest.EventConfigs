@@ -113,7 +113,7 @@
     "filter": {
       "type": "applybuff",
       "ability": {
-        "id": 198589
+        "id": 212800
       }
     }
   },
@@ -127,7 +127,7 @@
     "filter": {
       "type": "removebuff",
       "ability": {
-        "id": 198589
+        "id": 212800
       }
     }
   }
