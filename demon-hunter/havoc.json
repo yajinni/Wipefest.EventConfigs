@@ -24,5 +24,18 @@
         "id": 191427
       }
     }
-  } 
+  }
+   {
+    "id": "FI",
+    "name": "Fury of the Illidari",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 201467
+      }
+    }
+   }
 ]
