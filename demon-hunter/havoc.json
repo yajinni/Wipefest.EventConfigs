@@ -37,5 +37,70 @@
         "id": 201467
       }
     }
+   },
+    {
+    "id": "FB",
+    "name": "Fel Barrage",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 211053
+      }
+    }
+   },
+    {
+    "id": "CB",
+    "name": "Chaos Blades",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 211048
+      }
+    }
+   },
+    {
+    "id": "BD",
+    "name": "Blade Dance",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 188499
+      }
+    }
+   },
+    {
+    "id": "DS",
+    "name": "Death Sweep",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 210152
+      }
+    }
+   },
+     {
+    "id": "EB",
+    "name": "EB",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 198013
+      }
+    }
    }
 ]
