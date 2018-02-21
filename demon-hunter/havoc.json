@@ -143,5 +143,19 @@
         "id": 196555
       }
     }
-   }
+   },
+  {
+    "id": "MO",
+    "name": "Momentum",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 206476
+      }
+    }
+  }
 ]
