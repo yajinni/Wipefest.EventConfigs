@@ -18,7 +18,7 @@
     "name": "Nature's Cure",
     "tags": [ "druid", "restoration" ],
     "show": false,
-    "showtarget": true,
+    "showTarget": true,
     "eventType": "ability",
     "filter": {
       "type": "dispel",
