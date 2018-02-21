@@ -94,7 +94,7 @@
     "id": "EB",
     "name": "EB",
     "tags": [ "demon hunter", "havoc" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
