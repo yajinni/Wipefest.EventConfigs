@@ -72,7 +72,7 @@
     "name": "Swiftmend",
     "tags": [ "druid", "restoration" ],
     "show": true,
-    "showtarget": true,
+    "showTarget": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -111,9 +111,9 @@
 },
 {
   "id": "E2",
-  "name": "Essence of G'Hanir",
+  "name": "Essence of G'Hanir Removed)",
   "tags": [ "druid", "restoration" ],
-  "show": true,
+  "show": false,
   "eventType": "removedebuff",
   "friendly": true,
   "filter": {
@@ -152,7 +152,7 @@
 },
 {
   "id": "C2",
-  "name": "Clearcasting",
+  "name": "Clearcasting (Removed)",
   "tags": [ "druid", "restoration" ],
   "show": false,
   "eventType": "removedebuff",
@@ -180,9 +180,9 @@
 },
 {
   "id": "T2",
-  "name": "Incarnation: Tree of Life",
+  "name": "Incarnation: Tree of Life (Removed)",
   "tags": [ "druid", "restoration" ],
-  "show": true,
+  "show": false,
   "eventType": "removedebuff",
   "friendly": true,
   "filter": {
