@@ -1,1 +1,147 @@
-[]
+[
+ {
+    "id": "NM",
+    "name": "Nemesis",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 206491
+      }
+    }
+   },
+  {
+    "id": "MT",
+    "name": "Metamorphosis",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 200166
+      }
+    }
+  },
+   {
+    "id": "FI",
+    "name": "Fury of the Illidari",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 201467
+      }
+    }
+   },
+    {
+    "id": "FB",
+    "name": "Fel Barrage",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 211053
+      }
+    }
+   },
+    {
+    "id": "CB",
+    "name": "Chaos Blades",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 211048
+      }
+    }
+   },
+    {
+    "id": "BD",
+    "name": "Blade Dance",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 188499
+      }
+    }
+   },
+    {
+    "id": "DS",
+    "name": "Death Sweep",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 210152
+      }
+    }
+   },
+     {
+    "id": "EB",
+    "name": "EB",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 198013
+      }
+    }
+   },
+  {
+    "id": "B1",
+    "name": "Blur",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 212800
+      }
+    }
+  },
+  {
+    "id": "B2",
+    "name": "Blur (Removed)",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 212800
+      }
+    }
+  },
+      {
+    "id": "NW",
+    "name": "Netherwalk",
+    "tags": [ "demon hunter", "havoc" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 196555
+      }
+    }
+   }
+]
