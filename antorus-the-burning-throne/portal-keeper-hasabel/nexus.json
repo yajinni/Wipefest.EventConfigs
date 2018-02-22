@@ -60,9 +60,26 @@
     }
   },
   {
-    "id": "0G",
-    "name": "Collapsing World > 3m",
+    "id": "W1",
+    "name": "Collapsing World",
     "tags": [ "player", "damage" ],
+    "difficulties": [ 5 ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 243984
+      },
+      "query": "type in ('damage', 'absorb') and ability.id = 243984 and rawDamage > 5000000"
+    }
+  },
+  {
+    "id": "W2",
+    "name": "Collapsing World",
+    "tags": [ "player", "damage" ],
+    "difficulties": [ 4 ],
     "show": false,
     "eventType": "damage",
     "friendly": true,
@@ -72,6 +89,22 @@
         "id": 243984
       },
       "query": "type in ('damage', 'absorb') and ability.id = 243984 and rawDamage > 3000000"
+    }
+  },
+  {
+    "id": "W3",
+    "name": "Collapsing World",
+    "tags": [ "player", "damage" ],
+    "difficulties": [ 3 ],
+    "show": false,
+    "eventType": "damage",
+    "friendly": true,
+    "filter": {
+      "types": [ "damage", "absorb" ],
+      "ability": {
+        "id": 243984
+      },
+      "query": "type in ('damage', 'absorb') and ability.id = 243984 and rawDamage > 2400000"
     }
   },
   {
