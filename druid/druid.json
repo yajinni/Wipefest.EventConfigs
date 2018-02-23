@@ -21,7 +21,20 @@
         "filter": {
             "type": "cast",
             "ability": {
-                "id": 106898
+                "id": 77764
+            }
+        }
+    },
+    {
+        "id": "S2",
+        "name": "Stampeding Roar",
+        "tags": ["druid", "guardian"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 77761
             }
         }
     },
@@ -114,7 +127,7 @@
         "filter": {
             "type": "cast",
             "ability": {
-                "id": 132469
+                "id": 22812
             }
         }
     }
