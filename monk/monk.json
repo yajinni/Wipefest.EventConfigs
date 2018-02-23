@@ -1,69 +1,82 @@
 [
-    {
-        "id": "DH",
-        "name": "Dampen Harm",
-        "tags": ["monk"],
-        "show": true,
-        "eventType": "ability",
-        "filter": {
-            "type": "cast",
-            "ability": {
-                "id": 123715
-            }
-        }
-    },
-    {
-        "id": "RP",
-        "name": "Ring of Peace",
-        "tags": ["monk"],
-        "show": false,
-        "eventType": "ability",
-        "filter": {
-            "type": "cast",
-            "ability": {
-                "id": 116844
-            }
-        }
-    },
-    {
-        "id": "P1",
-        "name": "Paralysis",
-        "tags": ["monk"],
-        "show": false,
-        "showTarget": true,
-        "eventType": "ability",
-        "filter": {
-            "type": "cast",
-            "ability": {
-                "id": 115078
-            }
-        }
-    },
-    {
-        "id": "LS",
-        "name": "Leg Sweep",
-        "tags": ["monk"],
-        "show": false,
-        "eventType": "ability",
-        "filter": {
-            "type": "cast",
-            "ability": {
-                "id": 119381
-            }
-        }
-    },
-    {
-        "id": "TL",
-        "name": "Tiger's Lust",
-        "tags": ["monk"],
-        "show": false,
-        "showTarget": true,
-        "eventType": "ability",
-        "filter": {
-            "type": "cast",
-            "ability": {
-                "id": 116841
-            }
-        }
+  {
+    "id": "DH",
+    "name": "Dampen Harm",
+    "tags": [ "monk" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 123715
+      }
     }
+  },
+  {
+    "id": "RP",
+    "name": "Ring of Peace",
+    "tags": [ "monk" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 116844
+      }
+    }
+  },
+  {
+    "id": "P1",
+    "name": "Paralysis",
+    "tags": [ "monk" ],
+    "show": false,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 115078
+      }
+    }
+  },
+  {
+    "id": "LS",
+    "name": "Leg Sweep",
+    "tags": [ "monk" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 119381
+      }
+    }
+  },
+  {
+    "id": "TL",
+    "name": "Tiger's Lust",
+    "tags": [ "monk" ],
+    "show": false,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 116841
+      }
+    }
+  },
+  {
+    "id": "HE",
+    "name": "Healing Elixir",
+    "tags": [ "monk" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 122281
+      }
+    }
+  }
 ]
