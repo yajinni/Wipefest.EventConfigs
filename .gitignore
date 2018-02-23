@@ -1,20 +1,9 @@
-#.vs/slnx.sqlite
-#.vs/config/applicationhost.config
-#.vs/ProjectSettings.json
-#.vs/event-configs/v15/.suo
-#.vs/VSWorkspaceState.json
-#.idea/modules.xml
-#.idea/vcs.xml
-#.idea/Wipefest.EventConfigs.iml
-#.idea/workspace.xml
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-# Visual Studio cache/options directory
-.vs/
-# JetBrains Rider
-.idea/
-*.sln.iml
+.vs/slnx.sqlite
+.vs/config/applicationhost.config
+.vs/ProjectSettings.json
+.vs/event-configs/v15/.suo
+.vs/VSWorkspaceState.json
+.idea/modules.xml
+.idea/vcs.xml
+.idea/Wipefest.EventConfigs.iml
+.idea/workspace.xml
