@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "id": "PA",
+        "name": "Protection of Ashmane",
+        "tags": ["druid", "feral"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 210650
+            }
+        }
+    }
+]
