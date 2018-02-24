@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "AR",
     "name": "Adrenaline Rush",
     "tags": [ "rogue", "outlaw" ],
@@ -11,8 +11,8 @@
         "id": 13750
       }
     }
-},
-{
+  },
+  {
     "id": "CD",
     "name": "Curse of the Dreadblades",
     "tags": [ "rogue", "outlaw" ],
@@ -24,8 +24,8 @@
         "id": 202665
       }
     }
-},  
-{
+  },
+  {
     "id": "BF",
     "name": "Blade Flurry",
     "tags": [ "rogue", "outlaw" ],
@@ -38,9 +38,5 @@
         "id": 13877
       }
     }
-}
-]  
-  
-  
-  
-  
+  }
+]

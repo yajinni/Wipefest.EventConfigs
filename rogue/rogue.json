@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "CS",
     "name": "Cloak of Shadows",
     "tags": [ "rogue" ],
@@ -11,8 +11,8 @@
         "id": 31224
       }
     }
-},
-{
+  },
+  {
     "id": "CV",
     "name": "Crimson Vial",
     "tags": [ "rogue" ],
@@ -24,8 +24,8 @@
         "id": 185311
       }
     }
-},
-{
+  },
+  {
     "id": "FT",
     "name": "Feint",
     "tags": [ "rogue" ],
@@ -37,8 +37,8 @@
         "id": 1966
       }
     }
-},
-{
+  },
+  {
     "id": "KC",
     "name": "Kick",
     "tags": [ "rogue" ],
@@ -50,8 +50,8 @@
         "id": 1766
       }
     }
-},
-{
+  },
+  {
     "id": "VN",
     "name": "Vanish",
     "tags": [ "rogue" ],
@@ -63,5 +63,19 @@
         "id": 1856
       }
     }
-}
+  },
+  {
+    "id": "BL",
+    "name": "Blind",
+    "tags": [ "rogue" ],
+    "show": true,
+    "eventType": "ability",
+    "showTarget": true,
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 2094
+      }
+    }
+  }
 ]

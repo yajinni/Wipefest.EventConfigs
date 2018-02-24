@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "SD",
     "name": "Shadow Dance",
     "tags": [ "rogue", "subtlety" ],
@@ -11,8 +11,8 @@
         "id": 185313
       }
     }
-},  
-{
+  },
+  {
     "id": "GB",
     "name": "Goremaw's Bite",
     "tags": [ "rogue", "subtlety" ],
@@ -24,8 +24,8 @@
         "id": 209782
       }
     }
-},
-{
+  },
+  {
     "id": "SB",
     "name": "Shadow Blades",
     "tags": [ "rogue", "subtlety" ],
@@ -37,5 +37,18 @@
         "id": 121471
       }
     }
-}
+  },
+  {
+    "id": "EV",
+    "name": "Evasion",
+    "tags": [ "rogue", "subtlety" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 5277
+      }
+    }
+  }
 ]
