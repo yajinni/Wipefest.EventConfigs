@@ -29,7 +29,7 @@
     "id": "B1",
     "name": "Bone Shield",
     "tags": [ "death knight", "blood" ],
-    "show": false,
+    "show": true,
     "eventType": "debuff",
     "friendly": true,
     "filter": {
@@ -98,39 +98,12 @@
     "id": "GG",
     "name": "Gorefiend's Grasp",
     "tags": [ "death knight", "blood" ],
-    "show": false,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 108199
-      }
-    }
-  },
-  {
-    "id": "AX",
-    "name": "Asphyxiate",
-    "tags": [ "death knight", "blood" ],
-    "show": false,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 221562
-      }
-    }
-  },
-  {
-    "id": "MS",
-    "name": "Anti-Magic Shell",
-    "tags": [ "death knight", "blood" ],
     "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
       "ability": {
-        "id": 48707
+        "id": 108199
       }
     }
   },
@@ -149,34 +122,6 @@
     }
   },
   {
-    "id": "DC",
-    "name": "Dark Command",
-    "tags": [ "death knight", "blood" ],
-    "show": false,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 56222
-      }
-    }
-  },
-  {
-    "id": "DG",
-    "name": "Death Grip",
-    "tags": [ "death knight", "blood" ],
-    "show": false,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 49576
-      }
-    }
-  },
-  {
     "id": "DS",
     "name": "Death Strike",
     "tags": [ "death knight", "blood" ],
@@ -186,46 +131,6 @@
       "type": "cast",
       "ability": {
         "id": 49998
-      }
-    }
-  },
-  {
-    "id": "IF",
-    "name": "Icebound Fortitude",
-    "tags": [ "death knight", "blood" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 48792
-      }
-    }
-  },
-  {
-    "id": "RA",
-    "name": "Raise Ally",
-    "tags": [ "death knight", "blood" ],
-    "show": true,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 61999
-      }
-    }
-  },
-  {
-    "id": "WW",
-    "name": "Wraith Walk",
-    "tags": [ "death knight", "blood" ],
-    "show": false,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 212552
       }
     }
   },

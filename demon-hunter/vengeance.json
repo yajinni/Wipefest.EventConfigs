@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "MT",
+    "name": "Metamorphosis",
+    "tags": [ "demon hunter", "vengeance" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 187827
+      }
+    }
+  }
+]

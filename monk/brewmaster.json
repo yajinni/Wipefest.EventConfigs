@@ -1,1 +1,67 @@
-[]
+[
+    {
+        "id": "B3",
+        "name": "Ironskin Brew",
+        "tags": ["monk", "brewmaster"],
+        "show": false,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 115308
+            }
+        }
+    },
+    {
+        "id": "PR",
+        "name": "Purifying Brew",
+        "tags": ["monk", "brewmaster"],
+        "show": false,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 119582
+            }
+        }
+    },
+    {
+        "id": "F1",
+        "name": "Fortifying Brew",
+        "tags": ["monk", "brewmaster"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 115203
+            }
+        }
+    },
+    {
+        "id": "B4",
+        "name": "Black Ox Brew",
+        "tags": ["monk", "brewmaster"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 115399
+            }
+        }
+    },
+    {
+        "id": "ZM",
+        "name": "Zen Meditation",
+        "tags": ["monk", "brewmaster"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 115176
+            }
+        }
+    }
+]

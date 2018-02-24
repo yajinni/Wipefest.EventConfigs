@@ -1,32 +1,5 @@
 [
   {
-    "id": "AX",
-    "name": "Asphyxiate",
-    "tags": [ "death knight", "frost" ],
-    "show": false,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 221562
-      }
-    }
-  },
-  {
-    "id": "MS",
-    "name": "Anti-Magic Shell",
-    "tags": [ "death knight", "frost" ],
-    "show": false,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 48707
-      }
-    }
-  },
-  {
     "id": "CI",
     "name": "Chains of Ice",
     "tags": [ "death knight", "frost" ],
@@ -41,78 +14,10 @@
     }
   },
   {
-    "id": "DC",
-    "name": "Dark Command",
-    "tags": [ "death knight", "frost" ],
-    "show": false,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 56222
-      }
-    }
-  },
-  {
-    "id": "DG",
-    "name": "Death Grip",
-    "tags": [ "death knight", "frost" ],
-    "show": false,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 49576
-      }
-    }
-  },
-  {
-    "id": "IF",
-    "name": "Icebound Fortitude",
-    "tags": [ "death knight", "frost" ],
-    "show": false,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 48792
-      }
-    }
-  },
-  {
-    "id": "RA",
-    "name": "Raise Ally",
-    "tags": [ "death knight", "frost" ],
-    "show": true,
-    "eventType": "ability",
-    "showTarget": true,
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 61999
-      }
-    }
-  },
-  {
-    "id": "WW",
-    "name": "Wraith Walk",
-    "tags": [ "death knight", "frost" ],
-    "show": false,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 212552
-      }
-    }
-  },
-  {
     "id": "SF",
     "name": "Sindragosa's Fury",
     "tags": [ "death knight", "frost" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
