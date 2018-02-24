@@ -38,5 +38,19 @@
         "id": 13877
       }
     }
+  },
+  {
+    "id": "B2",
+    "name": "Blade Flurry (Removed)",
+    "tags": [ "rogue", "outlaw" ],
+    "show": true,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 13877
+      }
+    }
   }
 ]

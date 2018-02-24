@@ -39,19 +39,6 @@
     }
   },
   {
-    "id": "KC",
-    "name": "Kick",
-    "tags": [ "rogue" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 1766
-      }
-    }
-  },
-  {
     "id": "VN",
     "name": "Vanish",
     "tags": [ "rogue" ],

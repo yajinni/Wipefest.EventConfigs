@@ -3,7 +3,7 @@
     "id": "SD",
     "name": "Shadow Dance",
     "tags": [ "rogue", "subtlety" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -17,6 +17,7 @@
     "name": "Goremaw's Bite",
     "tags": [ "rogue", "subtlety" ],
     "show": true,
+    "showTarget": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
