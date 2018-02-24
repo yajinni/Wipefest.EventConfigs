@@ -1,12 +1,27 @@
 [
     {
-        "id": "PA",
+        "id": "P1",
         "name": "Protection of Ashmane",
         "tags": ["druid", "feral"],
         "show": true,
-        "eventType": "ability",
+        "eventType": "debuff",
+        "friendly": true,
         "filter": {
-            "type": "cast",
+            "type": "applybuff",
+            "ability": {
+                "id": 210655
+            }
+        }
+    },
+    {
+        "id": "P2",
+        "name": "Protection of Ashmane (Removed)",
+        "tags": ["druid", "feral"],
+        "show": true,
+        "eventType": "removedebuff",
+        "friendly": true,
+        "filter": {
+            "type": "removebuff",
             "ability": {
                 "id": 210655
             }
