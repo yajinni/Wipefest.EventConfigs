@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "AR",
+    "name": "Adrenaline Rush",
+    "tags": [ "rogue", "outlaw" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 13750
+      }
+    }
+  },
+  {
+    "id": "CD",
+    "name": "Curse of the Dreadblades",
+    "tags": [ "rogue", "outlaw" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 202665
+      }
+    }
+  },
+  {
+    "id": "BF",
+    "name": "Blade Flurry",
+    "tags": [ "rogue", "outlaw" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 13877
+      }
+    }
+  },
+  {
+    "id": "B2",
+    "name": "Blade Flurry (Removed)",
+    "tags": [ "rogue", "outlaw" ],
+    "show": true,
+    "eventType": "removedebuff",
+    "friendly": true,
+    "filter": {
+      "type": "removebuff",
+      "ability": {
+        "id": 13877
+      }
+    }
+  }
+]

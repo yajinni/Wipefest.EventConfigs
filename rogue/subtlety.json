@@ -1,5 +1,32 @@
 [
   {
+    "id": "SD",
+    "name": "Shadow Dance",
+    "tags": [ "rogue", "subtlety" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 185313
+      }
+    }
+  },
+  {
+    "id": "GB",
+    "name": "Goremaw's Bite",
+    "tags": [ "rogue", "subtlety" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 209782
+      }
+    }
+  },
+  {
     "id": "SB",
     "name": "Shadow Blades",
     "tags": [ "rogue", "subtlety" ],

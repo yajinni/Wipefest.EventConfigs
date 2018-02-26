@@ -13,7 +13,20 @@
     }
   },
   {
-    "id": "FE",
+    "id": "CV",
+    "name": "Crimson Vial",
+    "tags": [ "rogue" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 185311
+      }
+    }
+  },
+  {
+    "id": "FT",
     "name": "Feint",
     "tags": [ "rogue" ],
     "show": true,
@@ -26,15 +39,15 @@
     }
   },
   {
-    "id": "CV",
-    "name": "Crimson Vial",
+    "id": "VN",
+    "name": "Vanish",
     "tags": [ "rogue" ],
     "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
       "ability": {
-        "id": 185311
+        "id": 1856
       }
     }
   },

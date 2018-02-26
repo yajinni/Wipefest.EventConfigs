@@ -1,14 +1,28 @@
 [
   {
-    "id": "EV",
-    "name": "Evasion",
+    "id": "KB",
+    "name": "Kingsbane",
     "tags": [ "rogue", "assassination" ],
     "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
       "ability": {
-        "id": 5277
+        "id": 192759
+      }
+    }
+  },
+  {
+    "id": "VD",
+    "name": "Vendetta",
+    "tags": [ "rogue", "assassination" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 79140
       }
     }
   }
