@@ -57,6 +57,7 @@
     "name": "Lay on Hands",
     "tags": [ "paladin" ],
     "show": true,
+    "showTarget": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
