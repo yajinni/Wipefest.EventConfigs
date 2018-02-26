@@ -1,5 +1,18 @@
 [
   {
+    "id": "AW",
+    "name": "Avenging Wrath",
+    "tags": [ "paladin","protection" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 31884
+      }
+    }
+  },
+  {
     "id": "AD",
     "name": "Ardent Defender",
     "tags": [ "paladin", "protection" ],

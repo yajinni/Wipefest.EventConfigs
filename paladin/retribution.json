@@ -1,5 +1,18 @@
 [
   {
+    "id": "AW",
+    "name": "Avenging Wrath",
+    "tags": [ "paladin","retribution" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 31884
+      }
+    }
+  },
+  {
     "id": "CR",
     "name": "Crusade",
     "tags": [ "paladin", "retribution" ],
@@ -30,7 +43,7 @@
     "name": "Hand of Hindrance",
     "tags": [ "paladin", "retribution" ],
     "show": false,
-    "showTarget":  true,
+    "showTarget": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",

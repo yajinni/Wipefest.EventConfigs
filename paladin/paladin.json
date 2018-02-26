@@ -53,19 +53,6 @@
     }
   },
   {
-    "id": "AW",
-    "name": "Avenging Wrath",
-    "tags": [ "paladin" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "ids": [ 31884, 31842 ]
-      }
-    }
-  },
-  {
     "id": "LH",
     "name": "Lay on Hands",
     "tags": [ "paladin" ],
