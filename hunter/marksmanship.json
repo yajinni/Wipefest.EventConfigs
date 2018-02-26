@@ -55,7 +55,7 @@
     }
   },
   {
-    "id": "BS",
+    "id": "BA",
     "name": "Binding Shot (stunned)",
     "tags": [ "hunter", "marksmanship" ],
     "show": false,
