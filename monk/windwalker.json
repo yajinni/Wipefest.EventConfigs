@@ -42,7 +42,7 @@
     "id": "IX",
     "name": "Invoke Xuen, the White Tiger",
     "tags": [ "monk", "windwalker" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -55,8 +55,7 @@
     "id": "TK",
     "name": "Touch of Karma",
     "tags": [ "monk", "windwalker" ],
-    "show": false,
-    "showTarget": true,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -69,25 +68,12 @@
     "id": "DM",
     "name": "Diffuse Magic",
     "tags": [ "monk", "windwalker" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
       "ability": {
         "id": 122783
-      }
-    }
-  },
-  {
-    "id": "SH",
-    "name": "Spear Hand Strike",
-    "tags": [ "monk", "windwalker" ],
-    "show": false,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 116705
       }
     }
   },

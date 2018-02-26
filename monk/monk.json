@@ -16,7 +16,7 @@
     "id": "RP",
     "name": "Ring of Peace",
     "tags": [ "monk" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
@@ -29,7 +29,7 @@
     "id": "P1",
     "name": "Paralysis",
     "tags": [ "monk" ],
-    "show": false,
+    "show": true,
     "showTarget": true,
     "eventType": "ability",
     "filter": {
@@ -43,7 +43,7 @@
     "id": "LS",
     "name": "Leg Sweep",
     "tags": [ "monk" ],
-    "show": false,
+    "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
