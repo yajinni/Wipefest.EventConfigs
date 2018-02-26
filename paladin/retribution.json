@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "CR",
+    "name": "Crusade",
+    "tags": [ "paladin", "retribution" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 231895
+      }
+    }
+  },
+  {
+    "id": "EE",
+    "name": "Eye for an Eye",
+    "tags": [ "paladin", "retribution" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 205191
+      }
+    }
+  },
+  {
+    "id": "HH",
+    "name": "Hand of Hindrance",
+    "tags": [ "paladin", "retribution" ],
+    "show": false,
+    "showTarget":  true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 183218
+      }
+    }
+  }
+]

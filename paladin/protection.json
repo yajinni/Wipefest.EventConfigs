@@ -1,1 +1,148 @@
-[]
+[
+  {
+    "id": "AD",
+    "name": "Ardent Defender",
+    "tags": [ "paladin", "protection" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 31850
+      }
+    }
+  },
+  {
+    "id": "GK",
+    "name": "Guardian of Ancient Kings",
+    "tags": [ "paladin", "protection" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 212641
+      }
+    }
+  },
+  {
+    "id": "SE",
+    "name": "Seraphim",
+    "tags": [ "paladin", "protection" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 152262
+      }
+    }
+  },
+  {
+    "id": "BL",
+    "name": "Bastion of Light",
+    "tags": [ "paladin", "protection" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 204035
+      }
+    }
+  },
+  {
+    "id": "AL",
+    "name": "Aegis of Light",
+    "tags": [ "paladin", "protection" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 204150
+      }
+    }
+  },
+  {
+    "id": "ET",
+    "name": "Eye of Tyr",
+    "tags": [ "paladin", "protection" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 209202
+      }
+    }
+  },
+  {
+    "id": "SR",
+    "name": "Shield of the Righteous",
+    "tags": [ "paladin", "protection" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 53600
+      }
+    }
+  },
+  {
+    "id": "LP",
+    "name": "Light of the Protector",
+    "tags": [ "paladin", "protection" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 184092
+      }
+    }
+  },
+  {
+    "id": "LP",
+    "name": "Hand of the Protector",
+    "tags": [ "paladin", "protection" ],
+    "show": false,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 213652
+      }
+    }
+  },
+  {
+    "id": "BF",
+    "name": "Blessing of Sacrifice",
+    "tags": [ "paladin", "protection" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 6940
+      }
+    }
+  },
+  {
+    "id": "BS",
+    "name": "Blessing of Spellwarding",
+    "tags": [ "paladin", "protection" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 204018
+      }
+    }
+  }
+]
