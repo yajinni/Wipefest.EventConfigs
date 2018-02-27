@@ -56,7 +56,7 @@
     "name": "Freezing Trap (Applied)",
     "tags": [ "hunter" ],
     "friendly": true,
-    "show": false,
+    "show": true,
     "showTarget": true,
     "eventType": "debuff",
     "filter": {

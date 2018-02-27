@@ -59,7 +59,7 @@
     "name": "Binding Shot (Stunned)",
     "tags": [ "hunter", "marksmanship" ],
     "friendly": true,
-    "show": false,
+    "show": true,
     "eventType": "debuff",
     "filter": {
       "type": "applydebuff",
