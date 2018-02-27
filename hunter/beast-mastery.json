@@ -1,1 +1,149 @@
-[]
+[
+  {
+    "id": "MD",
+    "name": "Misdirection",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": false,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 34477
+      }
+    }
+  },
+  {
+    "id": "CS",
+    "name": "Concussive Shot",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": false,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 5116
+      }
+    }
+  },
+  {
+    "id": "IN",
+    "name": "Intimidation",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 19577
+      }
+    }
+  },
+  {
+    "id": "WS",
+    "name": "Wyvern Sting",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 19386
+      }
+    }
+  },
+  {
+    "id": "BS",
+    "name": "Binding Shot",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 109248
+      }
+    }
+  },
+  {
+    "id": "BA",
+    "name": "Binding Shot (stunned)",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": false,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 117526
+      }
+    }
+  },
+  {
+    "id": "BW",
+    "name": "Bestial Wrath",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 19574
+      }
+    }
+  },
+  {
+    "id": "AW",
+    "name": "Aspect of the Wild",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 193530
+      }
+    }
+  },
+  {
+    "id": "TT",
+    "name": "Titan's Thunder",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 207068
+      }
+    }
+  },
+  {
+    "id": "MC",
+    "name": "A Murder of Crows",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 131894
+      }
+    }
+  },
+  {
+    "id": "ST",
+    "name": "Stampede",
+    "tags": [ "hunter", "beast mastery" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 201430
+      }
+    }
+  }
+]

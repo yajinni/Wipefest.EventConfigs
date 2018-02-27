@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "id": "HJ",
+    "name": "Hammer of Justice",
+    "tags": [ "paladin" ],
+    "show": true,
+    "showTarget":  true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 853
+      }
+    }
+  },
+  {
+    "id": "BL",
+    "name": "Blinding Light",
+    "tags": [ "paladin" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 115750
+      }
+    }
+  },
+  {
+    "id": "RP",
+    "name": "Repentance",
+    "tags": [ "paladin" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 20066
+      }
+    }
+  },
+  {
+    "id": "DS",
+    "name": "Divine Steed",
+    "tags": [ "paladin" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 190784
+      }
+    }
+  },
+  {
+    "id": "LH",
+    "name": "Lay on Hands",
+    "tags": [ "paladin" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 633
+      }
+    }
+  },
+  {
+    "id": "BP",
+    "name": "Blessing of Protection",
+    "tags": [ "paladin" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 1022
+      }
+    }
+  },
+  {
+    "id": "BF",
+    "name": "Blessing of Freedom",
+    "tags": [ "paladin" ],
+    "show": false,
+    "showTarget":  true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 1044
+      }
+    }
+  },
+  {
+    "id": "DI",
+    "name": "Divine Shield",
+    "tags": [ "paladin" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 642
+      }
+    }
+  }
+]
