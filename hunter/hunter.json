@@ -57,9 +57,9 @@
     "tags": [ "hunter" ],
     "show": false,
     "showTarget": true,
-    "eventType": "applydebuff",
+    "eventType": "debuff",
     "filter": {
-      "type": "debuff",
+      "type": "applydebuff",
       "ability": {
         "id": 3355
       }
