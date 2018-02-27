@@ -74,6 +74,7 @@
     "tags": [ "hunter", "beast mastery" ],
     "friendly": true,
     "show": true,
+    "showSource": true,
     "eventType": "debuff",
     "filter": {
       "type": "applydebuff",

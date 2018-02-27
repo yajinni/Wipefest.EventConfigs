@@ -57,7 +57,7 @@
     "tags": [ "hunter" ],
     "friendly": true,
     "show": true,
-    "showTarget": true,
+    "showSource": true,
     "eventType": "debuff",
     "filter": {
       "type": "applydebuff",
