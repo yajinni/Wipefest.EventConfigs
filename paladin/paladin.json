@@ -84,7 +84,7 @@
     "id": "BF",
     "name": "Blessing of Freedom",
     "tags": [ "paladin" ],
-    "show": false,
+    "show": true,
     "showTarget":  true,
     "eventType": "ability",
     "filter": {

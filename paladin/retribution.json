@@ -42,7 +42,7 @@
     "id": "HH",
     "name": "Hand of Hindrance",
     "tags": [ "paladin", "retribution" ],
-    "show": false,
+    "show": true,
     "showTarget": true,
     "eventType": "ability",
     "filter": {

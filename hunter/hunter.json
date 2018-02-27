@@ -53,8 +53,9 @@
   },
   {
     "id": "FA",
-    "name": "Freezing Trap (applied)",
+    "name": "Freezing Trap (Applied)",
     "tags": [ "hunter" ],
+    "friendly": true,
     "show": false,
     "showTarget": true,
     "eventType": "debuff",
