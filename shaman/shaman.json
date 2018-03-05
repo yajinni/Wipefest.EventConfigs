@@ -205,21 +205,6 @@
         "id": 370
       }
     }
-  },
-  {
-    "id": "PD",
-    "name": "Purge (Dispelled)",
-    "tags": [ "shaman" ],
-    "friendly": true,
-    "show": true,
-    "showSource": true,
-    "eventType": "dispel",
-    "filter": {
-      "type": "dispel",
-      "ability": {
-        "id": 370
-      }
-    }
   }
 ]
 

@@ -84,7 +84,7 @@
     }
   },
   {
-    "id": "TT",
+    "id": "TR",
     "name": "Tar Trap",
     "tags": [ "hunter", "marksmanship" ],
     "show": true,
@@ -97,7 +97,7 @@
     }
   },
   {
-    "id": "TA",
+    "id": "TS",
     "name": "Tar Trap (Slowed)",
     "tags": [ "hunter", "marksmanship" ],
     "friendly": true,
