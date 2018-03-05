@@ -198,9 +198,9 @@
     "name": "Purge",
     "tags": [ "shaman" ],
     "show": true,
-    "eventType": "ability",
+    "eventType": "dispel",
     "filter": {
-      "type": "cast",
+      "type": "dispel",
       "ability": {
         "id": 370
       }
