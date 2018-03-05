@@ -32,7 +32,7 @@
     "friendly": true,
     "show": true,
     "showSource": true,
-    "eventType": "buff",
+    "eventType": "debuff",
     "filter": {
       "type": "applybuff",
       "ability": {
