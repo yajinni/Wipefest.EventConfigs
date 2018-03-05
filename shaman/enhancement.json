@@ -95,7 +95,6 @@
     "name": "Earthen Spike",
     "tags": [ "shaman", "enhancement" ],
     "show": true,
-    "showTarget": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
