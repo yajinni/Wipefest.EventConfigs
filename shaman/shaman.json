@@ -34,7 +34,7 @@
     "showSource": true,
     "eventType": "debuff",
     "filter": {
-      "type": "applybuff",
+      "type": "applydebuff",
       "ability": {
         "id": 192082
       }
