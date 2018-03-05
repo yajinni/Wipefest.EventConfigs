@@ -192,19 +192,6 @@
         "ids": [ 51514, 210873, 211015, 211010, 211004 ]
       }
     }
-  },
-  {
-    "id": "PU",
-    "name": "Purge",
-    "tags": [ "shaman" ],
-    "show": true,
-    "eventType": "dispel",
-    "filter": {
-      "type": "dispel",
-      "ability": {
-        "id": 370
-      }
-    }
   }
 ]
 
