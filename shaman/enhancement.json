@@ -1,1 +1,120 @@
-[]
+[
+  {
+    "id": "AS",
+    "name": "Ascendance",
+    "tags": [ "shaman", "enhancement" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 114051
+      }
+    }
+  },
+  {
+    "id": "DW",
+    "name": "Doom Winds",
+    "tags": [ "shaman", "enhancement" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 204945
+      }
+    }
+  },
+  {
+    "id": "FS",
+    "name": "Feral Spirit",
+    "tags": [ "shaman", "enhancement" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 51533
+      }
+    }
+  },
+  {
+    "id": "FL",
+    "name": "Feral Lunge",
+    "tags": [ "shaman", "enhancement" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 196884
+      }
+    }
+  },
+  {
+    "id": "SW",
+    "name": "Spirit Walk",
+    "tags": [ "shaman", "enhancement" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 58875
+      }
+    }
+  },
+  {
+    "id": "WS",
+    "name": "Windsong",
+    "tags": [ "shaman", "enhancement" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 201898
+      }
+    }
+  },
+  {
+    "id": "SU",
+    "name": "Sundering",
+    "tags": [ "shaman", "enhancement" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 197214
+      }
+    }
+  },
+  {
+    "id": "ES",
+    "name": "Earthen Spike",
+    "tags": [ "shaman", "enhancement" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 188089
+      }
+    }
+  },
+  {
+    "id": "FB",
+    "name": "Frostbrand",
+    "tags": [ "shaman", "enhancement" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 196834
+      }
+    }
+  }
+]
