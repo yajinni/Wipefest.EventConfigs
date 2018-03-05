@@ -102,5 +102,18 @@
         "id": 196834
       }
     }
+  },
+  {
+    "id": "ES",
+    "name": "Earthen Spike",
+    "tags": [ "shaman", "enhancement" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 188089
+      }
+    }
   }
 ]

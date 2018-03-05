@@ -111,21 +111,6 @@
     }
   },
   {
-    "id": "TA",
-    "name": "Tar Trap (Slowed)",
-    "tags": [ "hunter", "marksmanship" ],
-    "friendly": true,
-    "show": false,
-    "showSource": true,
-    "eventType": "debuff",
-    "filter": {
-      "type": "applydebuff",
-      "ability": {
-        "id": 135299
-      }
-    }
-  },
-  {
     "id": "MC",
     "name": "A Murder of Crows",
     "tags": [ "hunter", "marksmanship" ],

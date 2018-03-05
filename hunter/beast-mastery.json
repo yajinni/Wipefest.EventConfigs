@@ -97,21 +97,6 @@
     }
   },
   {
-    "id": "TS",
-    "name": "Tar Trap (Slowed)",
-    "tags": [ "hunter", "marksmanship" ],
-    "friendly": true,
-    "show": true,
-    "showSource": true,
-    "eventType": "debuff",
-    "filter": {
-      "type": "applydebuff",
-      "ability": {
-        "id": 135299
-      }
-    }
-  },
-  {
     "id": "BW",
     "name": "Bestial Wrath",
     "tags": [ "hunter", "beast mastery" ],
