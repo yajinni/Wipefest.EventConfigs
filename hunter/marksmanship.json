@@ -68,5 +68,139 @@
         "id": 117526
       }
     }
+  },
+  {
+    "id": "BU",
+    "name": "Bursting Shot",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 186387
+      }
+    }
+  },
+  {
+    "id": "BD",
+    "name": "Bursting Shot (Disorient)",
+    "tags": [ "hunter", "marksmanship" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 224729
+      }
+    }
+  },
+  {
+    "id": "TT",
+    "name": "Tar Trap",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 187698
+      }
+    }
+  },
+  {
+    "id": "TA",
+    "name": "Tar Trap (Slowed)",
+    "tags": [ "hunter", "marksmanship" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 135299
+      }
+    }
+  },
+  {
+    "id": "MC",
+    "name": "A Murder of Crows",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 131894
+      }
+    }
+  },
+  {
+    "id": "ES",
+    "name": "Explosive Shot",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 212431
+      }
+    }
+  },
+  {
+    "id": "ED",
+    "name": "Explosive Shot (Detonate)",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 212679
+      }
+    }
+  },
+  {
+    "id": "PS",
+    "name": "Piercing Shot",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 198670
+      }
+    }
+  },
+  {
+    "id": "TS",
+    "name": "Trueshot",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 193526
+      }
+    }
+  },
+  {
+    "id": "WB",
+    "name": "Windburst",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 204147
+      }
+    }
   }
 ]
