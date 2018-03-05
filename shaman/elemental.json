@@ -1,1 +1,132 @@
-[]
+[
+  {
+    "id": "TS",
+    "name": "Thunderstorm",
+    "tags": [ "shaman", "elemental" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 51490
+      }
+    }
+  },
+  {
+    "id": "AG",
+    "name": "Ancestral Guidance",
+    "tags": [ "shaman", "elemental" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 108281
+      }
+    }
+  },
+  {
+    "id": "EM",
+    "name": "Elemental Mastery",
+    "tags": [ "shaman", "elemental" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 16166
+      }
+    }
+  },
+  {
+    "id": "LM",
+    "name": "Liquid Magma Totem",
+    "tags": [ "shaman", "elemental" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 192222
+      }
+    }
+  },
+  {
+    "id": "AS",
+    "name": "Ascendance",
+    "tags": [ "shaman", "elemental" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 114050
+      }
+    }
+  },
+  {
+    "id": "IC",
+    "name": "Icefury",
+    "tags": [ "shaman", "elemental" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 210714
+      }
+    }
+  },
+  {
+    "id": "SK",
+    "name": "Stormkeeper",
+    "tags": [ "shaman", "elemental" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 205495
+      }
+    }
+  },
+  {
+    "id": "GW",
+    "name": "Gust of Wind",
+    "tags": [ "shaman", "elemental" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 192063
+      }
+    }
+  },
+  {
+    "id": "FE",
+    "name": "Fire Elemental",
+    "tags": [ "shaman", "elemental" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 198067
+      }
+    }
+  },
+  {
+    "id": "SE",
+    "name": "Storm Elemental",
+    "tags": [ "shaman", "elemental" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 192249
+      }
+    }
+  }
+]
