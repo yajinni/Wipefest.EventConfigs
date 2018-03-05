@@ -1,1 +1,225 @@
-[]
+[
+  {
+    "id": "BL",
+    "name": "Bloodlust",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 2825
+      }
+    }
+  },
+  {
+    "id": "WR",
+    "name": "Wind Rush Totem",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 192077
+      }
+    }
+  },
+  {
+    "id": "WA",
+    "name": "Wind Rush Totem (Speedup)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "buff",
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 192082
+      }
+    }
+  },
+  {
+    "id": "LS",
+    "name": "Lightning Surge Totem",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 192058
+      }
+    }
+  },
+  {
+    "id": "LA",
+    "name": "Lightning Surge Totem (Stunned)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 118905
+      }
+    }
+  },
+  {
+    "id": "EG",
+    "name": "Earthgrab Totem",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 51485
+      }
+    }
+  },
+  {
+    "id": "EA",
+    "name": "Earthgrab Totem (Rooted)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 64695
+      }
+    }
+  },
+  {
+    "id": "VT",
+    "name": "Voodoo Totem",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 196932
+      }
+    }
+  },
+  {
+    "id": "VA",
+    "name": "Voodoo Totem (Hexed)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 196942
+      }
+    }
+  },
+  {
+    "id": "EB",
+    "name": "Earthbind Totem",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 2484
+      }
+    }
+  },
+  {
+    "id": "ET",
+    "name": "Earthbind Totem (Slowed)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 3600
+      }
+    }
+  },
+  {
+    "id": "AS",
+    "name": "Astral Shift",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 108271
+      }
+    }
+  },
+  {
+    "id": "HE",
+    "name": "Hex",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "ids": [ 51514, 210873, 211015, 211010, 211004 ]
+      }
+    }
+  },
+  {
+    "id": "HA",
+    "name": "Hex (Applied)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "ids": [ 51514, 210873, 211015, 211010, 211004 ]
+      }
+    }
+  },
+  {
+    "id": "PU",
+    "name": "Purge",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 370
+      }
+    }
+  },
+  {
+    "id": "PD",
+    "name": "Purge (Dispelled)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "dispel",
+    "filter": {
+      "type": "dispel",
+      "ability": {
+        "id": 370
+      }
+    }
+  }
+]
+
