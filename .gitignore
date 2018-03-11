@@ -272,3 +272,4 @@ __pycache__/
 .idea/vcs.xml
 .idea/Wipefest.EventConfigs.iml
 .idea/workspace.xml
+.vs/
