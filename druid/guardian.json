@@ -1,54 +1,54 @@
 [
-    {
-        "id": "FR",
-        "name": "Frenzied Regeneration",
-        "tags": ["druid", "guardian"],
-        "show": true,
-        "eventType": "ability",
-        "filter": {
-            "type": "cast",
-            "ability": {
-                "id": 22842
-            }
-        }
-    },
-    {
-        "id": "IF",
-        "name": "Ironfur",
-        "tags": ["druid", "guardian"],
-        "show": false,
-        "eventType": "ability",
-        "filter": {
-            "type": "cast",
-            "ability": {
-                "id": 192081
-            }
-        }
-    },
-    {
-        "id": "RS",
-        "name": "Rage of the Sleeper",
-        "tags": ["druid", "guardian"],
-        "show": true,
-        "eventType": "ability",
-        "filter": {
-            "type": "cast",
-            "ability": {
-                "id": 200851
-            }
-        }
-    },
-    {
-        "id": "BF",
-        "name": "Bristling Fur",
-        "tags": ["druid", "guardian"],
-        "show": true,
-        "eventType": "ability",
-        "filter": {
-            "type": "cast",
-            "ability": {
-                "id": 155835
-            }
-        }
+  {
+    "id": "FR",
+    "name": "Frenzied Regeneration",
+    "tags": [ "druid", "guardian" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 22842
+      }
     }
+  },
+  {
+    "id": "IF",
+    "name": "Ironfur",
+    "tags": [ "druid", "guardian" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 192081
+      }
+    }
+  },
+  {
+    "id": "RS",
+    "name": "Rage of the Sleeper",
+    "tags": [ "druid", "guardian" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 200851
+      }
+    }
+  },
+  {
+    "id": "BF",
+    "name": "Bristling Fur",
+    "tags": [ "druid", "guardian" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 155835
+      }
+    }
+  }
 ]
