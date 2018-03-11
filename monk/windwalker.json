@@ -1,1 +1,93 @@
-[]
+[
+  {
+    "id": "SF",
+    "name": "Storm, Earth, and Fire",
+    "tags": [ "monk", "windwalker" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 137639
+      }
+    }
+  },
+  {
+    "id": "SE",
+    "name": "Serenity",
+    "tags": [ "monk", "windwalker" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 152173
+      }
+    }
+  },
+  {
+    "id": "EE",
+    "name": "Energizing Elixir",
+    "tags": [ "monk", "windwalker" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 115288
+      }
+    }
+  },
+  {
+    "id": "IX",
+    "name": "Invoke Xuen, the White Tiger",
+    "tags": [ "monk", "windwalker" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 123904
+      }
+    }
+  },
+  {
+    "id": "TK",
+    "name": "Touch of Karma",
+    "tags": [ "monk", "windwalker" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 122470
+      }
+    }
+  },
+  {
+    "id": "DM",
+    "name": "Diffuse Magic",
+    "tags": [ "monk", "windwalker" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 122783
+      }
+    }
+  },
+  {
+    "id": "FF",
+    "name": "Fists of Fury",
+    "tags": [ "monk", "windwalker" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 113656
+      }
+    }
+  }
+]

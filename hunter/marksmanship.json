@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "MD",
+    "name": "Misdirection",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": false,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 34477
+      }
+    }
+  },
+  {
+    "id": "CS",
+    "name": "Concussive Shot",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": false,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 5116
+      }
+    }
+  },
+  {
+    "id": "WS",
+    "name": "Wyvern Sting",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": true,
+    "showTarget": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 19386
+      }
+    }
+  },
+  {
+    "id": "BS",
+    "name": "Binding Shot",
+    "tags": [ "hunter", "marksmanship" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 109248
+      }
+    }
+  },
+  {
+    "id": "BA",
+    "name": "Binding Shot (Stunned)",
+    "tags": [ "hunter", "marksmanship" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 117526
+      }
+    }
+  }
+]

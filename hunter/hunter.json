@@ -1,1 +1,69 @@
-[]
+[
+  {
+    "id": "AT",
+    "name": "Aspect of the Turtle",
+    "tags": [ "hunter" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 186265
+      }
+    }
+  },
+  {
+    "id": "AC",
+    "name": "Aspect of the Cheetah",
+    "tags": [ "hunter" ],
+    "show": false,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 186257
+      }
+    }
+  },
+  {
+    "id": "EX",
+    "name": "Exhilaration",
+    "tags": [ "hunter" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 109304
+      }
+    }
+  },
+  {
+    "id": "FT",
+    "name": "Freezing Trap",
+    "tags": [ "hunter" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 187650
+      }
+    }
+  },
+  {
+    "id": "FA",
+    "name": "Freezing Trap (Applied)",
+    "tags": [ "hunter" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 3355
+      }
+    }
+  }
+]
