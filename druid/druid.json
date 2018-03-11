@@ -1,1 +1,134 @@
-[]
+[
+    {
+        "id": "SI",
+        "name": "Survival Instincts",
+        "tags": ["druid"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 61336
+            }
+        }
+    },
+    {
+        "id": "SR",
+        "name": "Stampeding Roar",
+        "tags": ["druid"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 77764
+            }
+        }
+    },
+    {
+        "id": "S2",
+        "name": "Stampeding Roar",
+        "tags": ["druid", "guardian"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 77761
+            }
+        }
+    },
+    {
+        "id": "DB",
+        "name": "Displacer Beast",
+        "tags": ["druid"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 102280
+            }
+        }
+    },
+    {
+        "id": "MB",
+        "name": "Mighty Bash",
+        "tags": ["druid"],
+        "show": true,
+        "showTarget": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 5211
+            }
+        }
+    },
+    {
+        "id": "ME",
+        "name": "Mass Entanglement",
+        "tags": ["druid"],
+        "show": true,
+        "showTarget": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 102359
+            }
+        }
+    },
+    {
+        "id": "TY",
+        "name": "Typhoon",
+        "tags": ["druid"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 132469
+            }
+        }
+    },
+    {
+        "id": "DA",
+        "name": "Dash",
+        "tags": ["druid"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 1850
+            }
+        }
+    },
+    {
+        "id": "WC",
+        "name": "Wild Charge",
+        "tags": ["druid"],
+        "show": false,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 49376
+            }
+        }
+    },
+    {
+        "id": "BS",
+        "name": "Barkskin",
+        "tags": ["druid", "guardian", "balance", "restoration"],
+        "show": true,
+        "eventType": "ability",
+        "filter": {
+            "type": "cast",
+            "ability": {
+                "id": 22812
+            }
+        }
+    }
+]
