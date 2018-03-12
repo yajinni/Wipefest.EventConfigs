@@ -1,1 +1,169 @@
-[]
+[
+  {
+    "id": "HE",
+    "name": "Heroism",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "ids": [ 32182, 2825 ]
+      }
+    }
+  },
+  {
+    "id": "WR",
+    "name": "Wind Rush Totem",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 192077
+      }
+    }
+  },
+  {
+    "id": "LS",
+    "name": "Lightning Surge Totem",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 192058
+      }
+    }
+  },
+  {
+    "id": "LA",
+    "name": "Lightning Surge Totem (Stunned)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 118905
+      }
+    }
+  },
+  {
+    "id": "EG",
+    "name": "Earthgrab Totem",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 51485
+      }
+    }
+  },
+  {
+    "id": "EA",
+    "name": "Earthgrab Totem (Rooted)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 64695
+      }
+    }
+  },
+  {
+    "id": "VT",
+    "name": "Voodoo Totem",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 196932
+      }
+    }
+  },
+  {
+    "id": "VA",
+    "name": "Voodoo Totem (Hexed)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 196942
+      }
+    }
+  },
+  {
+    "id": "EB",
+    "name": "Earthbind Totem",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 2484
+      }
+    }
+  },
+  {
+    "id": "ET",
+    "name": "Earthbind Totem (Slowed)",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "id": 3600
+      }
+    }
+  },
+  {
+    "id": "AS",
+    "name": "Astral Shift",
+    "tags": [ "shaman" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "ability": {
+        "id": 108271
+      }
+    }
+  },
+  {
+    "id": "HX",
+    "name": "Hex",
+    "tags": [ "shaman" ],
+    "friendly": true,
+    "show": true,
+    "showSource": true,
+    "eventType": "debuff",
+    "filter": {
+      "type": "applydebuff",
+      "ability": {
+        "ids": [ 51514, 210873, 211015, 211010, 211004 ]
+      }
+    }
+  }
+]
+
