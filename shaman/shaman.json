@@ -26,21 +26,6 @@
     }
   },
   {
-    "id": "WA",
-    "name": "Wind Rush Totem (Speedup)",
-    "tags": [ "shaman" ],
-    "friendly": true,
-    "show": true,
-    "showSource": true,
-    "eventType": "debuff",
-    "filter": {
-      "type": "applybuff",
-      "ability": {
-        "id": 192082
-      }
-    }
-  },
-  {
     "id": "LS",
     "name": "Lightning Surge Totem",
     "tags": [ "shaman" ],
@@ -166,21 +151,8 @@
     }
   },
   {
-    "id": "HE",
+    "id": "HX",
     "name": "Hex",
-    "tags": [ "shaman" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "ids": [ 51514, 210873, 211015, 211010, 211004 ]
-      }
-    }
-  },
-  {
-    "id": "HA",
-    "name": "Hex (Applied)",
     "tags": [ "shaman" ],
     "friendly": true,
     "show": true,
