@@ -98,19 +98,6 @@
     }
   },
   {
-    "id": "TT",
-    "name": "Tar Trap",
-    "tags": [ "hunter", "marksmanship" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 187698
-      }
-    }
-  },
-  {
     "id": "MC",
     "name": "A Murder of Crows",
     "tags": [ "hunter", "marksmanship" ],
@@ -179,7 +166,7 @@
     "id": "WB",
     "name": "Windburst",
     "tags": [ "hunter", "marksmanship" ],
-    "show": true,
+    "show": false,
     "eventType": "ability",
     "filter": {
       "type": "cast",

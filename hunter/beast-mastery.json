@@ -84,19 +84,6 @@
     }
   },
   {
-    "id": "TR",
-    "name": "Tar Trap",
-    "tags": [ "hunter", "marksmanship" ],
-    "show": true,
-    "eventType": "ability",
-    "filter": {
-      "type": "cast",
-      "ability": {
-        "id": 187698
-      }
-    }
-  },
-  {
     "id": "BW",
     "name": "Bestial Wrath",
     "tags": [ "hunter", "beast mastery" ],
