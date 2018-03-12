@@ -1,14 +1,14 @@
 [
   {
-    "id": "BL",
-    "name": "Bloodlust",
+    "id": "HE",
+    "name": "Heroism",
     "tags": [ "shaman" ],
     "show": true,
     "eventType": "ability",
     "filter": {
       "type": "cast",
       "ability": {
-        "id": 2825
+        "ids": [ 32182, 2825 ]
       }
     }
   },
