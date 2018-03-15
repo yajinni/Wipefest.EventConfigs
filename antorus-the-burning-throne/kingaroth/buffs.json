@@ -68,5 +68,19 @@
         "id": 254797
       }
     }
+  },
+  {
+    "id": "D3",
+    "name": "Diabolic Bomb",
+    "tags": [ "player", "debuff" ],
+    "show": true,
+    "eventType": "debuff",
+    "friendly": true,
+    "filter": {
+      "type": "applybuff",
+      "ability": {
+        "id": 181089 
+      } 
+    } 
   }
 ]
