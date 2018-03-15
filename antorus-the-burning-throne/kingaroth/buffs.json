@@ -76,6 +76,7 @@
     "show": true,
     "eventType": "debuff",
     "friendly": true,
+    "title": "{target} triggered {[style='physical'] Diabolic Bomb}", 
     "filter": {
       "type": "applybuff",
       "ability": {
