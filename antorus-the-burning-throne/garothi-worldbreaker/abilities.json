@@ -34,8 +34,8 @@
     "tags": [ "boss", "ability" ],
     "show": true,
     "eventType": "ability",
-    "friendly": false,
-    "title": "{[style=\"ability\"] Annihilation} soak missed.",
+    "friendly": true,
+    "title": "{[style=\"fire\"] Annihilation} soak missed.",
     "filter": {
       "types": [ "damage", "absorb" ],
       "range": 3000,
