@@ -29,6 +29,22 @@
     }
   },
   {
+    "id": "MA",
+    "name": "Missed Soaking Annihilation",
+    "tags": [ "boss", "ability" ],
+    "show": true,
+    "eventType": "ability",
+    "filter": {
+      "type": "cast",
+      "range": 3000,
+      "minimum": 3,
+      "title": "{[style=\"npc\"] Annihilation} soak missed.",
+      "ability": {
+        "id": 22762
+      }
+    }
+  },
+  {
     "id": "0D",
     "name": "Decimation",
     "tags": [ "boss", "ability" ],
