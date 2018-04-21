@@ -154,7 +154,7 @@
     "tags": [ "boss", "ability" ],
     "show": true,
     "eventType": "ability",
-    "title": "{[style=\"npc\"] Annihilator} destroyed",
+    "title": "{[style=\"ability\"] Annihilator} destroyed",
     "filter": {
       "type": "cast",
       "ability": {
