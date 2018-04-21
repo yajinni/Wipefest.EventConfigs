@@ -35,11 +35,11 @@
     "show": true,
     "eventType": "ability",
     "friendly": false,
+    "title": "{[style=\"ability\"] Annihilation} soak missed.",
     "filter": {
       "types": [ "damage", "absorb" ],
       "range": 3000,
       "minimum": 3,
-      "title": "{[style=\"ability\"] Annihilation} soak missed.",
       "ability": {
         "id": 244762
       }
