@@ -35,7 +35,7 @@
     "show": true,
     "eventType": "ability",
     "friendly": true,
-    "title": "{[style=\"fire\"] Annihilation} soak missed.",
+    "title": "{[style=\"fire\"] Annihilation} soak missed",
     "filter": {
       "types": [ "damage", "absorb" ],
       "range": 3000,
