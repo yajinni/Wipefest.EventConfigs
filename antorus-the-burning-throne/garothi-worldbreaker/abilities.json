@@ -30,12 +30,13 @@
   },
   {
     "id": "MA",
-    "name": "Missed Soaking Annihilation",
+    "name": "Annihilation Soak Missed",
     "tags": [ "boss", "ability" ],
     "show": true,
     "eventType": "ability",
+    "friendly": false,
     "filter": {
-      "type": "cast",
+      "types": [ "damage", "absorb" ],
       "range": 3000,
       "minimum": 3,
       "title": "{[style=\"ability\"] Annihilation} soak missed.",
