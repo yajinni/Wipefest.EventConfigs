@@ -38,7 +38,7 @@
       "type": "cast",
       "range": 3000,
       "minimum": 3,
-      "title": "{[style=\"npc\"] Annihilation} soak missed.",
+      "title": "{[style=\"ability\"] Annihilation} soak missed.",
       "ability": {
         "id": 22762
       }
@@ -154,7 +154,7 @@
     "tags": [ "boss", "ability" ],
     "show": true,
     "eventType": "ability",
-    "title": "{[style=\"ability\"] Annihilator} destroyed",
+    "title": "{[style=\"npc\"] Annihilator} destroyed",
     "filter": {
       "type": "cast",
       "ability": {
